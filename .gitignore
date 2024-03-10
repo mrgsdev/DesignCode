@@ -1,0 +1,4 @@
+# Игнорировать файлы, созданные macOS
+.DS_Store
+*.xcworkspace
+Pods/
