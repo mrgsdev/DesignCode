@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MX2-tY-kzl">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
@@ -14,23 +14,160 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UIKit_for_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0K3-Ii-QcP">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background01" translatesAutoresizingMaskIntoConstraints="NO" id="lb5-g8-Er7">
+                                        <rect key="frame" x="0.0" y="-144" width="414" height="464.5"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXh-kB-kDn" customClass="CustomView" customModule="UIKit_for_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="16" y="20" width="382" height="350"/>
+                                        <subviews>
+                                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8w9-QK-VRU" customClass="CustomBlurView" customModule="UIKit_for_iOS" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="382" height="350"/>
+                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="c1G-zP-6jf">
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="350"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Illustration 2" translatesAutoresizingMaskIntoConstraints="NO" id="qz6-Ik-6Gm">
+                                                            <rect key="frame" x="0.0" y="0.0" width="382" height="217"/>
+                                                        </imageView>
+                                                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o5C-TO-nRi">
+                                                            <rect key="frame" x="0.0" y="217" width="382" height="133"/>
+                                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gRg-VX-ajc">
+                                                                <rect key="frame" x="0.0" y="0.0" width="382" height="133"/>
+                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SwiftUI for iOS 15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NHu-W3-lza">
+                                                                        <rect key="frame" x="20" y="8" width="342" height="34"/>
+                                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 SECTIONS - 3 HOURS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dq7-Bd-etD">
+                                                                        <rect key="frame" x="20" y="50" width="342" height="16"/>
+                                                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Build an iOS app for iOS 15 with custom layouts, animations and more!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfQ-SC-BQb">
+                                                                        <rect key="frame" x="20" y="74" width="342" height="31.5"/>
+                                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                                        <nil key="textColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                    </label>
+                                                                </subviews>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="trailing" secondItem="Dq7-Bd-etD" secondAttribute="trailing" constant="20" id="1Fy-9Z-34e"/>
+                                                                    <constraint firstItem="NHu-W3-lza" firstAttribute="leading" secondItem="gRg-VX-ajc" secondAttribute="leading" constant="20" id="9Zj-JB-KD6"/>
+                                                                    <constraint firstItem="Dq7-Bd-etD" firstAttribute="top" secondItem="NHu-W3-lza" secondAttribute="bottom" constant="8" id="FsY-4w-UeT"/>
+                                                                    <constraint firstItem="wfQ-SC-BQb" firstAttribute="leading" secondItem="gRg-VX-ajc" secondAttribute="leading" constant="20" id="VGP-MP-R5d"/>
+                                                                    <constraint firstItem="NHu-W3-lza" firstAttribute="top" secondItem="gRg-VX-ajc" secondAttribute="top" constant="8" id="Y6g-Ic-jgt"/>
+                                                                    <constraint firstItem="wfQ-SC-BQb" firstAttribute="top" secondItem="Dq7-Bd-etD" secondAttribute="bottom" constant="8" id="YeC-2x-42e"/>
+                                                                    <constraint firstItem="Dq7-Bd-etD" firstAttribute="leading" secondItem="gRg-VX-ajc" secondAttribute="leading" constant="20" id="c6o-xT-xIe"/>
+                                                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="wfQ-SC-BQb" secondAttribute="bottom" constant="16" id="gPo-uP-dGq"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="NHu-W3-lza" secondAttribute="trailing" constant="20" id="gWQ-pr-Cs1"/>
+                                                                    <constraint firstAttribute="trailing" secondItem="wfQ-SC-BQb" secondAttribute="trailing" constant="20" id="khc-xe-srg"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <vibrancyEffect>
+                                                                <blurEffect style="systemMaterial"/>
+                                                            </vibrancyEffect>
+                                                        </visualEffectView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="o5C-TO-nRi" secondAttribute="trailing" id="Pst-Bl-lHz"/>
+                                                        <constraint firstItem="o5C-TO-nRi" firstAttribute="leading" secondItem="c1G-zP-6jf" secondAttribute="leading" id="T7n-BE-dux"/>
+                                                        <constraint firstItem="qz6-Ik-6Gm" firstAttribute="top" secondItem="c1G-zP-6jf" secondAttribute="top" id="TQu-M7-KbV"/>
+                                                        <constraint firstAttribute="bottom" secondItem="o5C-TO-nRi" secondAttribute="bottom" id="W2l-bu-khP"/>
+                                                        <constraint firstAttribute="trailing" secondItem="qz6-Ik-6Gm" secondAttribute="trailing" id="Zra-WV-zJt"/>
+                                                        <constraint firstItem="o5C-TO-nRi" firstAttribute="top" secondItem="qz6-Ik-6Gm" secondAttribute="bottom" id="grR-TN-gdd"/>
+                                                        <constraint firstItem="qz6-Ik-6Gm" firstAttribute="leading" secondItem="c1G-zP-6jf" secondAttribute="leading" id="iSw-qm-NRk"/>
+                                                    </constraints>
+                                                </view>
+                                                <blurEffect style="regular"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="30"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </visualEffectView>
+                                        </subviews>
+                                        <color key="backgroundColor" name="BlurBackground"/>
+                                        <constraints>
+                                            <constraint firstItem="8w9-QK-VRU" firstAttribute="top" secondItem="xXh-kB-kDn" secondAttribute="top" id="B3Y-TV-3an"/>
+                                            <constraint firstAttribute="trailing" secondItem="8w9-QK-VRU" secondAttribute="trailing" id="HP4-tt-gSl"/>
+                                            <constraint firstAttribute="bottom" secondItem="8w9-QK-VRU" secondAttribute="bottom" id="bR5-jm-o8J"/>
+                                            <constraint firstItem="8w9-QK-VRU" firstAttribute="leading" secondItem="xXh-kB-kDn" secondAttribute="leading" id="nDT-gf-U6u"/>
+                                            <constraint firstAttribute="height" constant="350" id="wp5-jF-Mz3"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" name="Shadow"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOffset">
+                                                <integer key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                <real key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="0.5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="xXh-kB-kDn" firstAttribute="leading" secondItem="rnS-fw-Zdt" secondAttribute="leading" constant="16" id="2nz-vJ-CLB"/>
+                                    <constraint firstItem="lb5-g8-Er7" firstAttribute="trailing" secondItem="rnS-fw-Zdt" secondAttribute="trailing" id="6sa-b9-muj"/>
+                                    <constraint firstItem="lb5-g8-Er7" firstAttribute="leading" secondItem="rnS-fw-Zdt" secondAttribute="leading" id="SZp-He-jb3"/>
+                                    <constraint firstItem="lb5-g8-Er7" firstAttribute="top" secondItem="rnS-fw-Zdt" secondAttribute="top" id="Sod-9i-xW2"/>
+                                    <constraint firstItem="xXh-kB-kDn" firstAttribute="top" secondItem="IDv-Ft-779" secondAttribute="top" constant="20" id="csi-ZC-MOO"/>
+                                    <constraint firstItem="rnS-fw-Zdt" firstAttribute="trailing" secondItem="xXh-kB-kDn" secondAttribute="trailing" constant="16" id="y0x-Me-R1c"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="IDv-Ft-779"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="rnS-fw-Zdt"/>
+                            </scrollView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="PrimaryBackground"/>
+                        <constraints>
+                            <constraint firstItem="0K3-Ii-QcP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4YZ-Ms-zUM"/>
+                            <constraint firstItem="0K3-Ii-QcP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="E1t-c0-GZR"/>
+                            <constraint firstItem="0K3-Ii-QcP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LOt-j5-Ujc"/>
+                            <constraint firstItem="0K3-Ii-QcP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="em1-EE-POX"/>
+                            <constraint firstAttribute="bottom" secondItem="0K3-Ii-QcP" secondAttribute="bottom" id="mrc-fk-634"/>
+                            <constraint firstItem="0K3-Ii-QcP" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="nO6-YI-Clh"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Featured" id="T2g-ne-FYl"/>
+                    <connections>
+                        <outlet property="blurView" destination="8w9-QK-VRU" id="dNm-K4-RQp"/>
+                        <outlet property="cardView" destination="xXh-kB-kDn" id="bE3-zY-lPQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1915.2671755725189" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="1913.0434782608697" y="2.6785714285714284"/>
         </scene>
         <!--Library-->
         <scene sceneID="dEV-RP-8sP">
             <objects>
                 <viewController id="RVk-L9-0nN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hcV-vJ-Rcy">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="pPn-vk-lQf"/>
                         <color key="backgroundColor" name="PrimaryBackground"/>
@@ -48,7 +185,7 @@
                     <tabBarItem key="tabBarItem" title="Learn Now" image="house.fill" catalog="system" id="yri-Pc-DhC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="sAa-sX-VYq">
-                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <navigationBarAppearance key="standardAppearance" backgroundEffect="systemThinMaterial"/>
                     </navigationBar>
@@ -88,7 +225,7 @@
             <objects>
                 <viewController id="4De-Eo-yh4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MJj-L0-AHE">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="x14-Yv-zL8"/>
                         <color key="backgroundColor" name="PrimaryBackground"/>
@@ -104,7 +241,7 @@
             <objects>
                 <viewController id="778-l6-90t" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HSC-hw-aic">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="jIa-bZ-sd0"/>
                         <color key="backgroundColor" name="PrimaryBackground"/>
@@ -117,12 +254,20 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Background01" width="330" height="464.5"/>
+        <image name="Illustration 2" width="310" height="217"/>
         <image name="bell.fill" catalog="system" width="123" height="128"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="rectangle.stack.badge.play.fill" catalog="system" width="128" height="117"/>
+        <namedColor name="BlurBackground">
+            <color red="1" green="1" blue="1" alpha="0.40000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="PrimaryBackground">
             <color red="0.94901960784313721" green="0.96470588235294119" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Shadow">
+            <color red="0.27099999785423279" green="0.16500000655651093" blue="0.48600000143051147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="TabBarTint">
             <color red="0.38400000333786011" green="0.20399999618530273" blue="0.83499997854232788" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
