@@ -23,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background01" translatesAutoresizingMaskIntoConstraints="NO" id="lb5-g8-Er7">
-                                        <rect key="frame" x="0.0" y="-61.5" width="414" height="464.5"/>
+                                        <rect key="frame" x="0.0" y="-101" width="414" height="464.5"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXh-kB-kDn" customClass="CustomView" customModule="UIKit_for_iOS" customModuleProvider="target">
                                         <rect key="frame" x="16" y="20" width="382" height="362.5"/>
@@ -139,6 +139,7 @@
                                     </label>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ANN-HD-y7E">
                                         <rect key="frame" x="16" y="454.5" width="382" height="257"/>
+                                        <color key="backgroundColor" red="0.34901960780000002" green="0.33333333329999998" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="257" id="MtJ-2Z-hqm"/>
                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="400" id="z0V-iU-ZAJ"/>
@@ -150,7 +151,7 @@
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CourseCell" id="yGf-hg-eMV">
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CourseCell" id="yGf-hg-eMV" customClass="HandbookCollectionViewCell" customModule="UIKit_for_iOS" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="160" height="257"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="n0w-L3-R6Z" customClass="CustomView" customModule="UIKit_for_iOS" customModuleProvider="target">
@@ -186,6 +187,19 @@
                                                                     </view>
                                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="88T-Rs-P3S">
                                                                         <rect key="frame" x="0.0" y="16" width="160" height="90"/>
+                                                                    </imageView>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo SwiftUI" translatesAutoresizingMaskIntoConstraints="NO" id="M25-di-NBS" customClass="CustomImageView" customModule="UIKit_for_iOS" customModuleProvider="target">
+                                                                        <rect key="frame" x="16" y="80" width="26" height="26"/>
+                                                                        <color key="backgroundColor" red="0.094117647058823528" green="0.12549019607843137" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="26" id="EoA-PO-OmO"/>
+                                                                            <constraint firstAttribute="height" constant="26" id="zxm-qq-Sv2"/>
+                                                                        </constraints>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                                <real key="value" value="10"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
                                                                     </imageView>
                                                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hR3-EK-VJR">
                                                                         <rect key="frame" x="16" y="202.5" width="128" height="4"/>
@@ -233,12 +247,14 @@
                                                                     </visualEffectView>
                                                                 </subviews>
                                                                 <constraints>
+                                                                    <constraint firstItem="M25-di-NBS" firstAttribute="leading" secondItem="AuW-wq-Xq4" secondAttribute="leading" id="CO5-F9-Hf4"/>
                                                                     <constraint firstItem="HCk-zP-RIG" firstAttribute="top" secondItem="QAL-RP-CsL" secondAttribute="top" id="CSc-Tu-hRl"/>
                                                                     <constraint firstAttribute="trailing" secondItem="hR3-EK-VJR" secondAttribute="trailing" constant="16" id="Eex-32-MHj"/>
                                                                     <constraint firstAttribute="bottom" secondItem="HCk-zP-RIG" secondAttribute="bottom" id="FL5-o0-vDk"/>
                                                                     <constraint firstAttribute="trailing" secondItem="HCk-zP-RIG" secondAttribute="trailing" id="J9C-Zt-298"/>
                                                                     <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="hR3-EK-VJR" secondAttribute="bottom" constant="16" id="JiC-zb-3rk"/>
                                                                     <constraint firstItem="88T-Rs-P3S" firstAttribute="leading" secondItem="QAL-RP-CsL" secondAttribute="leading" id="WL3-16-pYN"/>
+                                                                    <constraint firstItem="M25-di-NBS" firstAttribute="bottom" secondItem="AuW-wq-Xq4" secondAttribute="bottom" id="amM-fN-Ab8"/>
                                                                     <constraint firstAttribute="trailing" secondItem="88T-Rs-P3S" secondAttribute="trailing" id="hbm-D8-5aC"/>
                                                                     <constraint firstItem="AuW-wq-Xq4" firstAttribute="top" secondItem="QAL-RP-CsL" secondAttribute="top" constant="16" id="hpW-fq-Ke7"/>
                                                                     <constraint firstItem="HCk-zP-RIG" firstAttribute="leading" secondItem="QAL-RP-CsL" secondAttribute="leading" id="hve-s8-hCQ"/>
@@ -272,6 +288,15 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </collectionViewCellContentView>
                                                 <size key="customSize" width="160" height="257"/>
+                                                <connections>
+                                                    <outlet property="banner" destination="88T-Rs-P3S" id="Evl-EB-D4T"/>
+                                                    <outlet property="descriptionLabel" destination="HqX-ds-ZFa" id="0mA-cf-OUE"/>
+                                                    <outlet property="logo" destination="M25-di-NBS" id="Rhc-0f-Kho"/>
+                                                    <outlet property="overlay" destination="wJZ-6I-Z8e" id="WiX-SC-GOh"/>
+                                                    <outlet property="progressBar" destination="hR3-EK-VJR" id="dfU-A6-udg"/>
+                                                    <outlet property="subtitleLabel" destination="bb2-sv-aMl" id="XMD-8g-2NF"/>
+                                                    <outlet property="titleLabel" destination="nmf-Ez-Tw7" id="gtZ-28-eGA"/>
+                                                </connections>
                                             </collectionViewCell>
                                         </cells>
                                     </collectionView>
@@ -310,6 +335,7 @@
                     <connections>
                         <outlet property="blurView" destination="8w9-QK-VRU" id="dNm-K4-RQp"/>
                         <outlet property="cardView" destination="xXh-kB-kDn" id="bE3-zY-lPQ"/>
+                        <outlet property="handbooksCollectionView" destination="ANN-HD-y7E" id="R11-NJ-5YX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -411,6 +437,7 @@
     <resources>
         <image name="Background01" width="330" height="464.5"/>
         <image name="Illustration 2" width="310" height="217"/>
+        <image name="Logo SwiftUI" width="32" height="32"/>
         <image name="bell.fill" catalog="system" width="123" height="128"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>

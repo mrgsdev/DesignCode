@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		425F8E5A2BBAD26800DC8EA0 /* HandbookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425F8E592BBAD26800DC8EA0 /* HandbookCollectionViewCell.swift */; };
 		427EF6122BB9632100C3C5BE /* CustomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427EF60D2BB9632100C3C5BE /* CustomBlurView.swift */; };
 		427EF6132BB9632100C3C5BE /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427EF60E2BB9632100C3C5BE /* CustomImageView.swift */; };
 		427EF6142BB9632100C3C5BE /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427EF60F2BB9632100C3C5BE /* CustomUIView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		425F8E592BBAD26800DC8EA0 /* HandbookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandbookCollectionViewCell.swift; sourceTree = "<group>"; };
 		427EF60D2BB9632100C3C5BE /* CustomBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBlurView.swift; sourceTree = "<group>"; };
 		427EF60E2BB9632100C3C5BE /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		427EF60F2BB9632100C3C5BE /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				4280A40D2BB6EFA90005A4A1 /* AppDelegate.swift */,
+				425F8E592BBAD26800DC8EA0 /* HandbookCollectionViewCell.swift */,
 				4280A40F2BB6EFA90005A4A1 /* SceneDelegate.swift */,
 				427EF6112BB9632100C3C5BE /* Helpers */,
 				4280A4112BB6EFA90005A4A1 /* ViewController.swift */,
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425F8E5A2BBAD26800DC8EA0 /* HandbookCollectionViewCell.swift in Sources */,
 				4280A4122BB6EFA90005A4A1 /* ViewController.swift in Sources */,
 				427EF6142BB9632100C3C5BE /* CustomUIView.swift in Sources */,
 				427EF6152BB9632100C3C5BE /* Font.swift in Sources */,
