@@ -38,5 +38,13 @@ class HandbookCollectionViewCell: UICollectionViewCell {
         gradient.frame = overlay.frame
         gradient.cornerCurve = .continuous
         gradient.cornerRadius = 30
+        
+        overlay.layer.insertSublayer(gradient, at: 0)
+        overlay.layer.cornerRadius = 30
+        overlay.layer.cornerCurve = .continuous
+    }
+    
+    override public func prepareForReuse() {
+        super.prepareForReuse()
     }
 }
