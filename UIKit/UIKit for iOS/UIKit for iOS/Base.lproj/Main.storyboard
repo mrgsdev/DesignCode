@@ -31,7 +31,7 @@
                                             <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8w9-QK-VRU" customClass="CustomBlurView" customModule="UIKit_for_iOS" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="362.5"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="c1G-zP-6jf">
-                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="362"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="362.5"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Illustration 2" translatesAutoresizingMaskIntoConstraints="NO" id="qz6-Ik-6Gm">
@@ -40,7 +40,7 @@
                                                         <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o5C-TO-nRi">
                                                             <rect key="frame" x="0.0" y="217" width="382" height="145.5"/>
                                                             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gRg-VX-ajc">
-                                                                <rect key="frame" x="0.0" y="0.0" width="382" height="145"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="382" height="145.5"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SwiftUI for iOS 15" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NHu-W3-lza">
@@ -305,7 +305,7 @@
                                         <color key="textColor" systemColor="secondaryLabelColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="350" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="LaU-PT-xuK">
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="350" estimatedRowHeight="-1" sectionHeaderHeight="1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="1" estimatedSectionFooterHeight="-1" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LaU-PT-xuK">
                                         <rect key="frame" x="16" y="783.5" width="382" height="400"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -313,7 +313,7 @@
                                             <constraint firstAttribute="height" constant="400" id="Kg7-RO-SFO"/>
                                         </constraints>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CoursesTableCell" rowHeight="350" id="N8m-Aj-jxY" customClass="CoursesTableViewCell" customModule="UIKit_for_iOS" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CoursesTableCell" rowHeight="350" id="N8m-Aj-jxY" customClass="CourseTableViewCell" customModule="UIKit_for_iOS" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="50" width="382" height="350"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="N8m-Aj-jxY" id="fBw-lL-3qf">
@@ -348,7 +348,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O87-yt-p29" customClass="CustomView" customModule="UIKit_for_iOS" customModuleProvider="target">
-                                                            <rect key="frame" x="40" y="31" width="44" height="44"/>
+                                                            <rect key="frame" x="20" y="20" width="44" height="44"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo Flutter" translatesAutoresizingMaskIntoConstraints="NO" id="L0V-Oq-zea">
                                                                     <rect key="frame" x="9" y="9" width="26" height="26"/>
@@ -375,14 +375,14 @@
                                                     <constraints>
                                                         <constraint firstItem="9oL-wf-wOg" firstAttribute="top" secondItem="fBw-lL-3qf" secondAttribute="topMargin" constant="20" id="38N-vr-OxI"/>
                                                         <constraint firstItem="LIP-NO-7LW" firstAttribute="top" secondItem="fBw-lL-3qf" secondAttribute="top" id="5QB-K5-jhS"/>
-                                                        <constraint firstItem="O87-yt-p29" firstAttribute="leading" secondItem="9oL-wf-wOg" secondAttribute="leading" id="64J-Kc-JQo"/>
-                                                        <constraint firstItem="O87-yt-p29" firstAttribute="top" secondItem="9oL-wf-wOg" secondAttribute="top" id="7Wi-2j-ST8"/>
                                                         <constraint firstAttribute="trailing" secondItem="FRR-4t-Vhc" secondAttribute="trailing" constant="20" id="9W7-qm-FXR"/>
                                                         <constraint firstItem="pVg-fw-Mc8" firstAttribute="leading" secondItem="fBw-lL-3qf" secondAttribute="leading" constant="20" id="B8u-x3-DWd"/>
                                                         <constraint firstItem="pVg-fw-Mc8" firstAttribute="top" secondItem="FRR-4t-Vhc" secondAttribute="bottom" constant="8" id="D4R-yT-SeJ"/>
                                                         <constraint firstAttribute="trailing" secondItem="LIP-NO-7LW" secondAttribute="trailing" id="Irw-H3-vtU"/>
                                                         <constraint firstItem="FRR-4t-Vhc" firstAttribute="leading" secondItem="fBw-lL-3qf" secondAttribute="leading" constant="20" id="JPa-Ux-rkj"/>
+                                                        <constraint firstItem="O87-yt-p29" firstAttribute="top" secondItem="fBw-lL-3qf" secondAttribute="top" constant="20" id="TY6-NK-4mm"/>
                                                         <constraint firstItem="9oL-wf-wOg" firstAttribute="leading" secondItem="fBw-lL-3qf" secondAttribute="leadingMargin" constant="20" id="UFR-CW-egl"/>
+                                                        <constraint firstItem="O87-yt-p29" firstAttribute="leading" secondItem="fBw-lL-3qf" secondAttribute="leading" constant="20" id="adD-Pf-7mX"/>
                                                         <constraint firstAttribute="trailing" secondItem="pVg-fw-Mc8" secondAttribute="trailing" constant="20" id="bPv-25-gFD"/>
                                                         <constraint firstItem="i5B-FP-P1y" firstAttribute="leading" secondItem="fBw-lL-3qf" secondAttribute="leading" constant="20" id="ejg-fD-XTS"/>
                                                         <constraint firstAttribute="bottom" secondItem="LIP-NO-7LW" secondAttribute="bottom" id="nV1-lt-DJD"/>
@@ -393,6 +393,14 @@
                                                         <constraint firstItem="LIP-NO-7LW" firstAttribute="leading" secondItem="fBw-lL-3qf" secondAttribute="leading" id="yB4-VS-f5F"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
+                                                <connections>
+                                                    <outlet property="courseBackground" destination="LIP-NO-7LW" id="x6w-Nt-Zcf"/>
+                                                    <outlet property="courseBanner" destination="9oL-wf-wOg" id="x6Q-aB-Js0"/>
+                                                    <outlet property="courseLogo" destination="L0V-Oq-zea" id="N1N-o2-19b"/>
+                                                    <outlet property="descriptionLabel" destination="i5B-FP-P1y" id="JV8-ww-OYo"/>
+                                                    <outlet property="subtitleLabel" destination="pVg-fw-Mc8" id="XUY-8U-rxa"/>
+                                                    <outlet property="titleLabel" destination="FRR-4t-Vhc" id="Iaf-Ie-HIu"/>
+                                                </connections>
                                             </tableViewCell>
                                         </prototypes>
                                     </tableView>
@@ -438,7 +446,9 @@
                     <connections>
                         <outlet property="blurView" destination="8w9-QK-VRU" id="dNm-K4-RQp"/>
                         <outlet property="cardView" destination="xXh-kB-kDn" id="bE3-zY-lPQ"/>
+                        <outlet property="coursesTableView" destination="LaU-PT-xuK" id="E0g-Rc-Mr1"/>
                         <outlet property="handbooksCollectionView" destination="ANN-HD-y7E" id="R11-NJ-5YX"/>
+                        <outlet property="tableViewHeight" destination="Kg7-RO-SFO" id="mYN-Od-rGd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
