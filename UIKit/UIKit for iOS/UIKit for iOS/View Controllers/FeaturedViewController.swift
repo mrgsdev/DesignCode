@@ -18,6 +18,7 @@ class FeaturedViewController: UIViewController {
     @IBOutlet weak var coursesTableView: UITableView!
     @IBOutlet weak var tableViewHeight: NSLayoutConstraint!
     
+    @IBOutlet weak var scrollView: UIScrollView!
     private var tokens: Set<AnyCancellable> = []
     private var lastScrollYPosition: CGFloat = 0
     
@@ -41,6 +42,9 @@ class FeaturedViewController: UIViewController {
                 self.tableViewHeight.constant = contentSize.height
             }
             .store(in: &tokens)
+        
+        // Scroll View
+        self.scrollView.delegate = self
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -107,5 +111,21 @@ extension FeaturedViewController: UITableViewDelegate, UITableViewDataSource {
         tableView.deselectRow(at: indexPath, animated: true)
         let course = courses[indexPath.section]
         performSegue(withIdentifier: "presentCourse", sender: course)
+    }
+}
+
+extension FeaturedViewController: UIScrollViewDelegate {
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        self.lastScrollYPosition = scrollView.contentOffset.y
+        let totalScrollHeight = scrollView.contentSize.height
+        let percentage = lastScrollYPosition / totalScrollHeight
+        
+        if percentage <= 0.1 {
+            self.title = "Featured"
+        } else if percentage <= 0.3 {
+            self.title = "Handbooks"
+        } else {
+            self.title = "Courses"
+        }
     }
 }
