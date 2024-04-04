@@ -19,6 +19,7 @@ class FeaturedViewController: UIViewController {
     @IBOutlet weak var tableViewHeight: NSLayoutConstraint!
     
     @IBOutlet weak var scrollView: UIScrollView!
+    
     private var tokens: Set<AnyCancellable> = []
     private var lastScrollYPosition: CGFloat = 0
     
