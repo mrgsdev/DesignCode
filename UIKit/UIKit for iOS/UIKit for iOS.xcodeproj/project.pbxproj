@@ -23,6 +23,7 @@
 		4280A4172BB6EFA90005A4A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4280A4162BB6EFA90005A4A1 /* Assets.xcassets */; };
 		4280A41A2BB6EFA90005A4A1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4280A4192BB6EFA90005A4A1 /* Base */; };
 		42AFA7702BBC1986008CC1B3 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AFA76F2BBC1986008CC1B3 /* Section.swift */; };
+		42D862AD2BC01B64001DAAEC /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D862AC2BC01B64001DAAEC /* CustomTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		4280A4192BB6EFA90005A4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4280A41B2BB6EFA90005A4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42AFA76F2BBC1986008CC1B3 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		42D862AC2BC01B64001DAAEC /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				427EF60E2BB9632100C3C5BE /* CustomImageView.swift */,
 				427EF60F2BB9632100C3C5BE /* CustomUIView.swift */,
 				427EF6102BB9632100C3C5BE /* Font.swift */,
+				42D862AC2BC01B64001DAAEC /* CustomTabBarViewController.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				425F8E5A2BBAD26800DC8EA0 /* HandbookCollectionViewCell.swift in Sources */,
 				4253AF3E2BBC187D000AF336 /* CoursesViewController.swift in Sources */,
 				428022172BBEBA3700F91D7F /* SectionTableViewCell.swift in Sources */,
+				42D862AD2BC01B64001DAAEC /* CustomTabBarViewController.swift in Sources */,
 				4280A4122BB6EFA90005A4A1 /* FeaturedViewController.swift in Sources */,
 				427EF6142BB9632100C3C5BE /* CustomUIView.swift in Sources */,
 				427EF6152BB9632100C3C5BE /* Font.swift in Sources */,
