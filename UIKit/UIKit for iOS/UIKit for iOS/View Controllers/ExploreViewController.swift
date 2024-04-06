@@ -13,6 +13,7 @@ class ExploreViewController: UIViewController {
     @IBOutlet weak var topicsTableView: UITableView!
     @IBOutlet weak var sectionCollectionView: UICollectionView!
     
+    @IBOutlet weak var popularCollectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
         sectionCollectionView.backgroundColor = .clear
@@ -32,25 +33,48 @@ class ExploreViewController: UIViewController {
             self.tableViewHeight.constant = contentSize.height + 10
         }
         .store(in: &tokens)
+        
+        self.popularCollectionView.delegate = self
+        self.popularCollectionView.dataSource = self
+        self.popularCollectionView.layer.masksToBounds = false
+        self.popularCollectionView.backgroundColor = .clear
     }
 
 }
 extension ExploreViewController: UICollectionViewDelegate,UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        sections.count
+        if collectionView == sectionCollectionView {
+            return sections.count
+        } else {
+            return handbooks.count
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SectionsCell", for: indexPath) as! SectionCollectionViewCell
-        let section = sections[indexPath.item]
-        cell.titleLabel.text = section.sectionTitle
-        cell.subtitleLabel.text = section.sectionDescription
-        cell.logo.image = section.sectionIcon
-        cell.banner.image =  section.sectionBanner
-        return cell
+        if collectionView == sectionCollectionView {
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "SectionsCell", for: indexPath) as! SectionCollectionViewCell
+            let section = sections[indexPath.item]
+            
+            cell.titleLabel.text = section.sectionTitle
+            cell.subtitleLabel.text = section.sectionSubtitle
+            cell.logo.image = section.sectionIcon
+            cell.banner.image = section.sectionBanner
+
+            return cell
+        } else {
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CourseCell", for: indexPath) as! HandbookCollectionViewCell
+            let handbook = handbooks[indexPath.item]
+
+            cell.titleLabel.text = handbook.courseTitle
+            cell.subtitleLabel.text = handbook.courseSubtitle
+            cell.descriptionLabel.text = handbook.courseDescription
+            cell.gradient.colors = handbook.courseGradient
+            cell.logo.image = handbook.courseIcon
+            cell.banner.image = handbook.courseBanner
+
+            return cell
+        }
     }
-    
-    
 }
 extension ExploreViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
