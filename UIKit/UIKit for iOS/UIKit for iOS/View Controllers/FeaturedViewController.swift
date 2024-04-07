@@ -18,6 +18,11 @@ class FeaturedViewController: UIViewController {
     @IBOutlet weak var coursesTableView: UITableView!
     @IBOutlet weak var tableViewHeight: NSLayoutConstraint!
     
+    @IBOutlet weak var courseLabel: UILabel!
+    @IBOutlet weak var hanbookLabel: UILabel!
+    @IBOutlet weak var featuredDescriptionLabel: UILabel!
+    @IBOutlet weak var featuredSubtitle: UILabel!
+    @IBOutlet weak var featuredTitleLabel: UILabel!
     @IBOutlet weak var scrollView: UIScrollView!
     
     private var tokens: Set<AnyCancellable> = []
@@ -46,6 +51,30 @@ class FeaturedViewController: UIViewController {
         
         // Scroll View
         self.scrollView.delegate = self
+        
+        
+        // Accessibility
+        featuredTitleLabel.adjustsFontForContentSizeCategory = true
+        featuredTitleLabel.font = UIFont.preferredFont(for: .title1, weight: .bold)
+        featuredTitleLabel.maximumContentSizeCategory = .accessibilityExtraLarge
+        
+        featuredSubtitle.adjustsFontForContentSizeCategory = true
+        featuredSubtitle.font = UIFont.preferredFont(for: .footnote, weight: .bold)
+        featuredSubtitle.maximumContentSizeCategory = .accessibilityMedium
+        
+        featuredDescriptionLabel.adjustsFontForContentSizeCategory = true
+        featuredDescriptionLabel.font = UIFont.preferredFont(for: .footnote, weight: .regular)
+        featuredDescriptionLabel.maximumContentSizeCategory = .accessibilityMedium
+        
+        hanbookLabel.adjustsFontForContentSizeCategory = true
+        hanbookLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
+        hanbookLabel.maximumContentSizeCategory = .accessibilityMedium
+        
+        courseLabel.adjustsFontForContentSizeCategory = true
+        courseLabel.font = UIFont.preferredFont(for: .footnote, weight: .semibold)
+        courseLabel.maximumContentSizeCategory = .accessibilityMedium
+        
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
