@@ -9,10 +9,20 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var loginCard: CustomView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var primaryButton: UIButton!
+    @IBOutlet weak var accessoryBtn: UIButton!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        UIView.animate(withDuration: 1.0, delay: 0.5, options: .curveEaseInOut) {
+            self.loginCard.alpha = 1.0
+            self.loginCard.frame = self.loginCard.frame.offsetBy(dx: 0, dy: -400)
+        }
     }
     
 
