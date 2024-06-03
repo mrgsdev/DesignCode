@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MX2-tY-kzl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ybY-wR-wvi">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -24,7 +24,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background01" translatesAutoresizingMaskIntoConstraints="NO" id="lb5-g8-Er7">
-                                        <rect key="frame" x="0.0" y="506" width="393" height="464.66666666666674"/>
+                                        <rect key="frame" x="0.0" y="-155" width="393" height="464.66666666666669"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXh-kB-kDn" customClass="CustomView" customModule="UIKit_for_iOS" customModuleProvider="target">
                                         <rect key="frame" x="16" y="20" width="361" height="362.33333333333331"/>
@@ -951,6 +951,85 @@
             </objects>
             <point key="canvasLocation" x="988.54961832061065" y="3.5211267605633805"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="1kn-7m-cEo">
+            <objects>
+                <viewController id="ybY-wR-wvi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K45-WF-Ft5">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background 6" translatesAutoresizingMaskIntoConstraints="NO" id="xND-FO-sme">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IpB-Yc-Tfq" customClass="CustomView" customModule="UIKit_for_iOS" customModuleProvider="target">
+                                <rect key="frame" x="20" y="176" width="353" height="500"/>
+                                <subviews>
+                                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PUS-yK-Bj1" customClass="CustomBlurView" customModule="UIKit_for_iOS" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="500"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="0Ph-i8-dtF">
+                                            <rect key="frame" x="0.0" y="0.0" width="353" height="500"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </view>
+                                        <blurEffect style="regular"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="30"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </visualEffectView>
+                                </subviews>
+                                <color key="backgroundColor" name="BlurBackground"/>
+                                <constraints>
+                                    <constraint firstItem="PUS-yK-Bj1" firstAttribute="top" secondItem="IpB-Yc-Tfq" secondAttribute="top" id="3iV-t1-cqO"/>
+                                    <constraint firstAttribute="height" constant="500" id="Gqu-W7-e0p"/>
+                                    <constraint firstAttribute="trailing" secondItem="PUS-yK-Bj1" secondAttribute="trailing" id="cxQ-02-ObI"/>
+                                    <constraint firstItem="PUS-yK-Bj1" firstAttribute="leading" secondItem="IpB-Yc-Tfq" secondAttribute="leading" id="pmn-h2-i6u"/>
+                                    <constraint firstAttribute="bottom" secondItem="PUS-yK-Bj1" secondAttribute="bottom" id="wEf-OT-CUN"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOffset">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" name="Shadow"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" systemColor="quaternaryLabelColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pnd-8j-Sr1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xND-FO-sme" firstAttribute="leading" secondItem="K45-WF-Ft5" secondAttribute="leading" id="F6m-Hf-s52"/>
+                            <constraint firstItem="IpB-Yc-Tfq" firstAttribute="centerY" secondItem="K45-WF-Ft5" secondAttribute="centerY" id="Iyw-Ll-aME"/>
+                            <constraint firstItem="IpB-Yc-Tfq" firstAttribute="leading" secondItem="pnd-8j-Sr1" secondAttribute="leading" constant="20" id="LNx-oY-Pp7"/>
+                            <constraint firstItem="pnd-8j-Sr1" firstAttribute="trailing" secondItem="IpB-Yc-Tfq" secondAttribute="trailing" constant="20" id="Lfx-gg-qvv"/>
+                            <constraint firstItem="pnd-8j-Sr1" firstAttribute="trailing" secondItem="xND-FO-sme" secondAttribute="trailing" id="cGu-wu-k3s"/>
+                            <constraint firstItem="xND-FO-sme" firstAttribute="top" secondItem="K45-WF-Ft5" secondAttribute="top" id="eZX-lS-em3"/>
+                            <constraint firstItem="IpB-Yc-Tfq" firstAttribute="centerX" secondItem="K45-WF-Ft5" secondAttribute="centerX" id="vd7-Ew-L9j"/>
+                            <constraint firstAttribute="bottom" secondItem="xND-FO-sme" secondAttribute="bottom" id="wKX-u8-oYO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cs5-mP-4Uf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1546" y="-607"/>
+        </scene>
         <!--Custom Tab Bar View Controller-->
         <scene sceneID="Bxn-GV-uYc">
             <objects>
@@ -1727,6 +1806,7 @@
         <image name="Avatar" width="1200" height="1200"/>
         <image name="Background 3" width="350" height="350"/>
         <image name="Background 4" width="350" height="350"/>
+        <image name="Background 6" width="3008" height="3008"/>
         <image name="Background01" width="330" height="464.5"/>
         <image name="Background02" width="390" height="668"/>
         <image name="Illustration 1" width="310" height="217"/>
@@ -1754,8 +1834,14 @@
         <namedColor name="TabBarTint">
             <color red="0.38400000333786011" green="0.20399999618530273" blue="0.83499997854232788" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
+        <systemColor name="quaternaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.17647058823529413" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
