@@ -130,6 +130,7 @@
 		425F8E5D2BBADB5100DC8EA0 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				42D862AC2BC01B64001DAAEC /* CustomTabBarViewController.swift */,
 				4258AF052C0E2E3500F44019 /* LoginViewController.swift */,
 				4280A4112BB6EFA90005A4A1 /* FeaturedViewController.swift */,
 				4253AF3D2BBC187D000AF336 /* CoursesViewController.swift */,
@@ -167,7 +168,6 @@
 				427EF60E2BB9632100C3C5BE /* CustomImageView.swift */,
 				427EF60F2BB9632100C3C5BE /* CustomUIView.swift */,
 				427EF6102BB9632100C3C5BE /* Font.swift */,
-				42D862AC2BC01B64001DAAEC /* CustomTabBarViewController.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
