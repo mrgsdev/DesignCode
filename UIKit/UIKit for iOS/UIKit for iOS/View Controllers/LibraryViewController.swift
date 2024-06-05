@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 import Combine
 
 class LibraryViewController: UIViewController {
@@ -16,6 +17,7 @@ class LibraryViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!   
     @IBOutlet weak var certificatesLabel:UILabel!
     private var tokens: Set<AnyCancellable> = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
         sectionCollectionView.backgroundColor = .clear
@@ -38,6 +40,10 @@ class LibraryViewController: UIViewController {
          
     }
 
+    @IBSegueAction func createCertificatesView(_ coder: NSCoder) -> UIViewController? {
+        return UIHostingController(coder: coder, rootView: EmptyView())
+    }
+    
 }
 extension LibraryViewController: UICollectionViewDelegate,UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
