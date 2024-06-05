@@ -58,6 +58,9 @@
 		429CF3A12BC156A2000A09D7 /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429CF3A02BC156A2000A09D7 /* TopicTableViewCell.swift */; };
 		429CF3A32BC15774000A09D7 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429CF3A22BC15774000A09D7 /* Topic.swift */; };
 		42AFA7702BBC1986008CC1B3 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AFA76F2BBC1986008CC1B3 /* Section.swift */; };
+		42B847F82C1082AE006F2683 /* CertificateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B847F52C1082AE006F2683 /* CertificateItem.swift */; };
+		42B847F92C1082AE006F2683 /* CertificateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B847F62C1082AE006F2683 /* CertificateView.swift */; };
+		42B847FA2C1082AE006F2683 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B847F72C1082AE006F2683 /* FlipView.swift */; };
 		42D862AD2BC01B64001DAAEC /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D862AC2BC01B64001DAAEC /* CustomTabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +90,9 @@
 		429CF3A02BC156A2000A09D7 /* TopicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
 		429CF3A22BC15774000A09D7 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 		42AFA76F2BBC1986008CC1B3 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		42B847F52C1082AE006F2683 /* CertificateItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateItem.swift; sourceTree = "<group>"; };
+		42B847F62C1082AE006F2683 /* CertificateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CertificateView.swift; sourceTree = "<group>"; };
+		42B847F72C1082AE006F2683 /* FlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
 		42D862AC2BC01B64001DAAEC /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -194,6 +200,7 @@
 		4280A40C2BB6EFA90005A4A1 /* UIKit for iOS */ = {
 			isa = PBXGroup;
 			children = (
+				42B847F22C107FA5006F2683 /* Views */,
 				427141942C0E27180047E604 /* GoogleService-Info.plist */,
 				4280A40D2BB6EFA90005A4A1 /* AppDelegate.swift */,
 				4280A40F2BB6EFA90005A4A1 /* SceneDelegate.swift */,
@@ -207,6 +214,16 @@
 				4280A41B2BB6EFA90005A4A1 /* Info.plist */,
 			);
 			path = "UIKit for iOS";
+			sourceTree = "<group>";
+		};
+		42B847F22C107FA5006F2683 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42B847F52C1082AE006F2683 /* CertificateItem.swift */,
+				42B847F62C1082AE006F2683 /* CertificateView.swift */,
+				42B847F72C1082AE006F2683 /* FlipView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,9 +338,11 @@
 				4258AF062C0E2E3500F44019 /* LoginViewController.swift in Sources */,
 				4253AF3E2BBC187D000AF336 /* CoursesViewController.swift in Sources */,
 				4260B9D72C10752200334A9D /* LibraryViewController.swift in Sources */,
+				42B847F82C1082AE006F2683 /* CertificateItem.swift in Sources */,
 				420AB8252BC14AC60044CE32 /* ExploreViewController.swift in Sources */,
 				428022172BBEBA3700F91D7F /* SectionTableViewCell.swift in Sources */,
 				429CF3A12BC156A2000A09D7 /* TopicTableViewCell.swift in Sources */,
+				42B847FA2C1082AE006F2683 /* FlipView.swift in Sources */,
 				42D862AD2BC01B64001DAAEC /* CustomTabBarViewController.swift in Sources */,
 				4280A4122BB6EFA90005A4A1 /* FeaturedViewController.swift in Sources */,
 				427EF6142BB9632100C3C5BE /* CustomUIView.swift in Sources */,
@@ -331,6 +350,7 @@
 				4280A40E2BB6EFA90005A4A1 /* AppDelegate.swift in Sources */,
 				427EF6122BB9632100C3C5BE /* CustomBlurView.swift in Sources */,
 				4280A4102BB6EFA90005A4A1 /* SceneDelegate.swift in Sources */,
+				42B847F92C1082AE006F2683 /* CertificateView.swift in Sources */,
 				42AFA7702BBC1986008CC1B3 /* Section.swift in Sources */,
 				4253AF3C2BBC106D000AF336 /* CourseTableViewCell.swift in Sources */,
 				427EF6132BB9632100C3C5BE /* CustomImageView.swift in Sources */,

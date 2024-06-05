@@ -1256,7 +1256,7 @@
                                             <constraint firstAttribute="height" constant="240" id="bY6-jg-7pj"/>
                                         </constraints>
                                         <connections>
-                                            <segue destination="KE4-xW-eUg" kind="embed" id="R7E-ee-lyz"/>
+                                            <segue destination="KE4-xW-eUg" kind="embed" destinationCreationSelector="certificatesViews:" id="d81-3t-1pg"/>
                                         </connections>
                                     </containerView>
                                 </subviews>
@@ -1317,7 +1317,7 @@
                 <hostingController id="KE4-xW-eUg" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ryR-AG-czs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="531" y="1415"/>
+            <point key="canvasLocation" x="531" y="1437"/>
         </scene>
         <!--Learn Now-->
         <scene sceneID="q1w-dr-Rii">

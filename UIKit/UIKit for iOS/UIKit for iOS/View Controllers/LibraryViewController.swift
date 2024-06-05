@@ -40,8 +40,10 @@ class LibraryViewController: UIViewController {
          
     }
 
-    @IBSegueAction func createCertificatesView(_ coder: NSCoder) -> UIViewController? {
-        return UIHostingController(coder: coder, rootView: EmptyView())
+    @IBSegueAction func certificatesViews(_ coder: NSCoder) -> UIViewController? {
+        let v =  UIHostingController(coder: coder, rootView: CertificateView())!
+        v.view.backgroundColor = .clear
+        return v
     }
     
 }
