@@ -8,12 +8,12 @@
 import UIKit
 import Combine
 class ExploreViewController: UIViewController {
-    private var tokens: Set<AnyCancellable> = []
     @IBOutlet weak var tableViewHeight: NSLayoutConstraint!
     @IBOutlet weak var topicsTableView: UITableView!
     @IBOutlet weak var sectionCollectionView: UICollectionView!
     
     @IBOutlet weak var popularCollectionView: UICollectionView!
+    private var tokens: Set<AnyCancellable> = []
     override func viewDidLoad() {
         super.viewDidLoad()
         sectionCollectionView.backgroundColor = .clear

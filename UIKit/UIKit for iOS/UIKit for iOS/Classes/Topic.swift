@@ -21,3 +21,9 @@ let topics = [
     Topic(name: "UI Design", icon: "eyedropper"),
     Topic(name: "Web Development", icon: "desktopcomputer")
 ]
+
+let libarrySettings = [
+    Topic(name: "History", icon: "clock.fill"),
+    Topic(name: "Favorites", icon: "star.fill"),
+    Topic(name: "Download", icon: "square.and.arrow.down.fill")
+]
