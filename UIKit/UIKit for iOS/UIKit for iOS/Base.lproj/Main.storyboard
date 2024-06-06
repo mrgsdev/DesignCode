@@ -2466,7 +2466,7 @@
                                 </constraints>
                                 <blurEffect style="regular"/>
                             </visualEffectView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gad-8h-evK">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gad-8h-evK">
                                 <rect key="frame" x="0.0" y="100" width="397" height="669"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JkT-fL-arZ" customClass="CustomView" customModule="UIKit_for_iOS" customModuleProvider="target">
@@ -2626,7 +2626,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="JkT-fL-arZ" firstAttribute="leading" secondItem="YRn-du-BBe" secondAttribute="leading" constant="20" id="95X-HX-l5A"/>
-                                    <constraint firstItem="YRn-du-BBe" firstAttribute="trailing" secondItem="JkT-fL-arZ" secondAttribute="trailing" constant="20" id="KMG-Wm-Wcr"/>
+                                    <constraint firstAttribute="trailing" secondItem="JkT-fL-arZ" secondAttribute="trailing" constant="20" id="KMG-Wm-Wcr"/>
                                     <constraint firstItem="JkT-fL-arZ" firstAttribute="centerX" secondItem="gad-8h-evK" secondAttribute="centerX" id="P99-Ph-1gJ"/>
                                     <constraint firstItem="JkT-fL-arZ" firstAttribute="top" secondItem="YRn-du-BBe" secondAttribute="top" constant="20" id="b5T-nm-4cc"/>
                                     <constraint firstAttribute="bottom" secondItem="JkT-fL-arZ" secondAttribute="bottom" constant="20" id="xl4-El-nxr"/>
@@ -2655,6 +2655,11 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Notifications" image="bell.fill" catalog="system" id="9rd-xJ-7Di"/>
+                    <connections>
+                        <outlet property="cardView" destination="JkT-fL-arZ" id="0GD-it-I1e"/>
+                        <outlet property="tableView" destination="ami-lR-HSa" id="rKy-pW-MAt"/>
+                        <outlet property="tableViewHeight" destination="CN5-MI-UvG" id="jj4-2y-f1R"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lGG-mF-UIK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
