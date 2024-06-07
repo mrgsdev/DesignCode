@@ -17,7 +17,7 @@ class Topic {
 }
 
 let topics = [
-    Topic(name: "iOS Development", icon: "iphone"),
+    Topic(name: NSLocalizedString("iOS Development", comment: "iOS Development"), icon: "iphone"),
     Topic(name: "UI Design", icon: "eyedropper"),
     Topic(name: "Web Development", icon: "desktopcomputer")
 ]

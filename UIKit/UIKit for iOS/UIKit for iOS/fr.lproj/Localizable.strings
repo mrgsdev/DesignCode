@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  UIKit for iOS
+
+  Created by mrgsdev on 07.06.2024.
+  
+*/
+
+"SwiftUI Concurrency" = "SwiftUI Concurrency";
+"NEW VIDEO" = "NOUVEAU VIDÉO";
+"Build an iOS app for iOS 15 with custom layouts, animations and more!" = "Créez une application iOS pour iOS 15 avec des mises en page personnalisées, des animations et plus encore !";
+"Flutter for Designers" = "Flutter pour les concepteurs";
+"20 sections - 3 hours" = "20 SECTIONS - 3 HEURES";
+"Build a Flutter app for iOS and Android with custom layouts, animations and more!" = "Créez une application Flutter pour iOS et Android avec des mises en page personnalisées, des animations et plus encore !";
+"React Hooks Advanced" = "React Hooks Avancé";
+"Build a React app with custom layouts, animations and more!" = "Créez une application React pour iOS et Android avec des mises en page personnalisées, des animations et plus encore !";
+"Advanced Custom Layout" = "Disposition Personnalisée Avancée";
+"SwiftUI for iOS 15" = "SwiftUI pour iOS 15";
+"Build an iOS app for iOS 15 with custom layouts." = "Créez une application iOS pour iOS 15 avec des mises en page personnalisées !";
+"Coding the Home View" = "Codage de la vue d'accueil";
+"Learn about the formatted(date:time:) method and AsyncImage" = "En savoir plus sur la méthode formatée (date:heure:) et AsyncImage comme nous l'avons dit en classe";
+"Colors and Shadows" = "Couleurs et ombres";
+"Read about the design guidelines and how you can use color to maximize your best views" = "Découvrez les directives de conception et comment vous pouvez utiliser la couleur pour maximiser vos meilleures vues";
+"iOS Development" = "Développement iOS";
+"UI Design" = "Conception UI";
+"Web Development" = "Développement Web";
+"History" = "Histoire";
+"Favorites" = "Favoris";
+"Downloads" = "Téléchargements";
+
