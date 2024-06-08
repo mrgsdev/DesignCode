@@ -12,7 +12,7 @@ struct ContentView: View {
         VStack {
             Image("Illustration")
         }
-        Spacer()
+//        Spacer()
         .padding()
     }
 }

@@ -9,15 +9,48 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack(alignment: .topLeading) {
-            Rectangle()
-                .foregroundStyle(.blue)
-                Text("Hello, world!")
+        
+        Spacer()
+        ZStack {
+            VStack(alignment: .center, spacing: 20) {
+     
+                Rectangle()
+                    .frame(height: 33)
+                    .overlay(
+                        Text("overlay(Text) ")
+                            .foregroundStyle(.white)
+                    )
+                    .foregroundStyle(.pink)
+        
+                Text("blue = VStack")
                     .font(.title)
-                Text("Second line")
+                    
+                HStack(alignment: .center, spacing: 5) {
+                    Text("Gray =")
+                    Text("HStack")
+ 
+                }
+                
+                .background(.gray)
+         
+                   
+            }
+            .background(.blue)
+            .frame(width: 250)
+            .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+            
         }
-        .padding()
-        .frame(width: 320)
+        Spacer()
+       
+//        ZStack(alignment: .topLeading) {
+//            Rectangle()
+//                .foregroundStyle(.blue)
+//                Text("Hello, world!")
+//                    .font(.title)
+//                Text("Second line")
+//        }
+//        .padding()
+//        .frame(width: 320)
         
 //        HStack(alignment: .center, spacing: 16) {
 ////            Spacer()
@@ -25,19 +58,21 @@ struct ContentView: View {
 //                .font(.title)
 //            Text("Second line")
 ////            Spacer()
-//            
+//
 //        }
 //        .padding()
 //        .frame(width: 320)
         
 //        HStack(alignment: .center, spacing: 16) {
 //            Spacer()
+//            Rectangle()
 //            Text("Hello, world!")
 //                .font(.title)
 //            Text("Second line")
 //            Spacer()
-//            
 //        }
+//        .padding()
+//
 //        VStack(alignment: .leading, spacing: 16) {
 //            Text("Hello, world!")
 //                .font(.title)
