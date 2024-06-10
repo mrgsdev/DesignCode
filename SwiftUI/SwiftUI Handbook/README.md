@@ -1,3 +1,6 @@
+![View Transitions and Animations](https://github.com/mrgsdev/DesignCode/assets/157994617/188f5eed-0818-4e96-9037-f892f8716ebb)
+![Animantion Modifier and Timing](https://github.com/mrgsdev/DesignCode/assets/157994617/7ea6c4c4-9dcb-4055-adc7-cc877450cb53)
+
 # Table of Contents: Overview
 [SwiftUI Handbook](https://www.appcoda.com/)
 - [x] [1. Visual Editor in Xcode](#1)
@@ -102,6 +105,7 @@
 
 
 
+
 <a name="1"></a>
 # [Visual Editor in Xcode](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/001.%20Visual%20Editor%20in%20Xcode)
 ![001 Visual Editor in Xcode copy](https://github.com/mrgsdev/DesignCode/assets/157994617/506d028f-5ae2-4f43-8284-06edeb9bab97)
@@ -126,7 +130,7 @@
 # [Color Literal and Image Literal](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/006.%20Color%20Literal%20and%20Image%20Literal)
 ![006  Color Literal and Image Literal copy](https://github.com/mrgsdev/DesignCode/assets/157994617/869a822e-cafd-4a55-a9e6-b55a0f6c65e1)
 ##
-<a name="7"></a> animation
+<a name="7"></a> 
 # [Sidebar](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/007.%20Sidebar)
 ![007  Sidebar copy](https://github.com/mrgsdev/DesignCode/assets/157994617/b6de9351-20da-4d75-b750-fcd52c35ac15)
 ##
@@ -176,8 +180,14 @@
 # [Animation States](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/018.%20Animation%20States%20) 
 ![018-Animation States](https://github.com/mrgsdev/DesignCode/assets/157994617/b539bd66-a47e-42b4-80cd-fc892f7ec8b1)
 ##
-
-
+<a name="19"></a>
+# [View Transitions and Animations](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/019.%20View%20Transitions%20and%20Animations) 
+ ![View Transitions and Animations](https://github.com/mrgsdev/DesignCode/assets/157994617/188f5eed-0818-4e96-9037-f892f8716ebb)
+##
+<a name="20"></a>
+# [Animation Modifier and Timing](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/020.%20Animation%20Modifier%20and%20Timing]) 
+![Animantion Modifier and Timing](https://github.com/mrgsdev/DesignCode/assets/157994617/521107f3-8a84-4c17-9f95-fa29484cb633)
+##
 
 
 
