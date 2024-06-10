@@ -1,6 +1,3 @@
-![View Transitions and Animations](https://github.com/mrgsdev/DesignCode/assets/157994617/188f5eed-0818-4e96-9037-f892f8716ebb)
-![Animantion Modifier and Timing](https://github.com/mrgsdev/DesignCode/assets/157994617/7ea6c4c4-9dcb-4055-adc7-cc877450cb53)
-
 # Table of Contents: Overview
 [SwiftUI Handbook](https://www.appcoda.com/)
 - [x] [1. Visual Editor in Xcode](#1)
@@ -185,7 +182,7 @@
  ![View Transitions and Animations](https://github.com/mrgsdev/DesignCode/assets/157994617/188f5eed-0818-4e96-9037-f892f8716ebb)
 ##
 <a name="20"></a>
-# [Animation Modifier and Timing](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/020.%20Animation%20Modifier%20and%20Timing]) 
+# [Animation Modifier and Timing](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/020.%20Animation%20Modifier%20and%20Timing) 
 ![Animantion Modifier and Timing](https://github.com/mrgsdev/DesignCode/assets/157994617/521107f3-8a84-4c17-9f95-fa29484cb633)
 ##
 
