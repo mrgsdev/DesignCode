@@ -6,24 +6,24 @@
 - [x] [4. Shapes and Stroke](#4)
 - [x] [5. SF Symbols](#5)
 - [x] [6. Color Literal and Image Literal](#6)
-- [ ] [7. Sidebar](#7)
-- [ ] [8. Toolbar](#8)
-- [ ] [9. Image View](#9)
-- [ ] [10. Safe Area Layout](#10)
-- [ ] [11. Text View](#11)
-- [ ] [12. Custom Fonts](#12)
-- [ ] [13. Max Width and Frame Alignment](#13)
-- [ ] [14. Shadows and Color Opacity](#14)
-- [ ] [15. Mask and Transparency](#15)
-- [ ] [16. Clip Shape Rounded Corners](#16)
-- [ ] [17. Tab View Pagination](#17)
-- [ ] [18. Animation States](#18)
-- [ ] [19. View Transitions and Animations](#19)
-- [ ] [20. Animation Modifier and Timing](#20)
-- [ ] [21. Transform Animations](#21)
-- [ ] [22. Tap Animation with Delay](#22)
-- [ ] [23. Long Press Gesture](#23)
-- [ ] [24. Drag Gesture](#24)
+- [x] [7. Sidebar](#7)
+- [x] [8. Toolbar](#8)
+- [x] [9. Image View](#9)
+- [x] [10. Safe Area Layout](#10)
+- [x] [11. Text View](#11)
+- [x] [12. Custom Fonts](#12)
+- [x] [13. Max Width and Frame Alignment](#13)
+- [x] [14. Shadows and Color Opacity](#14)
+- [x] [15. Mask and Transparency](#15)
+- [x] [16. Clip Shape Rounded Corners](#16)
+- [x] [17. Tab View Pagination](#17)
+- [x] [18. Animation States](#18)
+- [x] [19. View Transitions and Animations](#19)
+- [x] [20. Animation Modifier and Timing](#20)
+- [x] [21. Transform Animations](#21)
+- [x] [22. Tap Animation with Delay](#22)
+- [x] [23. Long Press Gesture](#23)
+- [x] [24. Drag Gesture](#24)
 - [ ] [25. Matched Geometry Effect](#25)
 - [ ] [26. Advanced Matched Geometry Effect](#26)
 - [ ] [27. Swift Package Manager](#27)
@@ -126,5 +126,58 @@
 # [Color Literal and Image Literal](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/006.%20Color%20Literal%20and%20Image%20Literal)
 ![006  Color Literal and Image Literal copy](https://github.com/mrgsdev/DesignCode/assets/157994617/869a822e-cafd-4a55-a9e6-b55a0f6c65e1)
 ##
+<a name="7"></a> animation
+# [Sidebar](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/007.%20Sidebar)
+![007  Sidebar copy](https://github.com/mrgsdev/DesignCode/assets/157994617/b6de9351-20da-4d75-b750-fcd52c35ac15)
+##
+<a name="8"></a>
+# [Toolbar](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/008.%20Toolbar)
+![008  Toolbar copy](https://github.com/mrgsdev/DesignCode/assets/157994617/52dda865-7ba5-4dfe-ae0e-e5fcf2f7a743)
+##
+<a name="9"></a>
+# [Image View](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/009.%20Image%20View)
+![009  Image View copy](https://github.com/mrgsdev/DesignCode/assets/157994617/282742b2-68df-416c-b767-a5610a6b7724)
+##
+<a name="10"></a>
+# [Safe Area Layout](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/010.%20Safe%20Area%20Layout)
+![010  Safe Area Layout copy](https://github.com/mrgsdev/DesignCode/assets/157994617/6704c859-8c73-4aa1-9443-2d6cf033fb7f)
+##
+<a name="11"></a>
+# [Text View](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/011.%20Text%20View%20)
+![011  TextView copy](https://github.com/mrgsdev/DesignCode/assets/157994617/78b2da61-13e7-450b-b704-31c020b023ad)
+##
+<a name="12"></a>
+# [Custom Fonts](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/012.%20Custom%20Fonts)
+![012  CustomFont copy](https://github.com/mrgsdev/DesignCode/assets/157994617/3b2c4e82-50a6-439e-8b37-09896f21452c)
+##
+<a name="13"></a>
+# [Max Width and Frame Alignment](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/013.%20Max%20Width%20and%20Frame%20Alignment)
+![013 Max Width and Frame Alignment copy](https://github.com/mrgsdev/DesignCode/assets/157994617/b939bc50-a0ed-4c42-a7bc-db8848979e61)
+##
+<a name="14"></a>
+# [Shadows and Color Opacity](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/014.%20Shadows%20and%20Color%20Opacity)
+![014 Shadows and Color Opacity copy](https://github.com/mrgsdev/DesignCode/assets/157994617/48a0b7b3-8c8d-40f2-9c16-21219705412a)
+##
+<a name="15"></a>
+# [Mask and Transparency](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/015.%20Mask%20and%20Transparency%20)
+![015 Mask and Transparency copy](https://github.com/mrgsdev/DesignCode/assets/157994617/83576997-e0ed-4d64-8d40-bf6c5a8fb001)
+##
+<a name="16"></a>
+# [Clip Shape Rounded Corners](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/016.%20Clip%20Shape%20Rounded%20Corners)
+![016 Clip Shape Rounded Corners](https://github.com/mrgsdev/DesignCode/assets/157994617/7e45b296-7f4a-4e81-bda6-330a95100f0e)
+##
+
+<a name="17"></a>
+# [Tab View Pagination](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/017.%20Tab%20View%20Pagination)
+![017-Tab View Pagination_1](https://github.com/mrgsdev/DesignCode/assets/157994617/6bc0b89c-2ca0-41a1-9bb5-413bb6e10611)
+##
+
+<a name="18"></a>
+# [Animation States](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/018.%20Animation%20States%20) 
+![018-Animation States](https://github.com/mrgsdev/DesignCode/assets/157994617/b539bd66-a47e-42b4-80cd-fc892f7ec8b1)
+##
+
+
+
 
 
