@@ -24,11 +24,11 @@
 - [x] [22. Tap Animation with Delay](#22)
 - [x] [23. Long Press Gesture](#23)
 - [x] [24. Drag Gesture](#24)
-- [ ] [25. Matched Geometry Effect](#25)
-- [ ] [26. Advanced Matched Geometry Effect](#26)
-- [ ] [27. Swift Package Manager](#27)
-- [ ] [28. Background Blur](#28)
-- [ ] [29. Lottie Animation](#29)
+- [x] [25. Matched Geometry Effect](#25)
+- [x] [26. Advanced Matched Geometry Effect](#26)
+- [x] [27. Swift Package Manager](#27)
+- [x] [28. Background Blur](#28)
+- [x] [29. Lottie Animation](#29)
 - [ ] [30. Lazy Grid Layout](#30)
 - [ ] [31. Lazy Stacks](#31)
 - [ ] [32. Navigation View](#32)
@@ -209,5 +209,17 @@
 <a name="26"></a>
 # [Advanced Matched Geometry Effect](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/025.%20Matched%20Geometry%20Effect) 
  ![advenced match effect](https://github.com/mrgsdev/DesignCode/assets/157994617/6257cf2f-8bd2-4b70-b991-e3552eb31c3d)
+##
+<a name="27"></a>
+# [Swift Package Manager](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/027.%20Swift%20Package%20Manager) 
+ ![027  Swift Package Manager](https://github.com/mrgsdev/DesignCode/assets/157994617/2ef9ba34-8c16-4d98-ace9-9f3691999d98)
+##
+<a name="28"></a>
+# [Background Blur](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/028.%20Background%20Blur) 
+ ![028  Background Blur copy](https://github.com/mrgsdev/DesignCode/assets/157994617/43fabce7-5dae-4950-bd75-65c090967a63)
+ ##
+<a name="29"></a>
+# [Lottie Animation](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/029.%20Lottie%20Animation)  
+![Lottie](https://github.com/mrgsdev/DesignCode/assets/157994617/2ca832e2-9936-404b-af5d-3acdf4638f09)
 ##
 
