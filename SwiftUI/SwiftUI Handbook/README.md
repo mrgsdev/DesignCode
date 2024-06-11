@@ -198,4 +198,16 @@
 ![Long Press Gesture](https://github.com/mrgsdev/DesignCode/assets/157994617/995cdc70-57e9-4c69-91fc-e34109b609a6)
 ##
 
+<a name="24"></a>
+# [Drag Gesture](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/024.%20Drag%20Gesture) 
+ ![Drag Gesture](https://github.com/mrgsdev/DesignCode/assets/157994617/bcf5c111-b04c-4166-b442-49865d13675c)
+##
+<a name="25"></a>
+# [Matched Geometry Effect](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/025.%20Matched%20Geometry%20Effect) 
+ ![Matched Geometry Effect](https://github.com/mrgsdev/DesignCode/assets/157994617/85301fec-cafe-4311-8c6a-132b2253efff)
+##
+<a name="26"></a>
+# [Advanced Matched Geometry Effect](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/025.%20Matched%20Geometry%20Effect) 
+ ![advenced match effect](https://github.com/mrgsdev/DesignCode/assets/157994617/6257cf2f-8bd2-4b70-b991-e3552eb31c3d)
+##
 
