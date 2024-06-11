@@ -185,6 +185,17 @@
 # [Animation Modifier and Timing](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/020.%20Animation%20Modifier%20and%20Timing) 
 ![Animantion Modifier and Timing](https://github.com/mrgsdev/DesignCode/assets/157994617/521107f3-8a84-4c17-9f95-fa29484cb633)
 ##
-
+<a name="21"></a>
+# [Transform Animations](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/021.%20Transform%20Animations) 
+![Transform Animations](https://github.com/mrgsdev/DesignCode/assets/157994617/137ab911-6212-4dca-a7a9-3fe2a412ad7b)
+##
+<a name="22"></a>
+# [Tap Animation with Delay](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/022.%20Tap%20Animation%20with%20Delay) 
+![Tap Animation with Delay](https://github.com/mrgsdev/DesignCode/assets/157994617/aaec2075-a804-45ac-8e65-179132f52e42)
+##
+<a name="23"></a>
+# [Long Press Gesture](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/023.%20Long%20Press%20Gesture) 
+![Long Press Gesture](https://github.com/mrgsdev/DesignCode/assets/157994617/995cdc70-57e9-4c69-91fc-e34109b609a6)
+##
 
 
