@@ -232,9 +232,23 @@
 # [Lazy Stacks](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/031.%20Lazy%20Stacks)   
 ![031  Lazy Stacks  copy](https://github.com/mrgsdev/DesignCode/assets/157994617/3b8bd6e3-f82a-41ee-b754-5b8182b1d59c)
 ##
+
 <a name="32"></a>
 # [Navigation View](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/032.%20Navigation%20View)   
 ![032  Navigation View](https://github.com/mrgsdev/DesignCode/assets/157994617/6ec02713-2b7b-4759-9dd4-3c3a8a223ef9)
 ##
  
- 
+<a name="33"></a>
+# [Link](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/033.%20Link)   
+![033  Link-min](https://github.com/mrgsdev/DesignCode/assets/157994617/84d05fdc-b6ac-4f7c-b456-d5b865851663)
+##
+
+<a name="34"></a>
+# [Color Picker](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/034.%20Color%20Picker)   
+![034  Color Picker](https://github.com/mrgsdev/DesignCode/assets/157994617/7d146e72-098c-476d-8ba4-5945eb8f6f68)
+##
+
+<a name="35"></a>
+# [Date Picker](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/035.%20Date%20Picker)   
+![035  Date Picker  copy](https://github.com/mrgsdev/DesignCode/assets/157994617/bb99fba7-2f0e-441a-85ac-df6acf5bce06)
+##
