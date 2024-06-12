@@ -29,9 +29,9 @@
 - [x] [27. Swift Package Manager](#27)
 - [x] [28. Background Blur](#28)
 - [x] [29. Lottie Animation](#29)
-- [ ] [30. Lazy Grid Layout](#30)
-- [ ] [31. Lazy Stacks](#31)
-- [ ] [32. Navigation View](#32)
+- [x] [30. Lazy Grid Layout](#30)
+- [x] [31. Lazy Stacks](#31)
+- [x] [32. Navigation View](#32)
 - [ ] [33. Link](#33)
 - [ ] [34. Color Picker](#34)
 - [ ] [35. Date Picker](#35)
@@ -223,3 +223,18 @@
 ![Lottie](https://github.com/mrgsdev/DesignCode/assets/157994617/2ca832e2-9936-404b-af5d-3acdf4638f09)
 ##
 
+<a name="30"></a>
+# [Lazy Grid Layout](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/030.%20Lazy%20Grid%20Layout)   
+![030  LazyVGrid](https://github.com/mrgsdev/DesignCode/assets/157994617/471fa7ca-7244-425c-8790-70a6e547c6a4)
+##
+
+<a name="31"></a>
+# [Lazy Stacks](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/031.%20Lazy%20Stacks)   
+![031  Lazy Stacks  copy](https://github.com/mrgsdev/DesignCode/assets/157994617/3b8bd6e3-f82a-41ee-b754-5b8182b1d59c)
+##
+<a name="32"></a>
+# [Navigation View](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/032.%20Navigation%20View)   
+![032  Navigation View](https://github.com/mrgsdev/DesignCode/assets/157994617/6ec02713-2b7b-4759-9dd4-3c3a8a223ef9)
+##
+ 
+ 
