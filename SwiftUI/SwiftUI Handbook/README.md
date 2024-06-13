@@ -32,12 +32,12 @@
 - [x] [30. Lazy Grid Layout](#30)
 - [x] [31. Lazy Stacks](#31)
 - [x] [32. Navigation View](#32)
-- [ ] [33. Link](#33)
-- [ ] [34. Color Picker](#34)
-- [ ] [35. Date Picker](#35)
-- [ ] [36. Hover Effect](#36)
-- [ ] [37. Components](#37)
-- [ ] [38. Binding](#38)
+- [x] [33. Link](#33)
+- [x] [34. Color Picker](#34)
+- [x] [35. Date Picker](#35)
+- [x] [36. Hover Effect](#36)
+- [x] [37. Components](#37)
+- [x] [38. Binding](#38)
 - [ ] [39. Static Data](#39)
 - [ ] [40. Full Screen Modal](#40)
 - [ ] [41. Hide Status Bar](#41)
@@ -98,10 +98,6 @@
 - [ ] [96. Custom Layout](#96)
 - [ ] [97. Radial Layout](#97)
 - [ ] [98. AnyLayout Transition](#98)
-
-
-
-
 
 <a name="1"></a>
 # [Visual Editor in Xcode](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/001.%20Visual%20Editor%20in%20Xcode)
@@ -167,12 +163,10 @@
 # [Clip Shape Rounded Corners](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/016.%20Clip%20Shape%20Rounded%20Corners)
 ![016 Clip Shape Rounded Corners](https://github.com/mrgsdev/DesignCode/assets/157994617/7e45b296-7f4a-4e81-bda6-330a95100f0e)
 ##
-
 <a name="17"></a>
 # [Tab View Pagination](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/017.%20Tab%20View%20Pagination)
 ![017-Tab View Pagination_1](https://github.com/mrgsdev/DesignCode/assets/157994617/6bc0b89c-2ca0-41a1-9bb5-413bb6e10611)
 ##
-
 <a name="18"></a>
 # [Animation States](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/018.%20Animation%20States%20) 
 ![018-Animation States](https://github.com/mrgsdev/DesignCode/assets/157994617/b539bd66-a47e-42b4-80cd-fc892f7ec8b1)
@@ -197,7 +191,6 @@
 # [Long Press Gesture](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/023.%20Long%20Press%20Gesture) 
 ![Long Press Gesture](https://github.com/mrgsdev/DesignCode/assets/157994617/995cdc70-57e9-4c69-91fc-e34109b609a6)
 ##
-
 <a name="24"></a>
 # [Drag Gesture](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/024.%20Drag%20Gesture) 
  ![Drag Gesture](https://github.com/mrgsdev/DesignCode/assets/157994617/bcf5c111-b04c-4166-b442-49865d13675c)
@@ -217,38 +210,47 @@
 <a name="28"></a>
 # [Background Blur](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/028.%20Background%20Blur) 
  ![028  Background Blur copy](https://github.com/mrgsdev/DesignCode/assets/157994617/43fabce7-5dae-4950-bd75-65c090967a63)
- ##
+##
 <a name="29"></a>
 # [Lottie Animation](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/029.%20Lottie%20Animation)  
 ![Lottie](https://github.com/mrgsdev/DesignCode/assets/157994617/2ca832e2-9936-404b-af5d-3acdf4638f09)
 ##
-
 <a name="30"></a>
 # [Lazy Grid Layout](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/030.%20Lazy%20Grid%20Layout)   
 ![030  LazyVGrid](https://github.com/mrgsdev/DesignCode/assets/157994617/471fa7ca-7244-425c-8790-70a6e547c6a4)
 ##
-
 <a name="31"></a>
 # [Lazy Stacks](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/031.%20Lazy%20Stacks)   
 ![031  Lazy Stacks  copy](https://github.com/mrgsdev/DesignCode/assets/157994617/3b8bd6e3-f82a-41ee-b754-5b8182b1d59c)
 ##
-
 <a name="32"></a>
 # [Navigation View](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/032.%20Navigation%20View)   
 ![032  Navigation View](https://github.com/mrgsdev/DesignCode/assets/157994617/6ec02713-2b7b-4759-9dd4-3c3a8a223ef9)
 ##
- 
 <a name="33"></a>
 # [Link](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/033.%20Link)   
 ![033  Link-min](https://github.com/mrgsdev/DesignCode/assets/157994617/84d05fdc-b6ac-4f7c-b456-d5b865851663)
 ##
-
 <a name="34"></a>
 # [Color Picker](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/034.%20Color%20Picker)   
 ![034  Color Picker](https://github.com/mrgsdev/DesignCode/assets/157994617/7d146e72-098c-476d-8ba4-5945eb8f6f68)
 ##
-
 <a name="35"></a>
 # [Date Picker](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/035.%20Date%20Picker)   
 ![035  Date Picker  copy](https://github.com/mrgsdev/DesignCode/assets/157994617/bb99fba7-2f0e-441a-85ac-df6acf5bce06)
 ##
+<a name="36"></a>
+# [Hover Effect](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/036.%20Hover%20Effect)   
+![036  Hover Effect](https://github.com/mrgsdev/DesignCode/assets/157994617/798f8263-2a17-4710-b888-8d95679ae588)
+##
+<a name="37"></a>
+# [Components](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/037.%20Components)   
+![037  Components](https://github.com/mrgsdev/DesignCode/assets/157994617/7920d580-88c5-4d1e-94d3-32f0a31724c0)
+##
+<a name="38"></a>
+# [Binding](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/038.%20Binding)   
+![038  Binding](https://github.com/mrgsdev/DesignCode/assets/157994617/87e5f218-d428-4371-ad73-f6248b93cacf)
+##
+
+
+
