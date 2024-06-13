@@ -1,5 +1,7 @@
-# Table of Contents: Overview
-[SwiftUI Handbook](https://www.appcoda.com/)
+# Table of Contents:
+### [SwiftUI Handbook](https://www.appcoda.com/) 
+<details><summary><h1>Overview</h1></summary>
+ 
 - [x] [1. Visual Editor in Xcode](#1)
 - [x] [2. Stacks and Spacer](#2) 
 - [x] [3. Images and Assets Catalog](#3)
@@ -98,6 +100,8 @@
 - [ ] [96. Custom Layout](#96)
 - [ ] [97. Radial Layout](#97)
 - [ ] [98. AnyLayout Transition](#98)
+      
+</details>
 
 <a name="1"></a>
 # [Visual Editor in Xcode](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/001.%20Visual%20Editor%20in%20Xcode)
