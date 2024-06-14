@@ -267,5 +267,16 @@
 # [Hide Status Bar](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/041.%20Hide%20Status%20Bar)   
 ![041  Hide status bar](https://github.com/mrgsdev/mrgsdev/assets/157994617/a6bcf22e-2bfb-45f9-8898-2007149d60f4)
 ## 
+<a name="42"></a>
+# [Redacted Placeholder](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/042.%20Redacted%20Placeholder)   
+ ![042  Redacted Placeholder](https://github.com/mrgsdev/DesignCode/assets/157994617/5f877026-7796-45e7-8296-12a639d31c1a)
 
-
+##
+<a name="43"></a>
+# [Horizontal Scroll with rotate3DEffect](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/043.%20Horizontal%20Scroll%20with%20rotate3DEffect)   
+ ![043  Horizontal Scroll with rotate3DEffect](https://github.com/mrgsdev/DesignCode/assets/157994617/6b82dd87-bab3-4d47-978f-40f18bb02f49)
+##
+<a name="44"></a>
+# [Animation Repeat, Delay and Speed](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/044.%20Animation%20Repeat%2C%20Delay%20and%20Speed)    
+![044  Animation Repeat Delay and Speed](https://github.com/mrgsdev/DesignCode/assets/157994617/dbe22d9c-c489-4b68-b970-5b7b13828e71)
+## 
