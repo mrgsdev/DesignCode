@@ -40,12 +40,12 @@
 - [x] [36. Hover Effect](#36)
 - [x] [37. Components](#37)
 - [x] [38. Binding](#38)
-- [ ] [39. Static Data](#39)
-- [ ] [40. Full Screen Modal](#40)
-- [ ] [41. Hide Status Bar](#41)
-- [ ] [42. Redacted Placeholder](#42)
-- [ ] [43. Horizontal Scroll with rotate3DEffect](#43)
-- [ ] [44. Animation Repeat, Delay and Speed](#44)
+- [x] [39. Static Data](#39)
+- [x] [40. Full Screen Modal](#40)
+- [x] [41. Hide Status Bar](#41)
+- [x] [42. Redacted Placeholder](#42)
+- [x] [43. Horizontal Scroll with rotate3DEffect](#43)
+- [x] [44. Animation Repeat, Delay and Speed](#44)
 - [ ] [45. Tab Selection from Child View](#45)
 - [ ] [46. Status Bar Size with GeometryReader](#46)
 - [ ] [47. Modal presentation](#47)
@@ -255,6 +255,17 @@
 # [Binding](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/038.%20Binding)   
 ![038  Binding](https://github.com/mrgsdev/DesignCode/assets/157994617/87e5f218-d428-4371-ad73-f6248b93cacf)
 ##
-
+<a name="39"></a>
+# [Static Data](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/039.%20Static%20Data)   
+![038  Static Data  copy](https://github.com/mrgsdev/mrgsdev/assets/157994617/a0a63619-2ab4-4326-b349-ae8728ded98c)
+##
+<a name="40"></a>
+# [Full Screen Modal](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/040.%20Full%20Screen%20Modal)   
+![040  Full Screen Modal](https://github.com/mrgsdev/mrgsdev/assets/157994617/3392b729-9683-430b-a227-501cfb7bbb7a)
+##
+<a name="41"></a>
+# [Hide Status Bar](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/041.%20Hide%20Status%20Bar)   
+![041  Hide status bar](https://github.com/mrgsdev/mrgsdev/assets/157994617/a6bcf22e-2bfb-45f9-8898-2007149d60f4)
+## 
 
 
