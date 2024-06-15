@@ -46,9 +46,9 @@
 - [x] [42. Redacted Placeholder](#42)
 - [x] [43. Horizontal Scroll with rotate3DEffect](#43)
 - [x] [44. Animation Repeat, Delay and Speed](#44)
-- [ ] [45. Tab Selection from Child View](#45)
-- [ ] [46. Status Bar Size with GeometryReader](#46)
-- [ ] [47. Modal presentation](#47)
+- [x] [45. Tab Selection from Child View](#45)
+- [x] [46. Status Bar Size with GeometryReader](#46)
+- [x] [47. Modal presentation](#47)
 - [ ] [48. Remote Images](#48)
 - [ ] [49. Dismiss Custom Modal](#49)
 - [ ] [50. Iterating Over an Array](#50)
@@ -280,3 +280,18 @@
 # [Animation Repeat, Delay and Speed](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/044.%20Animation%20Repeat%2C%20Delay%20and%20Speed)    
 ![044  Animation Repeat Delay and Speed](https://github.com/mrgsdev/DesignCode/assets/157994617/dbe22d9c-c489-4b68-b970-5b7b13828e71)
 ## 
+<a name="45"></a>
+# [Tab Selection from Child View](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/045.%20Tab%20Selection%20from%20Child%20View)   
+ ![045  Tab Selection from Child View copy](https://github.com/mrgsdev/DesignCode/assets/157994617/d09ffb2e-1e3e-48a1-939c-5c85358c0b3d)
+##
+<a name="46"></a>
+# [Status Bar Size with GeometryReader](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/046.%20Status%20Bar%20Size%20with%20GeometryReader)   
+![046  Status Bar Size with GeometryReader copy](https://github.com/mrgsdev/DesignCode/assets/157994617/1e49e347-c068-4493-a516-5c801d057aeb)
+##
+<a name="47"></a>
+# [Modal presentation](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/047.%20Modal%20presentation)    
+ ![047  Modal presentation](https://github.com/mrgsdev/DesignCode/assets/157994617/0814f035-8819-469a-a568-1e95966212e0)
+## 
+
+
+
