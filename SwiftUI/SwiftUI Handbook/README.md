@@ -49,9 +49,9 @@
 - [x] [45. Tab Selection from Child View](#45)
 - [x] [46. Status Bar Size with GeometryReader](#46)
 - [x] [47. Modal presentation](#47)
-- [ ] [48. Remote Images](#48)
-- [ ] [49. Dismiss Custom Modal](#49)
-- [ ] [50. Iterating Over an Array](#50)
+- [x] [48. Remote Images](#48)
+- [x] [49. Dismiss Custom Modal](#49)
+- [x] [50. Iterating Over an Array](#50)
 - [ ] [51. Switch Statement](#51)
 - [ ] [52. Format Date](#52)
 - [ ] [53. User Defaults](#53)
@@ -292,6 +292,21 @@
 # [Modal presentation](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/047.%20Modal%20presentation)    
  ![047  Modal presentation](https://github.com/mrgsdev/DesignCode/assets/157994617/0814f035-8819-469a-a568-1e95966212e0)
 ## 
+
+<a name="48"></a>
+# [Remote Images](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/048.%20Remote%20Images)  
+ ![048  Remote Images](https://github.com/mrgsdev/DesignCode/assets/157994617/30701aad-be61-4c98-9e93-992e02bd1f9f)
+##
+<a name="49"></a>
+# [Dismiss Custom Modal](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/049.%20Dismiss%20Custom%20Modal) 
+![049  Dismiss Custom Modal](https://github.com/mrgsdev/DesignCode/assets/157994617/58251f4d-7660-47c8-a338-2217a91af44a)
+
+##
+<a name="50"></a>
+# [Iterating Over an Array](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/050.%20Iterating%20Over%20an%20Array)  
+![50  Iterating Over an Array](https://github.com/mrgsdev/DesignCode/assets/157994617/333c0417-701c-48c0-8b24-2e2be86bc2bd)
+## 
+ 
 
 
 
