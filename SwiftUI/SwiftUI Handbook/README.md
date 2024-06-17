@@ -306,7 +306,16 @@
 # [Iterating Over an Array](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/050.%20Iterating%20Over%20an%20Array)  
 ![50  Iterating Over an Array](https://github.com/mrgsdev/DesignCode/assets/157994617/333c0417-701c-48c0-8b24-2e2be86bc2bd)
 ## 
+<a name="51"></a>
+# [Switch Statement](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/051.%20Switch%20Statement)  
+##
+<a name="52"></a>
+# [Format Date](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/052.%20Format%20Date)  
+![052 Format Date](https://github.com/mrgsdev/DesignCode/assets/157994617/1eef36ec-b3ee-4b61-a04d-64197b0fe5b5)
+##
+<a name="53"></a>
+# [User Defaults](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/053.%20User%20Defaults)
+![053  UserDefuarts](https://github.com/mrgsdev/DesignCode/assets/157994617/a6f5d90c-0833-4278-a180-d454dc4eccbe)
+## 
  
-
-
 
