@@ -52,12 +52,12 @@
 - [x] [48. Remote Images](#48)
 - [x] [49. Dismiss Custom Modal](#49)
 - [x] [50. Iterating Over an Array](#50)
-- [ ] [51. Switch Statement](#51)
-- [ ] [52. Format Date](#52)
-- [ ] [53. User Defaults](#53)
-- [ ] [54. Hide Keyboard](#54)
-- [ ] [55. Play Video with AVPlayer](#55)
-- [ ] [56. Controls with AVPlayer](#56)
+- [x] [51. Switch Statement](#51)
+- [x] [52. Format Date](#52)
+- [x] [53. User Defaults](#53)
+- [x] [54. Hide Keyboard](#54)
+- [x] [55. Play Video with AVPlayer](#55)
+- [x] [56. Controls with AVPlayer](#56)
 - [ ] [57. OnScroll Listener](#57)
 - [ ] [58. Link from a Text](#58)
 - [ ] [59. Share Sheet](#59)
@@ -316,6 +316,18 @@
 <a name="53"></a>
 # [User Defaults](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/053.%20User%20Defaults)
 ![053  UserDefuarts](https://github.com/mrgsdev/DesignCode/assets/157994617/a6f5d90c-0833-4278-a180-d454dc4eccbe)
+## 
+<a name="54"></a>
+# [Hide Keyboard](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/054.%20Hide%20Keyboard)  
+![054 Hide Keyboard](https://github.com/mrgsdev/DesignCode/assets/157994617/fc411294-0109-4672-a759-09a61891cad9)
+##
+<a name="55"></a>
+# [Play Video with AVPlayer](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/055.%20Play%20Video%20with%20AVPlayer)  
+ ![055 Play Video with AVPlayer](https://github.com/mrgsdev/DesignCode/assets/157994617/8f60b649-1ea8-4955-ab7e-d47b6a22ac93)
+##
+<a name="56"></a>
+# [Controls with AVPlayer](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/056.%20Controls%20with%20AVPlayer) 
+![056 Controls with AVPlayer](https://github.com/mrgsdev/DesignCode/assets/157994617/a35e8200-4f97-4d29-b7b5-2a83389de5d5)
 ## 
  
 
