@@ -1,4 +1,4 @@
-![057](https://github.com/mrgsdev/DesignCode/assets/157994617/3dca1b20-55e0-45e8-a60b-7ff0d731b068)# Table of Contents:
+# Table of Contents:
 ### [SwiftUI Handbook](https://www.appcoda.com/) 
 <details><summary><h1>Overview</h1></summary>
  
@@ -58,9 +58,9 @@
 - [x] [54. Hide Keyboard](#54)
 - [x] [55. Play Video with AVPlayer](#55)
 - [x] [56. Controls with AVPlayer](#56)
-- [ ] [57. OnScroll Listener](#57)
-- [ ] [58. Link from a Text](#58)
-- [ ] [59. Share Sheet](#59)
+- [x] [57. OnScroll Listener](#57)
+- [x] [58. Link from a Text](#58)
+- [x] [59. Share Sheet](#59)
 - [ ] [60. Strings in Swift](#60)
 - [ ] [61. Xcode Playground](#61)
 - [ ] [62. AppStorage](#62)
