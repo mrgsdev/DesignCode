@@ -326,14 +326,28 @@
  ![055 Play Video with AVPlayer](https://github.com/mrgsdev/DesignCode/assets/157994617/8f60b649-1ea8-4955-ab7e-d47b6a22ac93)
 ##
 <a name="56"></a>
+# [Controls with AVPlayer](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/056.%20Controls%20with%20AVPlayer)  
+![056 Controls with AVPlayer](https://github.com/mrgsdev/DesignCode/assets/157994617/a35e8200-4f97-4d29-b7b5-2a83389de5d5)
+##
+<a name="57"></a>
 # [OnScroll Listener](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/057.%20OnScroll%20Listener) 
  
 ## 
- <a name="56"></a>
+ <a name="58"></a>
 # [Link from a Text](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/058.%20Link%20from%20a%20Text) 
 
 ##
-<a name="57"></a>
+<a name="59"></a>
 # [Share Sheet](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/059.%20Share%20Sheet)  
 ![057](https://github.com/mrgsdev/DesignCode/assets/157994617/9f0e9dd6-d027-431d-bcaa-922cf81e788b)
+##  
+
+ <a name="60"></a>
+# [Strings in Swift](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/060.%20Strings%20in%20Swift) 
+
+##
+<a name="61"></a>
+# [Xcode Playground](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/061.%20Xcode%20Playground)  
+![057](https://github.com/mrgsdev/DesignCode/assets/157994617/9f0e9dd6-d027-431d-bcaa-922cf81e788b)
 ## 
+
