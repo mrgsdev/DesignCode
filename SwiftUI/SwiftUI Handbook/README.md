@@ -1,5 +1,7 @@
 # Table of Contents:
-### [SwiftUI Handbook](https://www.appcoda.com/) 
+### [SwiftUI Handbook](https://designcode.io/swiftui-handbook) 
+> [SwiftUI Handbook](https://designcode.io/swiftui-handbook)  A comprehensive series of tutorials covering Xcode, SwiftUI and all the layout and development techniques. All techniques are explained step-by-step, in a beginner-friendly format so that you can easily follow in a cohesive way.
+
 <details><summary><h1>Overview</h1></summary>
  
 - [x] [1. Visual Editor in Xcode](#1)
