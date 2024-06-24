@@ -68,11 +68,11 @@
 - [x] [62. AppStorage](#62)
 - [x] [63. Action Sheet](#63)
 - [x] [64. TabBar scroll to top](#64)
-- [ ] [65. TabBar to root View](#65)
-- [ ] [66. Status bar background on scroll](#66)
-- [ ] [67. Create a Widget](#67)
-- [ ] [68. Container Relative Shape](#68)
-- [ ] [69. WidgetFamily sizes](#69)
+- [x] [65. TabBar to root View](#65)
+- [x] [66. Status bar background on scroll](#66)
+- [x] [67. Create a Widget](#67)
+- [x] [68. Container Relative Shape](#68)
+- [x] [69. WidgetFamily sizes](#69)
 - [ ] [70. SwiftUI Picker](#70)
 - [ ] [71. Conditional modifier](#71)
 - [ ] [72. In-App Safari](#72)
@@ -366,4 +366,20 @@
 ![064  TabBar scroll to top (1)](https://github.com/mrgsdev/DesignCode/assets/157994617/bf52be3a-a647-4697-8029-9298b6a3d949)
 
 ## 
+<a name="65"></a>
+# [TabBar to root View](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/065.%20TabBar%20to%20root%20View)   
+![065  TabBar to root View (1)](https://github.com/mrgsdev/DesignCode/assets/157994617/c41233e7-c731-4689-af16-cf0a729dca62)
+## 
+<a name="66"></a>
+# [Status bar background on scroll](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/066.%20Status%20bar%20background%20on%20scroll)  
+![066  Status bar background on scroll](https://github.com/mrgsdev/DesignCode/assets/157994617/c31adbb6-edbb-4a31-a6b0-4c2e1bbdc814)
+##  
 
+<a name="67"></a>
+# [Create a Widget](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/067.%20Create%20a%20Widget)  
+<a name="68"></a>
+# [Container Relative Shape](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/068.%20Container%20Relative%20Shape)   
+<a name="69"></a>
+# [WidgetFamily sizes](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/069.%20WidgetFamily%20sizes)  
+## 
+ 
