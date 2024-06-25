@@ -73,9 +73,9 @@
 - [x] [67. Create a Widget](#67)
 - [x] [68. Container Relative Shape](#68)
 - [x] [69. WidgetFamily sizes](#69)
-- [ ] [70. SwiftUI Picker](#70)
-- [ ] [71. Conditional modifier](#71)
-- [ ] [72. In-App Safari](#72)
+- [x] [70. SwiftUI Picker](#70)
+- [x] [71. Conditional modifier](#71)
+- [x] [72. In-App Safari](#72)
 - [ ] [73. Markdown with AttributedString](#73)
 - [ ] [74. AttributeContainer](#74)
 - [ ] [75. AsyncImage](#75)
@@ -382,4 +382,22 @@
 <a name="69"></a>
 # [WidgetFamily sizes](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/069.%20WidgetFamily%20sizes)  
 ## 
+
+<a name="70"></a>
+# [SwiftUI Canvas](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/070.%20SwiftUI%20Picker)  
+![SwiftUI Canvas](https://github.com/mrgsdev/DesignCode/assets/157994617/afcda1a3-479a-4438-a771-e51f861048dc)
+## 
+<a name="71"></a>
+# [Conditional modifier](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/071.%20Conditional%20modifier)   
+![Conditional modifier](https://github.com/mrgsdev/DesignCode/assets/157994617/885854f2-4854-498b-b37c-6ae061995f24)
+## 
+<a name="72"></a>
+# [In-App Safari](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/072.%20In-App%20Safari)
+![In-App Safari](https://github.com/mrgsdev/DesignCode/assets/157994617/473e4072-abf9-4b93-9aa7-ec83ea69f0f4)
+## 
+
+
+
+
+
  
