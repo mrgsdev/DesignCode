@@ -384,8 +384,8 @@
 ## 
 
 <a name="70"></a>
-# [SwiftUI Canvas](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/070.%20SwiftUI%20Picker)  
-![SwiftUI Canvas](https://github.com/mrgsdev/DesignCode/assets/157994617/afcda1a3-479a-4438-a771-e51f861048dc)
+# [SwiftUI Picker](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/070.%20SwiftUI%20Picker)  
+ ![SwiftUI Picker](https://github.com/mrgsdev/DesignCode/assets/157994617/55a72667-2641-42c1-a0eb-ac9a23199f45)
 ## 
 <a name="71"></a>
 # [Conditional modifier](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/071.%20Conditional%20modifier)   
@@ -395,6 +395,7 @@
 # [In-App Safari](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/072.%20In-App%20Safari)
 ![In-App Safari](https://github.com/mrgsdev/DesignCode/assets/157994617/473e4072-abf9-4b93-9aa7-ec83ea69f0f4)
 ## 
+
 
 
 
