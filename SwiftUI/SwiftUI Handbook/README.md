@@ -76,9 +76,9 @@
 - [x] [70. SwiftUI Picker](#70)
 - [x] [71. Conditional modifier](#71)
 - [x] [72. In-App Safari](#72)
-- [ ] [73. Markdown with AttributedString](#73)
-- [ ] [74. AttributeContainer](#74)
-- [ ] [75. AsyncImage](#75)
+- [x] [73. Markdown with AttributedString](#73)
+- [x] [74. AttributeContainer](#74)
+- [x] [75. AsyncImage](#75)
 - [ ] [76. Format Date with Formatted](#76)
 - [ ] [77. List Row Separators](#77)
 - [ ] [78. Swipe actions](#78)
@@ -394,6 +394,19 @@
 <a name="72"></a>
 # [In-App Safari](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/072.%20In-App%20Safari)
 ![In-App Safari](https://github.com/mrgsdev/DesignCode/assets/157994617/473e4072-abf9-4b93-9aa7-ec83ea69f0f4)
+## 
+
+<a name="73"></a>
+# [Markdown with AttributedString](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/073.%20Markdown%20with%20AttributedString)  
+ ![Markdown with AttributedString](https://github.com/mrgsdev/DesignCode/assets/157994617/99965a4c-58ee-4636-aa2e-5fcb264af609)
+## 
+<a name="74"></a>
+# [AttributeContainer](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/074.%20AttributeContainer)   
+ ![AttributeContainer](https://github.com/mrgsdev/DesignCode/assets/157994617/0e9c462d-7c77-4a29-9e9c-d735a43b28ed)
+## 
+<a name="75"></a>
+# [AsyncImage](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/075.%20AsyncImage)
+ ![AsyncImage](https://github.com/mrgsdev/DesignCode/assets/157994617/38ab6340-bf3a-414f-a9c2-d021ff04657d)
 ## 
 
 
