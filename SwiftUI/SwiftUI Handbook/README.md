@@ -82,9 +82,9 @@
 - [x] [76. Format Date with Formatted](#76)
 - [x] [77. List Row Separators](#77)
 - [x] [78. Swipe actions](#78)
-- [ ] [79. Searchable](#79)
-- [ ] [80. Light and dark modes](#80)
-- [ ] [81. SwiftUI Canvas](#81)
+- [x] [79. Searchable](#79)
+- [x] [80. Light and dark modes](#80)
+- [x] [81. SwiftUI Canvas](#81)
 - [ ] [82. Animations with TimelineView](#82)
 - [ ] [83. SecureField](#83)
 - [ ] [84. Background Animation with Gradient](#84)
@@ -419,6 +419,19 @@
 <a name="78"></a>
 # [Swipe actions](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/078.%20Swipe%20actions)
  ![ Swipe actions](https://github.com/mrgsdev/DesignCode/assets/157994617/1428abba-fab8-447c-b6fe-aa185d4d29fb)
+## 
+
+<a name="79"></a>
+# [Searchable](https://github.com/mrgsdev/DesignCode/edit/main/SwiftUI/SwiftUI%20Handbook/079.%20Searchable/)   
+![Searchable](https://github.com/mrgsdev/DesignCode/assets/157994617/b75b3926-93ec-44d9-ac64-29aa9c474d7c)
+## 
+<a name="80"></a>
+# [Light and dark modes](https://github.com/mrgsdev/DesignCode/edit/main/SwiftUI/SwiftUI%20Handbook/080.%20Light%20and%20dark%20modes/)   
+  ![Light and dark modes ](https://github.com/mrgsdev/DesignCode/assets/157994617/27eec0e7-c496-4891-a9dd-00be58a33db2)
+## 
+<a name="81"></a>
+# [SwiftUI Canvas](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/081.%20SwiftUI%20Canvas)
+ ![SwiftUI Canvas](https://github.com/mrgsdev/DesignCode/assets/157994617/a100404b-a56a-42a8-8e84-5c1645198942)
 ## 
 
 
