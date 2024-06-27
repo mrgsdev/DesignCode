@@ -79,9 +79,9 @@
 - [x] [73. Markdown with AttributedString](#73)
 - [x] [74. AttributeContainer](#74)
 - [x] [75. AsyncImage](#75)
-- [ ] [76. Format Date with Formatted](#76)
-- [ ] [77. List Row Separators](#77)
-- [ ] [78. Swipe actions](#78)
+- [x] [76. Format Date with Formatted](#76)
+- [x] [77. List Row Separators](#77)
+- [x] [78. Swipe actions](#78)
 - [ ] [79. Searchable](#79)
 - [ ] [80. Light and dark modes](#80)
 - [ ] [81. SwiftUI Canvas](#81)
@@ -409,9 +409,23 @@
  ![AsyncImage](https://github.com/mrgsdev/DesignCode/assets/157994617/38ab6340-bf3a-414f-a9c2-d021ff04657d)
 ## 
 
+<a name="76"></a>
+# [Format Date with Formatted](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/076.%20Format%20Date%20with%20Formatted)   
+## 
+<a name="77"></a>
+# [List Row Separators](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/077.%20List%20Row%20Separators)   
+  ![List Row Separators](https://github.com/mrgsdev/DesignCode/assets/157994617/b8024675-e933-433e-8a55-43ca090baf9c)
+## 
+<a name="78"></a>
+# [Swipe actions](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/078.%20Swipe%20actions)
+ ![ Swipe actions](https://github.com/mrgsdev/DesignCode/assets/157994617/1428abba-fab8-447c-b6fe-aa185d4d29fb)
+## 
 
 
 
 
 
- 
+
+
+
+
