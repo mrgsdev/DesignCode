@@ -85,9 +85,9 @@
 - [x] [79. Searchable](#79)
 - [x] [80. Light and dark modes](#80)
 - [x] [81. SwiftUI Canvas](#81)
-- [ ] [82. Animations with TimelineView](#82)
-- [ ] [83. SecureField](#83)
-- [ ] [84. Background Animation with Gradient](#84)
+- [x] [82. Animations with TimelineView](#82)
+- [x] [83. SecureField](#83)
+- [x] [84. Background Animation with Gradient](#84)
 - [ ] [85. Inner Shadow](#85)
 - [ ] [86. SF Font Width Styles](#86)
 - [ ] [87. Multiple Blending Modes](#87)
@@ -434,6 +434,19 @@
  ![SwiftUI Canvas](https://github.com/mrgsdev/DesignCode/assets/157994617/a100404b-a56a-42a8-8e84-5c1645198942)
 ## 
 
+<a name="82"></a>
+# [Animations with TimelineView](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/082.%20Animations%20with%20TimelineView)   
+ ![Animations with TimelineView](https://github.com/mrgsdev/DesignCode/assets/157994617/51f06ebb-b859-413d-b725-b5fe1fa3427a)
+ ## 
+<a name="83"></a>
+# [SecureField](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/083.%20SecureField)   
+  ![SecureField](https://github.com/mrgsdev/DesignCode/assets/157994617/46bbdb8c-f5c1-48f8-8c51-49fcc7fc28e3)
+## 
+<a name="84"></a>
+# [Background Animation with Gradient](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/084.%20Background%20Animation%20with%20Gradient)
+![Background Animation with Gradient](https://github.com/mrgsdev/DesignCode/assets/157994617/7f59ad06-54eb-4712-aae5-5fefde93221e)
+## 
+ 
 
 
 
