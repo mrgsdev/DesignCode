@@ -446,8 +446,22 @@
 # [Background Animation with Gradient](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/084.%20Background%20Animation%20with%20Gradient)
 ![Background Animation with Gradient](https://github.com/mrgsdev/DesignCode/assets/157994617/7f59ad06-54eb-4712-aae5-5fefde93221e)
 ## 
- 
 
+<a name="85"></a>
+# [Inner Shadow](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/085.%20Inner%20Shadow)   
+![Inner Shadow](https://github.com/mrgsdev/DesignCode/assets/157994617/813ff6d1-c0af-4d4e-9fd4-35a27bf2091e)
+
+ ## 
+<a name="86"></a>
+# [SF Font Width Styles](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/086.%20SF%20Font%20Width%20Styles) 
+![SF Font Width Styles](https://github.com/mrgsdev/DesignCode/assets/157994617/5304e8be-6632-45bd-8f61-699c41d6850b)
+
+## 
+<a name="87"></a>
+# [Multiple Blending Modes](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/087.%20Multiple%20Blending%20Modes)
+![ Multiple Blending Modes](https://github.com/mrgsdev/DesignCode/assets/157994617/fed21ea4-6eb9-4226-8fd9-fdcd8b2e5416)
+ ## 
+ 
 
 
 
