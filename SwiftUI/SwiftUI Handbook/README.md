@@ -88,10 +88,10 @@
 - [x] [82. Animations with TimelineView](#82)
 - [x] [83. SecureField](#83)
 - [x] [84. Background Animation with Gradient](#84)
-- [ ] [85. Inner Shadow](#85)
-- [ ] [86. SF Font Width Styles](#86)
-- [ ] [87. Multiple Blending Modes](#87)
-- [ ] [88. Circular Text on Path](#88)
+- [x] [85. Inner Shadow](#85)
+- [x] [86. SF Font Width Styles](#86)
+- [x] [87. Multiple Blending Modes](#87)
+- [x] [88. Circular Text on Path](#88)
 - [ ] [89. View That Fits](#89)
 - [ ] [90. Navigation Stack](#90)
 - [ ] [91. Half Sheet](#91)
@@ -461,7 +461,19 @@
 # [Multiple Blending Modes](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/087.%20Multiple%20Blending%20Modes)
 ![ Multiple Blending Modes](https://github.com/mrgsdev/DesignCode/assets/157994617/fed21ea4-6eb9-4226-8fd9-fdcd8b2e5416)
  ## 
- 
+
+<a name="88"></a>
+# [Circular Text on Path](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/088.%20Circular%20Text%20on%20Path)   
+![Circular Text on Path](https://github.com/mrgsdev/DesignCode/assets/157994617/d70247a7-318c-4881-9ef9-0b5771b4255f)
+ ## 
+<a name="89"></a>
+# [View That Fits](https://github.com/mrgsdev/DesignCode/blob/main/SwiftUI/SwiftUI%20Handbook/089.%20View%20That%20Fits) 
+![View That Fits](https://github.com/mrgsdev/DesignCode/assets/157994617/a985a750-cc5f-4e69-82b4-f94477c9e5a7)
+## 
+<a name="90"></a>
+# [Navigation Stack](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/090.%20Navigation%20Stack)
+![Navigation Stack](https://github.com/mrgsdev/DesignCode/assets/157994617/24008e65-f751-40cb-8f08-85eefcd765c2) 
+##
 
 
 
