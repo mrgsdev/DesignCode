@@ -92,17 +92,39 @@
 - [x] [86. SF Font Width Styles](#86)
 - [x] [87. Multiple Blending Modes](#87)
 - [x] [88. Circular Text on Path](#88)
-- [ ] [89. View That Fits](#89)
-- [ ] [90. Navigation Stack](#90)
-- [ ] [91. Half Sheet](#91)
-- [ ] [92. Charts](#92)
-- [ ] [93. Grid Layout](#93)
+- [x] [89. View That Fits](#89)
+- [x] [90. Navigation Stack](#90)
+- [x] [91. Half Sheet](#91)
+- [x] [92. Charts](#92)
+- [x] [93. Grid Layout](#93)
 - [ ] [94. SVG to SwiftUI](#94)
 - [ ] [95. Detect Screen Size](#95)
 - [ ] [96. Custom Layout](#96)
 - [ ] [97. Radial Layout](#97)
 - [ ] [98. AnyLayout Transition](#98)
-      
+- [ ] [99. Core Location in SwiftUI](#99)
+- [ ] [100. Radial Gradient Button Animation](#100)
+- [ ] [101. SF Symbols 5 Animations](#101)
+- [ ] [102. Phase Animator in SwiftUI](#102)
+- [ ] [103. Keyframe Animator in SwiftUI](#103)
+- [ ] [104. Specific Corner Radius](#104)
+- [ ] [105. Metal Shaders in SwiftUI](#105)
+- [ ] [106. Observable Models](#106)
+- [ ] [107. SwiftData Persistence](#107)
+- [ ] [108. Embed 3D Assets from Spline](#108)
+- [ ] [109. Embed Animated Assets from Rive](#109)
+- [ ] [110. Gradient Text](#110)
+- [ ] [111. Expanding View](#111)
+- [ ] [112. Mesh Gradient in SwiftUI](#112)
+- [ ] [113. Parallax ScrollView](#113)
+- [ ] [114. Navigation Transition in SwiftUI](#114)
+- [ ] [115. Text Transition with Text Renderer in SwiftUI](#115)
+- [ ] [116. Font Weight Animation in SwiftUI](#116)
+- [ ] [117. Ripple Visual Effect Interaction with Metal Shader](#117)
+- [ ] [118. Custom View Modifier in SwiftUI](#118)
+- [ ] [119. Progressive Blur in SwiftUI](#119)
+- [ ] [120. Numeric Text Animation using ContentTransition](#120)
+
 </details>
 
 <a name="1"></a>
@@ -475,7 +497,18 @@
 ![Navigation Stack](https://github.com/mrgsdev/DesignCode/assets/157994617/24008e65-f751-40cb-8f08-85eefcd765c2) 
 ##
 
-
+<a name="91"></a>
+# [Half Sheet](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/091.%20Half%20Sheet)    
+ ![Half Sheet](https://github.com/mrgsdev/DesignCode/assets/157994617/422aa3f6-ffb6-41ae-bae5-3b315b0edd84)
+## 
+<a name="92"></a>
+# [Charts](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/092.%20Charts)  
+![Charts](https://github.com/mrgsdev/DesignCode/assets/157994617/07d3d9d1-34e2-4f52-b494-14307af56955)
+## 
+<a name="93"></a>
+# [Grid Layout](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/093.%20Grid%20Layout) 
+![Grid Layout](https://github.com/mrgsdev/DesignCode/assets/157994617/b17d4cd5-32b2-48be-bb58-1eb684613ec7)
+##
 
 
 
