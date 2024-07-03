@@ -97,9 +97,9 @@
 - [x] [91. Half Sheet](#91)
 - [x] [92. Charts](#92)
 - [x] [93. Grid Layout](#93)
-- [ ] [94. SVG to SwiftUI](#94)
-- [ ] [95. Detect Screen Size](#95)
-- [ ] [96. Custom Layout](#96)
+- [x] [94. SVG to SwiftUI](#94)
+- [x] [95. Detect Screen Size](#95)
+- [x] [96. Custom Layout](#96)
 - [ ] [97. Radial Layout](#97)
 - [ ] [98. AnyLayout Transition](#98)
 - [ ] [99. Core Location in SwiftUI](#99)
@@ -510,7 +510,19 @@
 ![Grid Layout](https://github.com/mrgsdev/DesignCode/assets/157994617/b17d4cd5-32b2-48be-bb58-1eb684613ec7)
 ##
 
+<a name="94"></a>
+# [SVG to SwiftUI](https://github.com/mrgsdev/DesignCode/edit/main/SwiftUI/SwiftUI%20Handbook/094.%20SVG%20to%20SwiftUI/)    
+![SVG to SUI](https://github.com/mrgsdev/DesignCode/assets/157994617/e3e42c87-f4cd-4136-a038-4121118be833)
+## 
+<a name="95"></a>
+# [Detect Screen Size](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/095.%20Detect%20Screen%20Size)  
+ 
+## 
+<a name="96"></a>
+# [Custom Layout](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/096.%20Custom%20Layout) 
+ ![Custom Layout](https://github.com/mrgsdev/DesignCode/assets/157994617/9e1321ed-72b0-4083-92d4-9e629440d6b9)
+##
 
-
+ 
 
 
