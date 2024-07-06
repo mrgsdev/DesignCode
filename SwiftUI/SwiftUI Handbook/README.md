@@ -100,9 +100,9 @@
 - [x] [94. SVG to SwiftUI](#94)
 - [x] [95. Detect Screen Size](#95)
 - [x] [96. Custom Layout](#96)
-- [ ] [97. Radial Layout](#97)
-- [ ] [98. AnyLayout Transition](#98)
-- [ ] [99. Core Location in SwiftUI](#99)
+- [x] [97. Radial Layout](#97)
+- [x] [98. AnyLayout Transition](#98)
+- [x] [99. Core Location in SwiftUI](#99)
 - [ ] [100. Radial Gradient Button Animation](#100)
 - [ ] [101. SF Symbols 5 Animations](#101)
 - [ ] [102. Phase Animator in SwiftUI](#102)
@@ -522,6 +522,19 @@
 # [Custom Layout](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/096.%20Custom%20Layout) 
  ![Custom Layout](https://github.com/mrgsdev/DesignCode/assets/157994617/9e1321ed-72b0-4083-92d4-9e629440d6b9)
 ##
+<a name="97"></a>
+# [Radial Layout](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/097.%20Radial%20Layout) 
+  ![097  Radial Layout](https://github.com/mrgsdev/DesignCode/assets/157994617/3c24195e-e965-4da0-8e88-10dd0af429ab)
+ ##
+ <a name="98"></a>
+# [AnyLayout Transition](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/098.%20AnyLayout%20Transition)
+ ![098 AnyLayout Transition](https://github.com/mrgsdev/DesignCode/assets/157994617/c952dcc5-b170-4827-ac42-f8323a1f2175)
+ ##
+  <a name="99"></a>
+# [Core Location in SwiftUI](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/099.%20Core%20Location%20in%20SwiftUI)
+ ![099 CoreLocation](https://github.com/mrgsdev/DesignCode/assets/157994617/be29cdd1-6b2c-4964-99e5-fab9c697fe57)
+ ##
+
 
  
 
