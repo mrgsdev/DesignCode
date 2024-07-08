@@ -106,9 +106,9 @@
 - [x] [100. Radial Gradient Button Animation](#100)
 - [x] [101. SF Symbols 5 Animations](#101)
 - [x] [102. Phase Animator in SwiftUI](#102)
-- [ ] [103. Keyframe Animator in SwiftUI](#103)
-- [ ] [104. Specific Corner Radius](#104)
-- [ ] [105. Metal Shaders in SwiftUI](#105)
+- [x] [103. Keyframe Animator in SwiftUI](#103)
+- [x] [104. Specific Corner Radius](#104)
+- [x] [105. Metal Shaders in SwiftUI](#105)
 - [ ] [106. Observable Models](#106)
 - [ ] [107. SwiftData Persistence](#107)
 - [ ] [108. Embed 3D Assets from Spline](#108)
@@ -545,9 +545,24 @@
 ![101  SF Symbols 5 Animations](https://github.com/mrgsdev/DesignCode/assets/157994617/1bd0598b-aaa7-4a53-938e-c0a42c36b745)
  ##
 
-   <a name="102"></a>
+ <a name="102"></a>
 # [Phase Animator in SwiftUI](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/102.%20Phase%20Animator%20in%20SwiftUI)
  ![102  Phase Animator in SwiftUI](https://github.com/mrgsdev/DesignCode/assets/157994617/f712bc16-67f5-4701-a89f-a9199e40db7f)
+ ##
+
+ <a name="103"></a>
+# [Keyframe Animator in SwiftUI](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/103.%20Keyframe%20Animator%20in%20SwiftUI)
+ ![Keyframe Animator in SwiftUI](https://github.com/mrgsdev/DesignCode/assets/157994617/07c7baf9-60bb-4601-842e-90eb15097345)
+ ##
+
+  <a name="104"></a>
+# [Specific Corner Radius](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/104.%20Specific%20Corner%20Radius)
+ ![Specific Corner Radius](https://github.com/mrgsdev/DesignCode/assets/157994617/eebf5cd0-9f01-4a86-b880-ff37bb10c18a)
+ ##
+
+   <a name="105"></a>
+# [Metal Shaders in SwiftUI](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/105.%20Metal%20Shaders%20in%20SwiftUI)
+  ![Metal Shaders in SwiftUI](https://github.com/mrgsdev/DesignCode/assets/157994617/ec17f80a-f229-490d-a4cc-11897c83d742)
  ##
 
  
