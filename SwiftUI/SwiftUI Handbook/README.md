@@ -483,7 +483,6 @@
 # [Multiple Blending Modes](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/087.%20Multiple%20Blending%20Modes)
 ![ Multiple Blending Modes](https://github.com/mrgsdev/DesignCode/assets/157994617/fed21ea4-6eb9-4226-8fd9-fdcd8b2e5416)
  ## 
-
 <a name="88"></a>
 # [Circular Text on Path](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/088.%20Circular%20Text%20on%20Path)   
 ![Circular Text on Path](https://github.com/mrgsdev/DesignCode/assets/157994617/d70247a7-318c-4881-9ef9-0b5771b4255f)
@@ -496,7 +495,6 @@
 # [Navigation Stack](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/090.%20Navigation%20Stack)
 ![Navigation Stack](https://github.com/mrgsdev/DesignCode/assets/157994617/24008e65-f751-40cb-8f08-85eefcd765c2) 
 ##
-
 <a name="91"></a>
 # [Half Sheet](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/091.%20Half%20Sheet)    
  ![Half Sheet](https://github.com/mrgsdev/DesignCode/assets/157994617/422aa3f6-ffb6-41ae-bae5-3b315b0edd84)
@@ -509,14 +507,12 @@
 # [Grid Layout](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/093.%20Grid%20Layout) 
 ![Grid Layout](https://github.com/mrgsdev/DesignCode/assets/157994617/b17d4cd5-32b2-48be-bb58-1eb684613ec7)
 ##
-
 <a name="94"></a>
 # [SVG to SwiftUI](https://github.com/mrgsdev/DesignCode/edit/main/SwiftUI/SwiftUI%20Handbook/094.%20SVG%20to%20SwiftUI/)    
 ![SVG to SUI](https://github.com/mrgsdev/DesignCode/assets/157994617/e3e42c87-f4cd-4136-a038-4121118be833)
 ## 
 <a name="95"></a>
-# [Detect Screen Size](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/095.%20Detect%20Screen%20Size)  
- 
+# [Detect Screen Size](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/095.%20Detect%20Screen%20Size)   
 ## 
 <a name="96"></a>
 # [Custom Layout](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/096.%20Custom%20Layout) 
@@ -525,45 +521,41 @@
 <a name="97"></a>
 # [Radial Layout](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/097.%20Radial%20Layout) 
   ![097  Radial Layout](https://github.com/mrgsdev/DesignCode/assets/157994617/3c24195e-e965-4da0-8e88-10dd0af429ab)
- ##
- <a name="98"></a>
+##
+<a name="98"></a>
 # [AnyLayout Transition](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/098.%20AnyLayout%20Transition)
  ![098 AnyLayout Transition](https://github.com/mrgsdev/DesignCode/assets/157994617/c952dcc5-b170-4827-ac42-f8323a1f2175)
- ##
-  <a name="99"></a>
+##
+<a name="99"></a>
 # [Core Location in SwiftUI](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/099.%20Core%20Location%20in%20SwiftUI)
  ![099 CoreLocation](https://github.com/mrgsdev/DesignCode/assets/157994617/be29cdd1-6b2c-4964-99e5-fab9c697fe57)
- ##
+##
 
- <a name="100"></a>
+<a name="100"></a>
 # [Radial Gradient Button Animation](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/100.%20Radial%20Gradient%20Button%20Animation)
 ![100  Radial Gradient Button Animation](https://github.com/mrgsdev/DesignCode/assets/157994617/9182030f-5953-4e6a-bffe-fc810388310a)
- ##
+##
 
-  <a name="101"></a>
+<a name="101"></a>
 # [SF Symbols 5 Animations](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/101.%20SF%20Symbols%205%20Animations)
 ![101  SF Symbols 5 Animations](https://github.com/mrgsdev/DesignCode/assets/157994617/1bd0598b-aaa7-4a53-938e-c0a42c36b745)
- ##
-
- <a name="102"></a>
+##
+<a name="102"></a>
 # [Phase Animator in SwiftUI](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/102.%20Phase%20Animator%20in%20SwiftUI)
  ![102  Phase Animator in SwiftUI](https://github.com/mrgsdev/DesignCode/assets/157994617/f712bc16-67f5-4701-a89f-a9199e40db7f)
- ##
-
- <a name="103"></a>
+##
+<a name="103"></a>
 # [Keyframe Animator in SwiftUI](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/103.%20Keyframe%20Animator%20in%20SwiftUI)
  ![Keyframe Animator in SwiftUI](https://github.com/mrgsdev/DesignCode/assets/157994617/07c7baf9-60bb-4601-842e-90eb15097345)
- ##
-
-  <a name="104"></a>
+##
+<a name="104"></a>
 # [Specific Corner Radius](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/104.%20Specific%20Corner%20Radius)
  ![Specific Corner Radius](https://github.com/mrgsdev/DesignCode/assets/157994617/eebf5cd0-9f01-4a86-b880-ff37bb10c18a)
- ##
-
-   <a name="105"></a>
+##
+<a name="105"></a>
 # [Metal Shaders in SwiftUI](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/105.%20Metal%20Shaders%20in%20SwiftUI)
   ![Metal Shaders in SwiftUI](https://github.com/mrgsdev/DesignCode/assets/157994617/ec17f80a-f229-490d-a4cc-11897c83d742)
- ##
+##
 
  
 
