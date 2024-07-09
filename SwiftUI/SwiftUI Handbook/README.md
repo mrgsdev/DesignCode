@@ -109,7 +109,7 @@
 - [x] [103. Keyframe Animator in SwiftUI](#103)
 - [x] [104. Specific Corner Radius](#104)
 - [x] [105. Metal Shaders in SwiftUI](#105)
-- [ ] [106. Observable Models](#106)
+- [x] [106. Observable Models](#106)
 - [ ] [107. SwiftData Persistence](#107)
 - [ ] [108. Embed 3D Assets from Spline](#108)
 - [ ] [109. Embed Animated Assets from Rive](#109)
