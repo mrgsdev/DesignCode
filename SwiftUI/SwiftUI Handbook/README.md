@@ -556,6 +556,9 @@
 # [Metal Shaders in SwiftUI](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/105.%20Metal%20Shaders%20in%20SwiftUI)
   ![Metal Shaders in SwiftUI](https://github.com/mrgsdev/DesignCode/assets/157994617/ec17f80a-f229-490d-a4cc-11897c83d742)
 ##
-
+<a name="106"></a>
+# [Observable Models](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/106.%20Observable%20Models) 
+##
+ 
  
 
