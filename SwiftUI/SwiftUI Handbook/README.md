@@ -110,7 +110,7 @@
 - [x] [104. Specific Corner Radius](#104)
 - [x] [105. Metal Shaders in SwiftUI](#105)
 - [x] [106. Observable Models](#106)
-- [ ] [107. SwiftData Persistence](#107)
+- [x] [107. SwiftData Persistence](#107)
 - [ ] [108. Embed 3D Assets from Spline](#108)
 - [ ] [109. Embed Animated Assets from Rive](#109)
 - [ ] [110. Gradient Text](#110)
@@ -558,6 +558,9 @@
 ##
 <a name="106"></a>
 # [Observable Models](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/106.%20Observable%20Models) 
+##
+<a name="107"></a>
+# [SwiftData Persistence](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/107.%20SwiftData%20Persistence) 
 ##
  
  
