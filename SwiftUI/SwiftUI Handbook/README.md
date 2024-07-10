@@ -530,12 +530,10 @@
 # [Core Location in SwiftUI](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/099.%20Core%20Location%20in%20SwiftUI)
  ![099 CoreLocation](https://github.com/mrgsdev/DesignCode/assets/157994617/be29cdd1-6b2c-4964-99e5-fab9c697fe57)
 ##
-
 <a name="100"></a>
 # [Radial Gradient Button Animation](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/100.%20Radial%20Gradient%20Button%20Animation)
 ![100  Radial Gradient Button Animation](https://github.com/mrgsdev/DesignCode/assets/157994617/9182030f-5953-4e6a-bffe-fc810388310a)
 ##
-
 <a name="101"></a>
 # [SF Symbols 5 Animations](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/SwiftUI%20Handbook/101.%20SF%20Symbols%205%20Animations)
 ![101  SF Symbols 5 Animations](https://github.com/mrgsdev/DesignCode/assets/157994617/1bd0598b-aaa7-4a53-938e-c0a42c36b745)
