@@ -364,7 +364,7 @@
 ##
 <a name="59"></a>
 # [Share Sheet](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/059.%20Share%20Sheet)  
-![057](https://github.com/mrgsdev/DesignCode/assets/157994617/9f0e9dd6-d027-431d-bcaa-922cf81e788b)
+ 
 ##  
 
  <a name="60"></a>
@@ -373,11 +373,10 @@
 ##
 <a name="61"></a>
 # [Xcode Playground](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/061.%20Xcode%20Playground)  
-![057](https://github.com/mrgsdev/DesignCode/assets/157994617/9f0e9dd6-d027-431d-bcaa-922cf81e788b)
+ 
 ## 
 <a name="62"></a>
 # [AppStorage](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/062.%20AppStorage)  
-![057](https://github.com/mrgsdev/DesignCode/assets/157994617/9f0e9dd6-d027-431d-bcaa-922cf81e788b)
 ##  
  <a name="63"></a>
 # [Action Sheet](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/063.%20Action%20Sheet) 
