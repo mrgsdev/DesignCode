@@ -112,9 +112,9 @@
 - [x] [105. Metal Shaders in SwiftUI](#105)
 - [x] [106. Observable Models](#106)
 - [x] [107. SwiftData Persistence](#107)
-- [ ] [108. Embed 3D Assets from Spline](#108)
-- [ ] [109. Embed Animated Assets from Rive](#109)
-- [ ] [110. Gradient Text](#110)
+- [x] [108. Embed 3D Assets from Spline](#108)
+- [x] [109. Embed Animated Assets from Rive](#109)
+- [x] [110. Gradient Text](#110)
 - [ ] [111. Expanding View](#111)
 - [ ] [112. Mesh Gradient in SwiftUI](#112)
 - [ ] [113. Parallax ScrollView](#113)
@@ -560,6 +560,17 @@
 <a name="107"></a>
 # [SwiftData Persistence](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/107.%20SwiftData%20Persistence) 
 ##
- 
+ <a name="108"></a>
+# [Embed 3D Assets from Spline](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/108.%20Embed%203D%20Assets%20from%20Spline)
+ ![Embed 3D Assets from Spline](https://github.com/user-attachments/assets/47ded5b5-2411-4a9e-bddd-48579057850b)
+##
+<a name="109"></a>
+# [Embed Animated Assets from Rive](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/109.%20Embed%20Animated%20Assets%20from%20Rive)
+![Embed Animated Assets from Rive](https://github.com/user-attachments/assets/c5579894-7c9a-494f-9565-9e26f4cdc6b6)
+##
+<a name="110"></a>
+# [Gradient Text](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/110.%20Gradient%20Text) 
+![GradientText](https://github.com/user-attachments/assets/9d5ef6dc-6ed1-4dad-be79-b06a1b6813ba)
+##
  
 
