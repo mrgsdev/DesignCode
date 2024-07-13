@@ -115,9 +115,9 @@
 - [x] [108. Embed 3D Assets from Spline](#108)
 - [x] [109. Embed Animated Assets from Rive](#109)
 - [x] [110. Gradient Text](#110)
-- [ ] [111. Expanding View](#111)
-- [ ] [112. Mesh Gradient in SwiftUI](#112)
-- [ ] [113. Parallax ScrollView](#113)
+- [x] [111. Expanding View](#111)
+- [x] [112. Mesh Gradient in SwiftUI](#112)
+- [x] [113. Parallax ScrollView](#113)
 - [ ] [114. Navigation Transition in SwiftUI](#114)
 - [ ] [115. Text Transition with Text Renderer in SwiftUI](#115)
 - [ ] [116. Font Weight Animation in SwiftUI](#116)
@@ -572,5 +572,16 @@
 # [Gradient Text](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/110.%20Gradient%20Text) 
 ![GradientText](https://github.com/user-attachments/assets/9d5ef6dc-6ed1-4dad-be79-b06a1b6813ba)
 ##
- 
 
+ <a name="111"></a>
+# [Expanding View](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/111.%20Expanding%20View)
+![Expanding View](https://github.com/user-attachments/assets/99783507-15dd-433a-8527-9d00783c0be7)
+##
+<a name="112"></a>
+# [Mesh Gradient (iOS 18+)](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/112.%20Mesh%20Gradient%20in%20SwiftUI)
+ ![Mesh](https://github.com/user-attachments/assets/b29d6c44-b3be-4092-8fd9-29ba4ac4804b)
+ ##
+<a name="113"></a>
+# [Parallax ScrollView](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/113.%20Parallax%20ScrollView)
+![Parallax ScrollView (2) (1)](https://github.com/user-attachments/assets/7901bb80-650b-4a6b-92a3-bca56f57bc0e)
+##
