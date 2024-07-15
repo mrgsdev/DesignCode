@@ -154,7 +154,7 @@
 ##
 <a name="7"></a> 
 # [Sidebar](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/007.%20Sidebar)
-![007  Sidebar copy](https://github.com/mrgsdev/DesignCode/assets/157994617/b6de9351-20da-4d75-b750-fcd52c35ac15)
+![SideBar](https://github.com/user-attachments/assets/b285f1c6-73e8-48b7-9fed-941f15904c50)
 ##
 <a name="8"></a>
 # [Toolbar](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/008.%20Toolbar)
@@ -332,7 +332,8 @@
 ![50  Iterating Over an Array](https://github.com/mrgsdev/DesignCode/assets/157994617/333c0417-701c-48c0-8b24-2e2be86bc2bd)
 ## 
 <a name="51"></a>
-# [Switch Statement](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/051.%20Switch%20Statement)  
+# [Switch Statement](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/051.%20Switch%20Statement)
+![Switch Statment](https://github.com/user-attachments/assets/88292a4e-c3c0-44aa-a96a-2a4a7461de34)  
 ##
 <a name="52"></a>
 # [Format Date](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/052.%20Format%20Date)  
@@ -356,7 +357,7 @@
 ##
 <a name="57"></a>
 # [OnScroll Listener](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/057.%20OnScroll%20Listener) 
- 
+ ![onScroll](https://github.com/user-attachments/assets/3b7c7422-9eec-4d72-9697-8ae93904c84f)
 ## 
  <a name="58"></a>
 # [Link from a Text](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/058.%20Link%20from%20a%20Text) 
@@ -364,19 +365,20 @@
 ##
 <a name="59"></a>
 # [Share Sheet](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/059.%20Share%20Sheet)  
- 
+ ![ShareSheet](https://github.com/user-attachments/assets/3e2adac7-aec5-4d4d-b45f-c2f51ba52e18)
 ##  
 
  <a name="60"></a>
 # [Strings in Swift](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/060.%20Strings%20in%20Swift) 
-
+![Strings in Swift](https://github.com/user-attachments/assets/ff21718c-4e6f-4af9-9e89-d3115c27b296)
 ##
 <a name="61"></a>
 # [Xcode Playground](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/061.%20Xcode%20Playground)  
- 
+ ![Xcode Playground](https://github.com/user-attachments/assets/6987fdb4-499d-4c87-bb99-394d3eb66c9c)
 ## 
 <a name="62"></a>
-# [AppStorage](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/062.%20AppStorage)  
+# [AppStorage](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/062.%20AppStorage) 
+![AppStorage ](https://github.com/user-attachments/assets/e0572bae-66fd-40f0-96f7-c921eb8eba3b) 
 ##  
  <a name="63"></a>
 # [Action Sheet](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/063.%20Action%20Sheet) 
@@ -433,6 +435,7 @@
 
 <a name="76"></a>
 # [Format Date with Formatted](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/076.%20Format%20Date%20with%20Formatted)   
+![ Format Date with Formatted](https://github.com/user-attachments/assets/0373586f-595b-4cbb-ba22-cde9c671d5f4)
 ## 
 <a name="77"></a>
 # [List Row Separators](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/077.%20List%20Row%20Separators)   
@@ -584,4 +587,34 @@
 <a name="113"></a>
 # [Parallax ScrollView](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/113.%20Parallax%20ScrollView)
 ![Parallax ScrollView (2) (1)](https://github.com/user-attachments/assets/7901bb80-650b-4a6b-92a3-bca56f57bc0e)
+##
+ <a name="114"></a>
+# [Navigation Transition in SwiftUI](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/114.%20Navigation%20Transition%20in%20SwiftUI)
+![Navigation Transition in SwiftUI](https://github.com/user-attachments/assets/2852f195-268a-4842-8ab6-673ecb852800)
+##
+<a name="115"></a>
+# [Text Transition with Text Renderer in SwiftUI](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/115.%20Text%20Transition%20with%20Text%20Renderer%20in%20SwiftU)
+![Text Transition with Text Renderer](https://github.com/user-attachments/assets/1f6064bd-a9b5-4e2f-83a9-aa71333dc37d)
+ ##
+<a name="116"></a>
+# [Font Weight Animation in SwiftUI](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/116.%20Font%20Weight%20Animation%20in%20SwiftUI)
+![Font Weight Animation](https://github.com/user-attachments/assets/628e6f1f-0c97-4341-b407-c4dc053180f4)
+##
+
+  
+<a name="117"></a>
+# [Ripple Visual Effect Interaction with Metal Shader](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/117.%20Ripple%20Visual%20Effect%20Interaction%20with%20Metal%20Shader)
+![Ripple Visual Effect Interaction with Metal Shader](https://github.com/user-attachments/assets/60d40428-d13f-47e6-9d3e-8d2c8d72a500)
+ ##
+<a name="118"></a>
+# [Custom View Modifier in SwiftUI](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/118.%20Custom%20View%20Modifier%20in%20SwiftUI)
+ 
+##
+<a name="119"></a>
+# [Progressive Blur in SwiftUI](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/119.%20Progressive%20Blur%20in%20SwiftUI)
+![Progressive Blur in SwiftUI](https://github.com/user-attachments/assets/32482bc8-48b1-433f-b499-40aa0319ff69)
+##
+<a name="120"></a>
+# [Numeric Text Animation using ContentTransition](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/001.%20SwiftUI%20Handbook/120.%20Numeric%20Text%20Animation%20using%20ContentTransition)
+![Numeric Text Animation using ContentTransition](https://github.com/user-attachments/assets/4428e5a7-67f2-401d-b7b2-da58bcdc7957) 
 ##
