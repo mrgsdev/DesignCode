@@ -118,13 +118,13 @@
 - [x] [111. Expanding View](#111)
 - [x] [112. Mesh Gradient in SwiftUI](#112)
 - [x] [113. Parallax ScrollView](#113)
-- [ ] [114. Navigation Transition in SwiftUI](#114)
-- [ ] [115. Text Transition with Text Renderer in SwiftUI](#115)
-- [ ] [116. Font Weight Animation in SwiftUI](#116)
-- [ ] [117. Ripple Visual Effect Interaction with Metal Shader](#117)
-- [ ] [118. Custom View Modifier in SwiftUI](#118)
-- [ ] [119. Progressive Blur in SwiftUI](#119)
-- [ ] [120. Numeric Text Animation using ContentTransition](#120)
+- [x] [114. Navigation Transition in SwiftUI](#114)
+- [x] [115. Text Transition with Text Renderer in SwiftUI](#115)
+- [x] [116. Font Weight Animation in SwiftUI](#116)
+- [x] [117. Ripple Visual Effect Interaction with Metal Shader](#117)
+- [x] [118. Custom View Modifier in SwiftUI](#118)
+- [x] [119. Progressive Blur in SwiftUI](#119)
+- [x] [120. Numeric Text Animation using ContentTransition](#120)
 
 </details>
 
