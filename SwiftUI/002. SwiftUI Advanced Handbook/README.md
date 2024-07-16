@@ -5,9 +5,9 @@
 
 <details><summary><h1>Overview</h1></summary>
  
-- [ ] [1. Firebase Auth](#1)
-- [ ] [2. Read from Firestore](#2)
-- [ ] [3. Write to Firestore](#3)
+- [x] [1. Firebase Auth](#1)
+- [x] [2. Read from Firestore](#2)
+- [x] [3. Write to Firestore](#3)
 - [ ] [4. Join an array of Strings](#4)
 - [ ] [5. Data from JSON](#5)
 - [ ] [6. HTTP request](#6)
@@ -52,12 +52,15 @@
 
 <a name="1"></a>
 # [Firebase Auth](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/002.%20SwiftUI%20Advanced%20Handbook/01.%20Firebase%20Auth)
+![AUTH](https://github.com/user-attachments/assets/a1954702-d2c5-407c-a30a-cd373d9e1792)
 ##
 <a name="2"></a>
 # [Read from Firestore](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/002.%20SwiftUI%20Advanced%20Handbook/02.%20Read%20from%20Firestore)
+![read](https://github.com/user-attachments/assets/e866a710-2fad-47ef-9fea-522044885aa5)
 ##
 <a name="3"></a>
 # [Write to Firestore](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/002.%20SwiftUI%20Advanced%20Handbook/03.%20Write%20to%20Firestore)
+![Write](https://github.com/user-attachments/assets/c86a987b-2818-4499-9081-662478396088)
 ##
 <a name="4"></a>
 # [Join an array of Strings](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/002.%20SwiftUI%20Advanced%20Handbook/04.%20Join%20an%20array%20of%20Strings)
