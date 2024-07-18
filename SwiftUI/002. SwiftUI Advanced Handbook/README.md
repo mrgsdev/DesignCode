@@ -8,9 +8,9 @@
 - [x] [1. Firebase Auth](#1)
 - [x] [2. Read from Firestore](#2)
 - [x] [3. Write to Firestore](#3)
-- [ ] [4. Join an array of Strings](#4)
-- [ ] [5. Data from JSON](#5)
-- [ ] [6. HTTP request](#6)
+- [x] [4. Join an array of Strings](#4)
+- [x] [5. Data from JSON](#5)
+- [x] [6. HTTP request](#6)
 - [ ] [7. WKWebView](#7)
 - [ ] [8. Code highlighting in a WebView](#8)
 - [x] [9. Test for production](#9)
@@ -64,12 +64,15 @@
 ##
 <a name="4"></a>
 # [Join an array of Strings](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/002.%20SwiftUI%20Advanced%20Handbook/04.%20Join%20an%20array%20of%20Strings)
+![Join an array of Strings](https://github.com/user-attachments/assets/849df7e3-ec77-43a5-addf-7b078364a75b)
 ##
 <a name="5"></a>
 # [Data from JSON](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/002.%20SwiftUI%20Advanced%20Handbook/05.%20Data%20from%20JSON)
+![Data from JSON](https://github.com/user-attachments/assets/6bd02b22-3daf-41da-a59e-57fd0d90dbc9)
 ##
 <a name="6"></a>
 # [HTTP request](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/002.%20SwiftUI%20Advanced%20Handbook/06.%20HTTP%20request)
+![HTTP request](https://github.com/user-attachments/assets/a9728a2f-3f06-49f9-ab16-e21b1f51d8da)
 ##
 <a name="7"></a>
 # [WKWebView](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/002.%20SwiftUI%20Advanced%20Handbook/07.%20WKWebView)
