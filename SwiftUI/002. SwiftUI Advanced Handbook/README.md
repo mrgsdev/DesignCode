@@ -11,8 +11,8 @@
 - [x] [4. Join an array of Strings](#4)
 - [x] [5. Data from JSON](#5)
 - [x] [6. HTTP request](#6)
-- [ ] [7. WKWebView](#7)
-- [ ] [8. Code highlighting in a WebView](#8)
+- [x] [7. WKWebView](#7)
+- [x] [8. Code highlighting in a WebView](#8)
 - [x] [9. Test for production](#9)
 - [x] [10. Debug performance in a WebView](#10)
 - [x] [11. Debug a crash log](#11)
@@ -76,9 +76,11 @@
 ##
 <a name="7"></a>
 # [WKWebView](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/002.%20SwiftUI%20Advanced%20Handbook/07.%20WKWebView)
+![WKWebView](https://github.com/user-attachments/assets/d04ef6e1-afc3-4c5c-9fba-cdc47b30bab1)
 ##
 <a name="8"></a>
 # [Code highlighting in a WebView](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/002.%20SwiftUI%20Advanced%20Handbook/08.%20Code%20highlighting%20in%20a%20WebView)
+![Code highlighting  in  a WebView](https://github.com/user-attachments/assets/b19b1fd8-fc53-4b8a-932c-b05b8d95071f)
 ##
 <a name="9"></a>
 # [Test for production](https://github.com/mrgsdev/DesignCode/tree/main/SwiftUI/002.%20SwiftUI%20Advanced%20Handbook/09.%20Test%20for%20production)
