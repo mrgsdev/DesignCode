@@ -16,7 +16,7 @@
 - [x] [9. Test for production](#9)
 - [x] [10. Debug performance in a WebView](#10)
 - [x] [11. Debug a crash log](#11)
-- [x ] [12. Simulate a bad network](#12)
+- [x] [12. Simulate a bad network](#12)
 - [ ] [13. Archive a build in Xcode](#13)
 - [ ] [14. Apollo GraphQL Part I](#14)
 - [ ] [15. Apollo GraphQL Part II](#15)
