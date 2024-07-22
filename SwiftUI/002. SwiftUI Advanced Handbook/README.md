@@ -21,7 +21,7 @@
 - [ ] [14. Apollo GraphQL Part I](#14)
 - [ ] [15. Apollo GraphQL Part II](#15)
 - [ ] [16. Apollo GraphQL Part III](#16)
-- [x ] [17. Configuration files in Xcode](#17)
+- [x] [17. Configuration files in Xcode](#17)
 - [ ] [18. AppReview](#18)
 - [ ] [19. ImagePicker](#19)
 - [ ] [20. Compress a UIImage](#20)
