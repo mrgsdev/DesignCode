@@ -1,0 +1,11 @@
+//
+//  Production.xcconfig
+//  Configuration files in Xcode
+//
+//  Created by mrgsdev on 19.07.2024.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_URL = api.production.com
