@@ -20,7 +20,7 @@
 - [x] [13. Archive a build in Xcode](#13)
 - [x] [14. Apollo GraphQL Part I](#14)
 - [x] [15. Apollo GraphQL Part II](#15)
-- [ x] [16. Apollo GraphQL Part III](#16)
+- [x] [16. Apollo GraphQL Part III](#16)
 - [x] [17. Configuration files in Xcode](#17)
 - [ ] [18. AppReview](#18)
 - [x] [19. ImagePicker](#19)
