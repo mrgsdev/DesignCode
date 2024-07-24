@@ -1,0 +1,13 @@
+{
+  "id": "109",
+  "site": "CCAFS SLC 40",
+  "mission": {
+    "name": "Starlink-15 (v1.0)"
+  },
+  "rocket": {
+    "id": "falcon9",
+    "name": "Falcon 9",
+    "type": "FT"
+  },
+  "isBooked": false
+}
