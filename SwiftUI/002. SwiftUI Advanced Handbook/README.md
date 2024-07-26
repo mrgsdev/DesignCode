@@ -24,7 +24,7 @@
 - [x] [17. Configuration files in Xcode](#17)
 - [x] [18. AppReview](#18)
 - [x] [19. ImagePicker](#19)
-- [x ] [20. Compress a UIImage](#20)
+- [x] [20. Compress a UIImage](#20)
 - [ ] [21. Firebase Storage 2](#21)
 - [ ] [22. Search Feature](#22)
 - [ ] [23. Push Notifications Part I](#23)
