@@ -41,7 +41,6 @@
 		4209DD952C563C3400AA7C70 = {
 			isa = PBXGroup;
 			children = (
-				42A738E92C58C4D80006D603 /* HomeView.swift */,
 				4209DDA02C563C3400AA7C70 /* Build an app with SwiftUI */,
 				4209DD9F2C563C3400AA7C70 /* Products */,
 			);
@@ -58,6 +57,7 @@
 		4209DDA02C563C3400AA7C70 /* Build an app with SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				42A738E92C58C4D80006D603 /* HomeView.swift */,
 				42141E282C57935E009BF084 /* Home.swift */,
 				4209DDA12C563C3400AA7C70 /* Build_an_app_with_SwiftUIApp.swift */,
 				4209DDA32C563C3400AA7C70 /* ContentView.swift */,
