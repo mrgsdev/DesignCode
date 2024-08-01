@@ -14,6 +14,7 @@
 		42141E272C578E97009BF084 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42141E262C578E97009BF084 /* MenuView.swift */; };
 		42141E292C57935E009BF084 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42141E282C57935E009BF084 /* Home.swift */; };
 		42A738EA2C58C4D80006D603 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A738E92C58C4D80006D603 /* HomeView.swift */; };
+		42A738EC2C5BA5E90006D603 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A738EB2C5BA5E90006D603 /* UpdateList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		42141E262C578E97009BF084 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		42141E282C57935E009BF084 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		42A738E92C58C4D80006D603 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		42A738EB2C5BA5E90006D603 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		4209DDA02C563C3400AA7C70 /* Build an app with SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				42A738EB2C5BA5E90006D603 /* UpdateList.swift */,
 				42A738E92C58C4D80006D603 /* HomeView.swift */,
 				42141E282C57935E009BF084 /* Home.swift */,
 				4209DDA12C563C3400AA7C70 /* Build_an_app_with_SwiftUIApp.swift */,
@@ -148,6 +151,7 @@
 			files = (
 				4209DDA42C563C3400AA7C70 /* ContentView.swift in Sources */,
 				42141E272C578E97009BF084 /* MenuView.swift in Sources */,
+				42A738EC2C5BA5E90006D603 /* UpdateList.swift in Sources */,
 				42141E292C57935E009BF084 /* Home.swift in Sources */,
 				42A738EA2C58C4D80006D603 /* HomeView.swift in Sources */,
 				4209DDA22C563C3400AA7C70 /* Build_an_app_with_SwiftUIApp.swift in Sources */,
