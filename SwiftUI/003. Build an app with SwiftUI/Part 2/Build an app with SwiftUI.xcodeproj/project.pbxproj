@@ -19,6 +19,17 @@
 		42A738F02C5BA89C0006D603 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A738EF2C5BA89C0006D603 /* UpdateStore.swift */; };
 		42A738F22C5BAB890006D603 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A738F12C5BAB890006D603 /* TabBar.swift */; };
 		42DEC5732C5C2F9600C49345 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DEC5722C5C2F9600C49345 /* RingView.swift */; };
+		42DFA65F2C5E203B00D048BC /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DFA65E2C5E203B00D048BC /* Modifiers.swift */; };
+		42DFA66B2C5E21FE00D048BC /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 42DFA6602C5E21FE00D048BC /* OFL.txt */; };
+		42DFA66C2C5E21FE00D048BC /* WorkSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DFA6612C5E21FE00D048BC /* WorkSans-Black.ttf */; };
+		42DFA66D2C5E21FE00D048BC /* WorkSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DFA6622C5E21FE00D048BC /* WorkSans-Bold.ttf */; };
+		42DFA66E2C5E21FE00D048BC /* WorkSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DFA6632C5E21FE00D048BC /* WorkSans-ExtraBold.ttf */; };
+		42DFA66F2C5E21FE00D048BC /* WorkSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DFA6642C5E21FE00D048BC /* WorkSans-ExtraLight.ttf */; };
+		42DFA6702C5E21FE00D048BC /* WorkSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DFA6652C5E21FE00D048BC /* WorkSans-Light.ttf */; };
+		42DFA6712C5E21FE00D048BC /* WorkSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DFA6662C5E21FE00D048BC /* WorkSans-Medium.ttf */; };
+		42DFA6722C5E21FE00D048BC /* WorkSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DFA6672C5E21FE00D048BC /* WorkSans-Regular.ttf */; };
+		42DFA6732C5E21FE00D048BC /* WorkSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DFA6682C5E21FE00D048BC /* WorkSans-SemiBold.ttf */; };
+		42DFA6742C5E21FE00D048BC /* WorkSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DFA6692C5E21FE00D048BC /* WorkSans-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +46,18 @@
 		42A738EF2C5BA89C0006D603 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
 		42A738F12C5BAB890006D603 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		42DEC5722C5C2F9600C49345 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		42DFA65E2C5E203B00D048BC /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		42DFA6602C5E21FE00D048BC /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		42DFA6612C5E21FE00D048BC /* WorkSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Black.ttf"; sourceTree = "<group>"; };
+		42DFA6622C5E21FE00D048BC /* WorkSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.ttf"; sourceTree = "<group>"; };
+		42DFA6632C5E21FE00D048BC /* WorkSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		42DFA6642C5E21FE00D048BC /* WorkSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		42DFA6652C5E21FE00D048BC /* WorkSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Light.ttf"; sourceTree = "<group>"; };
+		42DFA6662C5E21FE00D048BC /* WorkSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Medium.ttf"; sourceTree = "<group>"; };
+		42DFA6672C5E21FE00D048BC /* WorkSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Regular.ttf"; sourceTree = "<group>"; };
+		42DFA6682C5E21FE00D048BC /* WorkSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		42DFA6692C5E21FE00D048BC /* WorkSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Thin.ttf"; sourceTree = "<group>"; };
+		42DFA6752C5E221500D048BC /* Build-an-app-with-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Build-an-app-with-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +90,8 @@
 		4209DDA02C563C3400AA7C70 /* Build an app with SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				42DFA6752C5E221500D048BC /* Build-an-app-with-SwiftUI-Info.plist */,
+				42DFA66A2C5E21FE00D048BC /* Work_Sans */,
 				42A738ED2C5BA7420006D603 /* UpdateDetail.swift */,
 				42A738EF2C5BA89C0006D603 /* UpdateStore.swift */,
 				42A738EB2C5BA5E90006D603 /* UpdateList.swift */,
@@ -79,6 +104,7 @@
 				4209DDA52C563C3400AA7C70 /* Assets.xcassets */,
 				4209DDA12C563C3400AA7C70 /* Build_an_app_with_SwiftUIApp.swift */,
 				4209DDA72C563C3400AA7C70 /* Preview Content */,
+				42DFA65E2C5E203B00D048BC /* Modifiers.swift */,
 			);
 			path = "Build an app with SwiftUI";
 			sourceTree = "<group>";
@@ -89,6 +115,23 @@
 				4209DDA82C563C3400AA7C70 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42DFA66A2C5E21FE00D048BC /* Work_Sans */ = {
+			isa = PBXGroup;
+			children = (
+				42DFA6602C5E21FE00D048BC /* OFL.txt */,
+				42DFA6612C5E21FE00D048BC /* WorkSans-Black.ttf */,
+				42DFA6622C5E21FE00D048BC /* WorkSans-Bold.ttf */,
+				42DFA6632C5E21FE00D048BC /* WorkSans-ExtraBold.ttf */,
+				42DFA6642C5E21FE00D048BC /* WorkSans-ExtraLight.ttf */,
+				42DFA6652C5E21FE00D048BC /* WorkSans-Light.ttf */,
+				42DFA6662C5E21FE00D048BC /* WorkSans-Medium.ttf */,
+				42DFA6672C5E21FE00D048BC /* WorkSans-Regular.ttf */,
+				42DFA6682C5E21FE00D048BC /* WorkSans-SemiBold.ttf */,
+				42DFA6692C5E21FE00D048BC /* WorkSans-Thin.ttf */,
+			);
+			path = Work_Sans;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +192,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42DFA66F2C5E21FE00D048BC /* WorkSans-ExtraLight.ttf in Resources */,
+				42DFA66C2C5E21FE00D048BC /* WorkSans-Black.ttf in Resources */,
+				42DFA66B2C5E21FE00D048BC /* OFL.txt in Resources */,
+				42DFA6702C5E21FE00D048BC /* WorkSans-Light.ttf in Resources */,
 				4209DDA92C563C3400AA7C70 /* Preview Assets.xcassets in Resources */,
 				4209DDA62C563C3400AA7C70 /* Assets.xcassets in Resources */,
+				42DFA66E2C5E21FE00D048BC /* WorkSans-ExtraBold.ttf in Resources */,
+				42DFA6712C5E21FE00D048BC /* WorkSans-Medium.ttf in Resources */,
+				42DFA66D2C5E21FE00D048BC /* WorkSans-Bold.ttf in Resources */,
+				42DFA6742C5E21FE00D048BC /* WorkSans-Thin.ttf in Resources */,
+				42DFA6722C5E21FE00D048BC /* WorkSans-Regular.ttf in Resources */,
+				42DFA6732C5E21FE00D048BC /* WorkSans-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42DEC5732C5C2F9600C49345 /* RingView.swift in Sources */,
+				42DFA65F2C5E203B00D048BC /* Modifiers.swift in Sources */,
 				42A738F22C5BAB890006D603 /* TabBar.swift in Sources */,
 				42A738EE2C5BA7420006D603 /* UpdateDetail.swift in Sources */,
 				4209DDA42C563C3400AA7C70 /* ContentView.swift in Sources */,
@@ -307,6 +361,7 @@
 				DEVELOPMENT_TEAM = Y2Y34S7QM3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Build-an-app-with-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -336,6 +391,7 @@
 				DEVELOPMENT_TEAM = Y2Y34S7QM3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Build-an-app-with-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
