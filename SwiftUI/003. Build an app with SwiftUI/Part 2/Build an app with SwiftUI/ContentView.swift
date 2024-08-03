@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State var show = false
+    
     @State var viewState = CGSize.zero
     @State var showCard = false
     @State var bottomState = CGSize.zero
@@ -24,9 +25,9 @@ struct ContentView: View {
                     Animation
                         .default
                         .delay(0.1)
-//                        .speed(2)
-//                        .repeatForever(autoreverses: true)
-            )
+                    //                        .speed(2)
+                    //                        .repeatForever(autoreverses: true)
+                )
             
             BackCardView()
                 .frame(width: showCard ? 300 : 340, height: 220)
@@ -61,7 +62,7 @@ struct ContentView: View {
             CardView()
                 .frame(width: showCard ? 375 : 340.0, height: 220.0)
                 .background(Color.black)
-//                .cornerRadius(20)
+            //                .cornerRadius(20)
                 .clipShape(RoundedRectangle(cornerRadius: showCard ? 30 : 20, style: .continuous))
                 .shadow(radius: 20)
                 .offset(x: viewState.width, y: viewState.height)
@@ -70,48 +71,48 @@ struct ContentView: View {
                 .animation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: 0))
                 .onTapGesture {
                     self.showCard.toggle()
-            }
-            .gesture(
-                DragGesture().onChanged { value in
-                    self.viewState = value.translation
-                    self.show = true
                 }
-                .onEnded { value in
-                    self.viewState = .zero
-                    self.show = false
-                }
-            )
+                .gesture(
+                    DragGesture().onChanged { value in
+                        self.viewState = value.translation
+                        self.show = true
+                    }
+                        .onEnded { value in
+                            self.viewState = .zero
+                            self.show = false
+                        }
+                )
             
-//            Text("\(bottomState.height)").offset(y: -300)
+            //            Text("\(bottomState.height)").offset(y: -300)
             
-            BottomCardView()
+            BottomCardView(show: $showCard)
                 .offset(x: 0, y: showCard ? 360 : 1000)
                 .offset(y: bottomState.height)
                 .blur(radius: show ? 20 : 0)
                 .animation(.timingCurve(0.2, 0.8, 0.2, 1, duration: 0.8))
-            .gesture(
-                DragGesture().onChanged { value in
-                    self.bottomState = value.translation
-                    if self.showFull {
-                        self.bottomState.height += -300
+                .gesture(
+                    DragGesture().onChanged { value in
+                        self.bottomState = value.translation
+                        if self.showFull {
+                            self.bottomState.height += -300
+                        }
+                        if self.bottomState.height < -300 {
+                            self.bottomState.height = -300
+                        }
                     }
-                    if self.bottomState.height < -300 {
-                        self.bottomState.height = -300
-                    }
-                }
-                .onEnded { value in
-                    if self.bottomState.height > 50 {
-                        self.showCard = false
-                    }
-                    if (self.bottomState.height < -100 && !self.showFull) || (self.bottomState.height < -250 && self.showFull) {
-                        self.bottomState.height = -300
-                        self.showFull = true
-                    } else {
-                        self.bottomState = .zero
-                        self.showFull = false
-                    }
-                }
-            )
+                        .onEnded { value in
+                            if self.bottomState.height > 50 {
+                                self.showCard = false
+                            }
+                            if (self.bottomState.height < -100 && !self.showFull) || (self.bottomState.height < -250 && self.showFull) {
+                                self.bottomState.height = -300
+                                self.showFull = true
+                            } else {
+                                self.bottomState = .zero
+                                self.showFull = false
+                            }
+                        }
+                )
         }
     }
 }
@@ -173,6 +174,7 @@ struct TitleView: View {
 }
 
 struct BottomCardView: View {
+    @Binding var show:Bool
     var body: some View {
         VStack(spacing: 20) {
             Rectangle()
@@ -183,8 +185,34 @@ struct BottomCardView: View {
                 .multilineTextAlignment(.center)
                 .font(.subheadline)
                 .lineSpacing(4)
+            
+            HStack(spacing: 20.0) {
+                RingView(
+                    show: $show,
+                    color1: .blue,
+                    color2: .purple,
+                    width: 88,
+                    height: 88,
+                    percent: 78
+                )
+                
+                
+                VStack(alignment: .leading, spacing: 8.0) {
+                    Text("SwiftUI").fontWeight(.bold)
+                    Text("12 of 12 sections completed\n10 hours spent so far")
+                        .font(.footnote)
+                        .foregroundColor(.gray)
+                        .lineSpacing(4)
+                }
+                .padding(20)
+                .background(Color.white)
+                .cornerRadius(20)
+                .shadow(color: Color.black.opacity(0.2), radius: 20, x: 0, y: 10)
+            }
+            
             Spacer()
         }
+        
         .padding(.top, 8)
         .padding(.horizontal, 20)
         .frame(maxWidth: .infinity)
@@ -192,9 +220,13 @@ struct BottomCardView: View {
         .cornerRadius(30)
         .shadow(radius: 20)
     }
+    
+    
 }
 
 
+
 #Preview {
+    //    BottomCardView(show: .constant(true))
     ContentView()
 }
