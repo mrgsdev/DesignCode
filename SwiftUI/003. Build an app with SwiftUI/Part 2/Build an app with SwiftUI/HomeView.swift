@@ -10,65 +10,88 @@ import SwiftUI
 struct HomeView: View {
     @Binding var showProfile: Bool
     @State var showUpdate = false
+    @Binding var showContent: Bool
     var body: some View {
-        VStack {
-            HStack {
-                Text("Watching")
-//                    .font(.system(size: 28, weight: .bold))
-                    .modifier(CustomFontModifier(size: 28))
-                
-                Spacer()
-                
-                AvatarView(showProfile: $showProfile)
-                Button(action: { self.showUpdate.toggle() }) {
-                    Image(systemName: "bell")
-                        .renderingMode(.original)
-                        .font(.system(size: 16, weight: .medium))
-                        .frame(width: 36, height: 36)
-                        .background(Color.white)
-                        .clipShape(Circle())
-                        .modifier(ShadowModifier())
-                }
-                .sheet(isPresented: $showUpdate) {
-                    UpdateList()
-                }
-                
-            }
-            .padding(.horizontal)
-            .padding(.leading, 14)
-            .padding(.top, 30)
-            
-            ScrollView(.horizontal,showsIndicators: false) {
-                WatchRingsView()
-                    .padding(.horizontal,30)
-                    .padding(.bottom,30)
-            }
-
-           
-            
-            
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 30) {
-                    ForEach(sectionData) { item in
-                        GeometryReader { geometry in
-                            SectionView(section: item)
-                                .rotation3DEffect(Angle(degrees:
-                                                            Double(geometry.frame(in: .global).minX - 30) / -20
-                                                       ), axis: (x: 0, y: 10, z: 0))
-                        }
-                        .frame(width: 275, height: 275)
+        ScrollView {
+            VStack {
+                HStack {
+                    Text("Watching")
+    //                    .font(.system(size: 28, weight: .bold))
+                        .modifier(CustomFontModifier(size: 28))
+                    
+                    Spacer()
+                    
+                    AvatarView(showProfile: $showProfile)
+                    Button(action: { self.showUpdate.toggle() }) {
+                        Image(systemName: "bell")
+                            .renderingMode(.original)
+                            .font(.system(size: 16, weight: .medium))
+                            .frame(width: 36, height: 36)
+                            .background(Color.white)
+                            .clipShape(Circle())
+                            .modifier(ShadowModifier())
                     }
+                    .sheet(isPresented: $showUpdate) {
+                        UpdateList()
+                    }
+                    
                 }
-                .padding(30)
-                .padding(.bottom, 30)
+                .padding(.horizontal)
+                .padding(.leading, 14)
+                .padding(.top, 30)
+                
+                ScrollView(.horizontal,showsIndicators: false) {
+                    WatchRingsView()
+                        .padding(.horizontal,30)
+                        .padding(.bottom,30)
+                        .onTapGesture {
+                            self.showContent = true
+                        }
+                }
+
+               
+                
+                
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 30) {
+                        ForEach(sectionData) { item in
+                            GeometryReader { geometry in
+                                SectionView(section: item)
+                                    .rotation3DEffect(Angle(degrees:
+                                                                Double(geometry.frame(in: .global).minX - 30) / -20
+                                                           ), axis: (x: 0, y: 10, z: 0))
+                            }
+                            .frame(width: 275, height: 275)
+                        }
+                    }
+                    .padding(30)
+                    .padding(.bottom, 30)
+                }
+                .offset(y: -30)
+                HStack {
+                    Text("Courses")
+                        .font(.title).bold()
+                    Spacer()
+                }
+                .padding(.leading, 30)
+                .offset(y: -60)
+                
+                SectionView(
+                    section: sectionData[2],
+                    width: screen.width - 60,
+                    height: 275
+                )
+                .offset(y: -60)
+                Spacer()
             }
-            
-            Spacer()
         }
     }
 }
 struct SectionView: View {
     var section: Section
+    var width: CGFloat = 275
+    var height: CGFloat = 275
+    
     var body: some View {
         VStack {
             HStack(alignment: .top) {
@@ -90,15 +113,18 @@ struct SectionView: View {
         }
         .padding(.top, 20)
         .padding(.horizontal, 20)
-        .frame(width: 275, height: 275)
+        .frame(width: width, height: height)
         .background(section.color)
         .cornerRadius(30)
-        .shadow(color: Color(section.color).opacity(0.3), radius: 20, x: 0, y: 20)
+        .shadow(color: section.color.opacity(0.3), radius: 20, x: 0, y: 20)
     }
 }
 
 #Preview {
-    HomeView(showProfile: .constant(false))
+    HomeView(
+        showProfile: .constant(false),
+        showContent: .constant(false)
+    )
 }
 
 struct Section: Identifiable {
