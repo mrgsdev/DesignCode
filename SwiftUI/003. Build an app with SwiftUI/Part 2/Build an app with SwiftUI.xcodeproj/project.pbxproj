@@ -23,6 +23,8 @@
 		42ACE8912C64A730006F9181 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACE8902C64A730006F9181 /* Data.swift */; };
 		42ACE8932C64A81E006F9181 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACE8922C64A81E006F9181 /* PostList.swift */; };
 		42ACE8952C64A8FA006F9181 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACE8942C64A8FA006F9181 /* DataStore.swift */; };
+		42ACE8982C64AA57006F9181 /* Contentful in Frameworks */ = {isa = PBXBuildFile; productRef = 42ACE8972C64AA57006F9181 /* Contentful */; };
+		42ACE89A2C64AC19006F9181 /* CourseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACE8992C64AC19006F9181 /* CourseStore.swift */; };
 		42DEC5732C5C2F9600C49345 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DEC5722C5C2F9600C49345 /* RingView.swift */; };
 		42DFA65F2C5E203B00D048BC /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DFA65E2C5E203B00D048BC /* Modifiers.swift */; };
 		42DFA66B2C5E21FE00D048BC /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 42DFA6602C5E21FE00D048BC /* OFL.txt */; };
@@ -55,6 +57,7 @@
 		42ACE8902C64A730006F9181 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		42ACE8922C64A81E006F9181 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
 		42ACE8942C64A8FA006F9181 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		42ACE8992C64AC19006F9181 /* CourseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseStore.swift; sourceTree = "<group>"; };
 		42DEC5722C5C2F9600C49345 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		42DFA65E2C5E203B00D048BC /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		42DFA6602C5E21FE00D048BC /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
@@ -75,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42ACE8982C64AA57006F9181 /* Contentful in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +121,7 @@
 				4209DDA72C563C3400AA7C70 /* Preview Content */,
 				42DFA65E2C5E203B00D048BC /* Modifiers.swift */,
 				423DDD592C5F6FDF00158011 /* CourseList.swift */,
+				42ACE8992C64AC19006F9181 /* CourseStore.swift */,
 				4207A8642C63683300C62899 /* CourseDetail.swift */,
 				42ACE8902C64A730006F9181 /* Data.swift */,
 				42ACE8942C64A8FA006F9181 /* DataStore.swift */,
@@ -165,6 +170,9 @@
 			dependencies = (
 			);
 			name = "Build an app with SwiftUI";
+			packageProductDependencies = (
+				42ACE8972C64AA57006F9181 /* Contentful */,
+			);
 			productName = "Build an app with SwiftUI";
 			productReference = 4209DD9E2C563C3400AA7C70 /* Build an app with SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -193,6 +201,9 @@
 				Base,
 			);
 			mainGroup = 4209DD952C563C3400AA7C70;
+			packageReferences = (
+				42ACE8962C64AA57006F9181 /* XCRemoteSwiftPackageReference "contentful.swift" */,
+			);
 			productRefGroup = 4209DD9F2C563C3400AA7C70 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,6 +247,7 @@
 				42A738F22C5BAB890006D603 /* TabBar.swift in Sources */,
 				42A738EE2C5BA7420006D603 /* UpdateDetail.swift in Sources */,
 				423DDD5A2C5F6FDF00158011 /* CourseList.swift in Sources */,
+				42ACE89A2C64AC19006F9181 /* CourseStore.swift in Sources */,
 				4209DDA42C563C3400AA7C70 /* ContentView.swift in Sources */,
 				42141E272C578E97009BF084 /* MenuView.swift in Sources */,
 				42ACE8912C64A730006F9181 /* Data.swift in Sources */,
@@ -452,6 +464,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		42ACE8962C64AA57006F9181 /* XCRemoteSwiftPackageReference "contentful.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/contentful/contentful.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.11;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		42ACE8972C64AA57006F9181 /* Contentful */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 42ACE8962C64AA57006F9181 /* XCRemoteSwiftPackageReference "contentful.swift" */;
+			productName = Contentful;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4209DD962C563C3400AA7C70 /* Project object */;
 }
