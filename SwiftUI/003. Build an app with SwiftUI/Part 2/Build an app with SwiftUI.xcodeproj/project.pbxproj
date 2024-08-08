@@ -22,6 +22,7 @@
 		42A738F22C5BAB890006D603 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A738F12C5BAB890006D603 /* TabBar.swift */; };
 		42ACE8912C64A730006F9181 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACE8902C64A730006F9181 /* Data.swift */; };
 		42ACE8932C64A81E006F9181 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACE8922C64A81E006F9181 /* PostList.swift */; };
+		42ACE8952C64A8FA006F9181 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACE8942C64A8FA006F9181 /* DataStore.swift */; };
 		42DEC5732C5C2F9600C49345 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DEC5722C5C2F9600C49345 /* RingView.swift */; };
 		42DFA65F2C5E203B00D048BC /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DFA65E2C5E203B00D048BC /* Modifiers.swift */; };
 		42DFA66B2C5E21FE00D048BC /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 42DFA6602C5E21FE00D048BC /* OFL.txt */; };
@@ -53,6 +54,7 @@
 		42A738F12C5BAB890006D603 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		42ACE8902C64A730006F9181 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		42ACE8922C64A81E006F9181 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		42ACE8942C64A8FA006F9181 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		42DEC5722C5C2F9600C49345 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		42DFA65E2C5E203B00D048BC /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		42DFA6602C5E21FE00D048BC /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				423DDD592C5F6FDF00158011 /* CourseList.swift */,
 				4207A8642C63683300C62899 /* CourseDetail.swift */,
 				42ACE8902C64A730006F9181 /* Data.swift */,
+				42ACE8942C64A8FA006F9181 /* DataStore.swift */,
 			);
 			path = "Build an app with SwiftUI";
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42DEC5732C5C2F9600C49345 /* RingView.swift in Sources */,
+				42ACE8952C64A8FA006F9181 /* DataStore.swift in Sources */,
 				42ACE8932C64A81E006F9181 /* PostList.swift in Sources */,
 				42DFA65F2C5E203B00D048BC /* Modifiers.swift in Sources */,
 				42A738F22C5BAB890006D603 /* TabBar.swift in Sources */,
