@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CourseList: View {
-    @State var courses = courseData
+    @ObservedObject var store = CourseStore()
     @State var active = false
     @State var activeIndex = -1
     @State var activeView = CGSize.zero
@@ -18,9 +18,7 @@ struct CourseList: View {
             Color.black.opacity(Double(self.activeView.height/500))
                 .animation(.linear)
                 .edgesIgnoringSafeArea(.all)
-                .onAppear {
-                    getArray()
-                }
+            
             ScrollView {
                 VStack(spacing: 30) {
                     Text("Courses")
@@ -30,24 +28,24 @@ struct CourseList: View {
                         .padding(.top, 30)
                         .blur(radius: active ? 20 : 0)
                     
-                    ForEach(courses.indices, id: \.self) { index in
+                    ForEach(store.courses.indices, id: \.self) { index in
                         GeometryReader { geometry in
                             CourseView(
-                                show: self.$courses[index].show,
-                                course: self.courses[index],
+                                show: self.$store.courses[index].show,
+                                course: self.store.courses[index],
                                 active: self.$active,
                                 index: index,
                                 activeIndex: self.$activeIndex,
                                 activeView: self.$activeView
                             )
-                                .offset(y: self.courses[index].show ? -geometry.frame(in: .global).minY : 0)
+                                .offset(y: self.store.courses[index].show ? -geometry.frame(in: .global).minY : 0)
                                 .opacity(self.activeIndex != index && self.active ? 0 : 1)
                                 .scaleEffect(self.activeIndex != index && self.active ? 0.5 : 1)
                                 .offset(x: self.activeIndex != index && self.active ? screen.width : 0)
                         }
                         .frame(height: 280)
-                        .frame(maxWidth: self.courses[index].show ? .infinity : screen.width - 60)
-                        .zIndex(self.courses[index].show ? 1 : 0)
+                        .frame(maxWidth: self.store.courses[index].show ? .infinity : screen.width - 60)
+                        .zIndex(self.store.courses[index].show ? 1 : 0)
                     }
                 }
                 .frame(width: screen.width)
@@ -59,8 +57,10 @@ struct CourseList: View {
     }
 }
 
-#Preview {
-    CourseList()
+struct CourseList_Previews: PreviewProvider {
+    static var previews: some View {
+        CourseList()
+    }
 }
 
 struct CourseView: View {
@@ -157,6 +157,7 @@ struct CourseView: View {
                     self.activeIndex = -1
                 }
             }
+            
             if show {
 //                CourseDetail(course: course, show: $show, active: $active, activeIndex: $activeIndex)
 //                    .background(Color.white)
@@ -190,7 +191,6 @@ struct CourseView: View {
     }
 }
 
-
 struct Course: Identifiable {
     var id = UUID()
     var title: String
@@ -200,6 +200,7 @@ struct Course: Identifiable {
     var color: UIColor
     var show: Bool
 }
+
 
 var courseData = [
     Course(
