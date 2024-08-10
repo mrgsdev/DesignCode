@@ -24,10 +24,11 @@ struct HomeView: View {
                     AvatarView(showProfile: $showProfile)
                     Button(action: { self.showUpdate.toggle() }) {
                         Image(systemName: "bell")
-                            .renderingMode(.original)
+//                            .renderingMode(.original)
+                            .foregroundStyle(.primary)
                             .font(.system(size: 16, weight: .medium))
                             .frame(width: 36, height: 36)
-                            .background(Color.white)
+                            .background(Color("background3"))
                             .clipShape(Circle())
                             .modifier(ShadowModifier())
                     }
@@ -84,6 +85,7 @@ struct HomeView: View {
                 .offset(y: -60)
                 Spacer()
             }
+            .frame(width: screen.width)
         }
     }
 }
@@ -182,7 +184,7 @@ struct WatchRingsView: View {
                 }
             }
             .padding(8)
-            .background(.white)
+            .background(Color("background3"))
             .cornerRadius(20)
             .modifier(ShadowModifier())
             
@@ -198,7 +200,7 @@ struct WatchRingsView: View {
                 
             }
             .padding(8)
-            .background(.white)
+            .background(Color("background3"))
             .cornerRadius(20)
             .modifier(ShadowModifier())
             
@@ -214,7 +216,7 @@ struct WatchRingsView: View {
                 
             }
             .padding(8)
-            .background(.white)
+            .background(Color("background3"))
             .cornerRadius(20)
             .modifier(ShadowModifier())
         }

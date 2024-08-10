@@ -43,16 +43,17 @@ struct MenuView: View {
             .frame(maxWidth: .infinity)
             .frame(height: 300)
             .background(
-                LinearGradient(
-                    gradient: Gradient(
-                        colors: [
-                            .white,
-                            .gray.opacity(0.1)
-                        ]
-                    ),
-                    startPoint: .top,
-                    endPoint: .bottom
-                )
+//                LinearGradient(
+//                    gradient: Gradient(
+//                        colors: [
+//                            Color("background3"),
+//                            Color("background3").opacity(0.6),
+//                        ]
+//                    ),
+//                    startPoint: .top,
+//                    endPoint: .bottom
+//                )
+                BlurView(style: .systemThinMaterial)
             )
             .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
             .shadow(color: Color.black.opacity(0.2), radius: 20, x: 0, y: 20)
