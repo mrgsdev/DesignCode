@@ -26,6 +26,7 @@
 		42ACE8952C64A8FA006F9181 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACE8942C64A8FA006F9181 /* DataStore.swift */; };
 		42ACE8982C64AA57006F9181 /* Contentful in Frameworks */ = {isa = PBXBuildFile; productRef = 42ACE8972C64AA57006F9181 /* Contentful */; };
 		42ACE89A2C64AC19006F9181 /* CourseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ACE8992C64AC19006F9181 /* CourseStore.swift */; };
+		42DCC0012C6795440034226A /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC0002C6795440034226A /* BlurView.swift */; };
 		42DEC5732C5C2F9600C49345 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DEC5722C5C2F9600C49345 /* RingView.swift */; };
 		42DFA65F2C5E203B00D048BC /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DFA65E2C5E203B00D048BC /* Modifiers.swift */; };
 		42DFA66B2C5E21FE00D048BC /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 42DFA6602C5E21FE00D048BC /* OFL.txt */; };
@@ -59,6 +60,7 @@
 		42ACE8922C64A81E006F9181 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
 		42ACE8942C64A8FA006F9181 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		42ACE8992C64AC19006F9181 /* CourseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseStore.swift; sourceTree = "<group>"; };
+		42DCC0002C6795440034226A /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		42DEC5722C5C2F9600C49345 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 		42DFA65E2C5E203B00D048BC /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		42DFA6602C5E21FE00D048BC /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		4209DDA02C563C3400AA7C70 /* Build an app with SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				42DCC0002C6795440034226A /* BlurView.swift */,
 				42ACE8922C64A81E006F9181 /* PostList.swift */,
 				42DFA6752C5E221500D048BC /* Build-an-app-with-SwiftUI-Info.plist */,
 				42DFA66A2C5E21FE00D048BC /* Work_Sans */,
@@ -249,6 +252,7 @@
 				42ACE8932C64A81E006F9181 /* PostList.swift in Sources */,
 				42DFA65F2C5E203B00D048BC /* Modifiers.swift in Sources */,
 				42A738F22C5BAB890006D603 /* TabBar.swift in Sources */,
+				42DCC0012C6795440034226A /* BlurView.swift in Sources */,
 				42A738EE2C5BA7420006D603 /* UpdateDetail.swift in Sources */,
 				423DDD5A2C5F6FDF00158011 /* CourseList.swift in Sources */,
 				42ACE89A2C64AC19006F9181 /* CourseStore.swift in Sources */,
