@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42050AB72C6CC2E0004E7B64 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42050AB62C6CC2E0004E7B64 /* LoginView.swift */; };
 		4207A8652C63683300C62899 /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4207A8642C63683300C62899 /* CourseDetail.swift */; };
 		4209DDA22C563C3400AA7C70 /* Build_an_app_with_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4209DDA12C563C3400AA7C70 /* Build_an_app_with_SwiftUIApp.swift */; };
 		4209DDA42C563C3400AA7C70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4209DDA32C563C3400AA7C70 /* ContentView.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42050AB62C6CC2E0004E7B64 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		4207A8642C63683300C62899 /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
 		4209DD9E2C563C3400AA7C70 /* Build an app with SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Build an app with SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4209DDA12C563C3400AA7C70 /* Build_an_app_with_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Build_an_app_with_SwiftUIApp.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				4207A8642C63683300C62899 /* CourseDetail.swift */,
 				42ACE8902C64A730006F9181 /* Data.swift */,
 				42ACE8942C64A8FA006F9181 /* DataStore.swift */,
+				42050AB62C6CC2E0004E7B64 /* LoginView.swift */,
 			);
 			path = "Build an app with SwiftUI";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				4207A8652C63683300C62899 /* CourseDetail.swift in Sources */,
 				424F26192C689F7400A25742 /* Buttons.swift in Sources */,
 				42A738EA2C58C4D80006D603 /* HomeView.swift in Sources */,
+				42050AB72C6CC2E0004E7B64 /* LoginView.swift in Sources */,
 				4209DDA22C563C3400AA7C70 /* Build_an_app_with_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
