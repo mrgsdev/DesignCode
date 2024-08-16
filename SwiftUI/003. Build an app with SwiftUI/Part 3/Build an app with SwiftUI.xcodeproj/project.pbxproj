@@ -39,6 +39,7 @@
 		421CA50D2C6F3F80000A4348 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 421CA50C2C6F3F80000A4348 /* FirebaseStorage */; };
 		421CA50F2C6F3F80000A4348 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 421CA50E2C6F3F80000A4348 /* FirebaseStorageCombine-Community */; };
 		421CA5112C6F3F80000A4348 /* FirebaseVertexAI-Preview in Frameworks */ = {isa = PBXBuildFile; productRef = 421CA5102C6F3F80000A4348 /* FirebaseVertexAI-Preview */; };
+		421CA5132C6F41B8000A4348 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421CA5122C6F41B8000A4348 /* UserStore.swift */; };
 		42254A532C6DE86E005FBA13 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 42254A522C6DE86E005FBA13 /* Lottie */; };
 		42254A572C6DE87C005FBA13 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 42254A542C6DE87C005FBA13 /* loading.json */; };
 		42254A582C6DE87C005FBA13 /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 42254A552C6DE87C005FBA13 /* success.json */; };
@@ -84,6 +85,7 @@
 		42141E262C578E97009BF084 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		42141E282C57935E009BF084 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		421CA4E12C6F3EE5000A4348 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		421CA5122C6F41B8000A4348 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
 		42254A542C6DE87C005FBA13 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
 		42254A552C6DE87C005FBA13 /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
 		42254A592C6DE882005FBA13 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 		4209DDA02C563C3400AA7C70 /* Build an app with SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				421CA5122C6F41B8000A4348 /* UserStore.swift */,
 				42254A5D2C6DEC56005FBA13 /* SuccessView.swift */,
 				42254A5B2C6DEB29005FBA13 /* LoadingView.swift */,
 				42DCC0002C6795440034226A /* BlurView.swift */,
@@ -362,6 +365,7 @@
 				42ACE8932C64A81E006F9181 /* PostList.swift in Sources */,
 				42254A5C2C6DEB29005FBA13 /* LoadingView.swift in Sources */,
 				42DFA65F2C5E203B00D048BC /* Modifiers.swift in Sources */,
+				421CA5132C6F41B8000A4348 /* UserStore.swift in Sources */,
 				42A738F22C5BAB890006D603 /* TabBar.swift in Sources */,
 				42DCC0012C6795440034226A /* BlurView.swift in Sources */,
 				42A738EE2C5BA7420006D603 /* UpdateDetail.swift in Sources */,

@@ -21,7 +21,7 @@ struct Build_an_app_with_SwiftUIApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            LoginView()
+            Home().environmentObject(UserStore())
         }
     }
 }
