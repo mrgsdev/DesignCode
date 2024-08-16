@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct LoginView: View {
     @State var email = ""
@@ -21,13 +22,20 @@ struct LoginView: View {
         self.isFocused = false
         self.isLoading = true
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+        Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
             self.isLoading = false
-            // self.showAlert = true
-            self.isSuccessful = true
             
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                self.isSuccessful = false
+            if error != nil {
+                self.alertMessage = error?.localizedDescription ?? ""
+                self.showAlert = true
+            } else {
+                self.isSuccessful = true
+                
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                    self.email = ""
+                    self.password = ""
+                    self.isSuccessful = false
+                }
             }
         }
     }
@@ -208,6 +216,7 @@ struct CoverView: View {
         )
     }
 }
+
 
 #Preview {
     LoginView()
