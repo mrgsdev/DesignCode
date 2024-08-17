@@ -49,7 +49,7 @@ struct MenuView: View {
                     }
 
             }
-            .frame(maxWidth: .infinity)
+            .frame(maxWidth: 500)
             .frame(height: 300)
             .background(
 //                LinearGradient(

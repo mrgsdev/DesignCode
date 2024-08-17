@@ -9,8 +9,6 @@ import SwiftUI
 
 let screen = UIScreen.main.bounds
 
-import SwiftUI
-
 struct Home: View {
     @State var showProfile = false
     @State var viewState = CGSize.zero
@@ -22,7 +20,7 @@ struct Home: View {
             Color("background2")
                 .edgesIgnoringSafeArea(.all)
             
-            HomeView(showProfile: self.$showProfile, showContent: self.$showContent)
+            HomeView(showProfile: $showProfile, showContent: $showContent)
                 .padding(.top, 44)
                 .background(
                     VStack {
