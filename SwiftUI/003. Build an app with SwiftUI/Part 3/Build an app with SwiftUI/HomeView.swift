@@ -12,80 +12,82 @@ struct HomeView: View {
     @State var showUpdate = false
     @Binding var showContent: Bool
     var body: some View {
-        ScrollView {
-            VStack {
-                HStack {
-                    Text("Watching")
-    //                    .font(.system(size: 28, weight: .bold))
-                        .modifier(CustomFontModifier(size: 28))
-                    
-                    Spacer()
-                    
-                    AvatarView(showProfile: $showProfile)
-                    Button(action: { self.showUpdate.toggle() }) {
-                        Image(systemName: "bell")
-//                            .renderingMode(.original)
-                            .foregroundStyle(.primary)
-                            .font(.system(size: 16, weight: .medium))
-                            .frame(width: 36, height: 36)
-                            .background(Color("background3"))
-                            .clipShape(Circle())
-                            .modifier(ShadowModifier())
-                    }
-                    .sheet(isPresented: $showUpdate) {
-                        UpdateList()
-                    }
-                    
-                }
-                .padding(.horizontal)
-                .padding(.leading, 14)
-                .padding(.top, 30)
-                
-                ScrollView(.horizontal,showsIndicators: false) {
-                    WatchRingsView()
-                        .padding(.horizontal,30)
-                        .padding(.bottom,30)
-                        .onTapGesture {
-                            self.showContent = true
+        GeometryReader { bounds in
+            ScrollView {
+                VStack {
+                    HStack {
+                        Text("Watching")
+        //                    .font(.system(size: 28, weight: .bold))
+                            .modifier(CustomFontModifier(size: 28))
+                        
+                        Spacer()
+                        
+                        AvatarView(showProfile: self.$showProfile)
+                        Button(action: { self.showUpdate.toggle() }) {
+                            Image(systemName: "bell")
+    //                            .renderingMode(.original)
+                                .foregroundStyle(.primary)
+                                .font(.system(size: 16, weight: .medium))
+                                .frame(width: 36, height: 36)
+                                .background(Color("background3"))
+                                .clipShape(Circle())
+                                .modifier(ShadowModifier())
                         }
-                }
-
-               
-                
-                
-                ScrollView(.horizontal, showsIndicators: false) {
-                    HStack(spacing: 30) {
-                        ForEach(sectionData) { item in
-                            GeometryReader { geometry in
-                                SectionView(section: item)
-                                    .rotation3DEffect(Angle(degrees:
-                                                                Double(geometry.frame(in: .global).minX - 30) / -20
-                                                           ), axis: (x: 0, y: 10, z: 0))
+                        .sheet(isPresented: self.$showUpdate) {
+                            UpdateList()
+                        }
+                        
+                    }
+                    .padding(.horizontal)
+                    .padding(.leading, 14)
+                    .padding(.top, 30)
+                    
+                    ScrollView(.horizontal,showsIndicators: false) {
+                        WatchRingsView()
+                            .padding(.horizontal,30)
+                            .padding(.bottom,30)
+                            .onTapGesture {
+                                self.showContent = true
                             }
-                            .frame(width: 275, height: 275)
-                        }
                     }
-                    .padding(30)
-                    .padding(.bottom, 30)
-                }
-                .offset(y: -30)
-                HStack {
-                    Text("Courses")
-                        .font(.title).bold()
+
+                   
+                    
+                    
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: 30) {
+                            ForEach(sectionData) { item in
+                                GeometryReader { geometry in
+                                    SectionView(section: item)
+                                        .rotation3DEffect(Angle(degrees:
+                                                                    Double(geometry.frame(in: .global).minX - 30) / -20
+                                                               ), axis: (x: 0, y: 10, z: 0))
+                                }
+                                .frame(width: 275, height: 275)
+                            }
+                        }
+                        .padding(30)
+                        .padding(.bottom, 30)
+                    }
+                    .offset(y: -30)
+                    HStack {
+                        Text("Courses")
+                            .font(.title).bold()
+                        Spacer()
+                    }
+                    .padding(.leading, 30)
+                    .offset(y: -60)
+                    
+                    SectionView(
+                        section: sectionData[2],
+                        width: bounds.size.width - 60,
+                        height: 275
+                    )
+                    .offset(y: -60)
                     Spacer()
                 }
-                .padding(.leading, 30)
-                .offset(y: -60)
-                
-                SectionView(
-                    section: sectionData[2],
-                    width: screen.width - 60,
-                    height: 275
-                )
-                .offset(y: -60)
-                Spacer()
+                .frame(width: bounds.size.width)
             }
-            .frame(width: screen.width)
         }
     }
 }

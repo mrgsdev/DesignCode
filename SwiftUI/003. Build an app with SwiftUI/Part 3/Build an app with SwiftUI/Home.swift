@@ -22,7 +22,7 @@ struct Home: View {
             Color("background2")
                 .edgesIgnoringSafeArea(.all)
             
-            HomeView(showProfile: $showProfile, showContent: $showContent)
+            HomeView(showProfile: self.$showProfile, showContent: self.$showContent)
                 .padding(.top, 44)
                 .background(
                     VStack {
