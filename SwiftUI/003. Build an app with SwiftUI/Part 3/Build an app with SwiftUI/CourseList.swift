@@ -14,6 +14,7 @@ struct CourseList: View {
     @State var activeIndex = -1
     @State var activeView = CGSize.zero
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @State var isScrollable = false
     
     var body: some View {
         GeometryReader { bounds in
@@ -40,7 +41,8 @@ struct CourseList: View {
                                     index: index,
                                     activeIndex: self.$activeIndex,
                                     activeView: self.$activeView,
-                                    bounds: bounds
+                                    bounds: bounds,
+                                    isScrollable: self.$isScrollable
                                 )
                                     .offset(y: self.store.courses[index].show ? -geometry.frame(in: .global).minY : 0)
                                     .opacity(self.activeIndex != index && self.active ? 0 : 1)
@@ -57,6 +59,7 @@ struct CourseList: View {
                 }
                 .statusBar(hidden: self.active ? true : false)
                 .animation(.linear)
+                .disabled(self.active && !self.isScrollable ? true : false)
             }
         }
     }
@@ -92,6 +95,7 @@ struct CourseView: View {
     @Binding var activeIndex: Int
     @Binding var activeView: CGSize
     var bounds: GeometryProxy
+    @Binding var isScrollable: Bool
     
     var body: some View {
         ZStack(alignment: .top) {
@@ -105,10 +109,11 @@ struct CourseView: View {
                 
                 Text("Minimal coding experience required, such as in HTML and CSS. Please note that Xcode 11 and Catalina are essential. Once you get everything installed, it'll get a lot friendlier! I added a bunch of troubleshoots at the end of this page to help you navigate the issues you might encounter.")
             }
+            .animation(nil)
             .padding(30)
             .frame(maxWidth: show ? .infinity : screen.width - 60, maxHeight: show ? .infinity : 280, alignment: .top)
             .offset(y: show ? 460 : 0)
-            .background(Color("background2"))
+            .background(Color("background1"))
             .clipShape(RoundedRectangle(cornerRadius: show ? getCardCornerRadius(bounds: bounds) : 30, style: .continuous))
             .shadow(color: Color.black.opacity(0.2), radius: 20, x: 0, y: 20)
             .opacity(show ? 1 : 0)
@@ -136,6 +141,7 @@ struct CourseView: View {
                         .background(Color.black)
                         .clipShape(Circle())
                         .opacity(show ? 1 : 0)
+                        .offset(x: 2, y: -2)
                     }
                 }
                 Spacer()
@@ -165,6 +171,7 @@ struct CourseView: View {
                         self.show = false
                         self.active = false
                         self.activeIndex = -1
+                        self.isScrollable = false
                     }
                     self.activeView = .zero
                 }
@@ -178,12 +185,17 @@ struct CourseView: View {
                 } else {
                     self.activeIndex = -1
                 }
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.7) {
+                    self.isScrollable = true
+                }
             }
             
-            if show {
-//                CourseDetail(course: course, show: $show, active: $active, activeIndex: $activeIndex)
-//                    .background(Color.white)
-//                    .animation(nil)
+            if isScrollable {
+                CourseDetail(course: course, show: $show, active: $active, activeIndex: $activeIndex, isScrollable: $isScrollable, bounds: bounds)
+                    .background(Color.white)
+                    .clipShape(RoundedRectangle(cornerRadius: show ? getCardCornerRadius(bounds: bounds) : 30, style: .continuous))
+                    .animation(nil)
+                    .transition(.identity)
             }
         }
         .frame(height: show ? bounds.size.height + bounds.safeAreaInsets.top + bounds.safeAreaInsets.bottom : 280)
@@ -195,7 +207,7 @@ struct CourseView: View {
             show ?
             DragGesture().onChanged { value in
                 guard value.translation.height < 300 else { return }
-                guard value.translation.height > 0 else { return }
+                guard value.translation.height > 50 else { return }
                 
                 self.activeView = value.translation
             }
@@ -204,14 +216,17 @@ struct CourseView: View {
                     self.show = false
                     self.active = false
                     self.activeIndex = -1
+                    self.isScrollable = false
                 }
                 self.activeView = .zero
             }
             : nil
         )
+        .disabled(active && !isScrollable ? true : false)
         .edgesIgnoringSafeArea(.all)
     }
 }
+
 
 
 struct Course: Identifiable {
