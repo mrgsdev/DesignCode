@@ -47,6 +47,7 @@
 		42254A5C2C6DEB29005FBA13 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42254A5B2C6DEB29005FBA13 /* LoadingView.swift */; };
 		42254A5E2C6DEC56005FBA13 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42254A5D2C6DEC56005FBA13 /* SuccessView.swift */; };
 		423DDD5A2C5F6FDF00158011 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423DDD592C5F6FDF00158011 /* CourseList.swift */; };
+		424125EF2C71E1CA00E3C7F4 /* AppleWatchScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424125EE2C71E1CA00E3C7F4 /* AppleWatchScroll.swift */; };
 		424E64592C6697E70052D90C /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 424E64582C6697E70052D90C /* SDWebImageSwiftUI */; };
 		424F26192C689F7400A25742 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424F26182C689F7400A25742 /* Buttons.swift */; };
 		42A738EA2C58C4D80006D603 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A738E92C58C4D80006D603 /* HomeView.swift */; };
@@ -92,6 +93,7 @@
 		42254A5B2C6DEB29005FBA13 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		42254A5D2C6DEC56005FBA13 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		423DDD592C5F6FDF00158011 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
+		424125EE2C71E1CA00E3C7F4 /* AppleWatchScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchScroll.swift; sourceTree = "<group>"; };
 		424F26182C689F7400A25742 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		42A738E92C58C4D80006D603 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		42A738EB2C5BA5E90006D603 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 		4209DDA02C563C3400AA7C70 /* Build an app with SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				424125EE2C71E1CA00E3C7F4 /* AppleWatchScroll.swift */,
 				421CA5122C6F41B8000A4348 /* UserStore.swift */,
 				42254A5D2C6DEC56005FBA13 /* SuccessView.swift */,
 				42254A5B2C6DEB29005FBA13 /* LoadingView.swift */,
@@ -369,6 +372,7 @@
 				42A738F22C5BAB890006D603 /* TabBar.swift in Sources */,
 				42DCC0012C6795440034226A /* BlurView.swift in Sources */,
 				42A738EE2C5BA7420006D603 /* UpdateDetail.swift in Sources */,
+				424125EF2C71E1CA00E3C7F4 /* AppleWatchScroll.swift in Sources */,
 				423DDD5A2C5F6FDF00158011 /* CourseList.swift in Sources */,
 				42ACE89A2C64AC19006F9181 /* CourseStore.swift in Sources */,
 				4209DDA42C563C3400AA7C70 /* ContentView.swift in Sources */,

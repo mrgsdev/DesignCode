@@ -176,6 +176,7 @@ struct SectionView: View {
     }
 }
 
+
 struct Section: Identifiable {
     var id = UUID()
     var title: String
