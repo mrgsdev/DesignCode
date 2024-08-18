@@ -11,6 +11,12 @@ struct HomeView: View {
     @Binding var showProfile: Bool
     @State var showUpdate = false
     @Binding var showContent: Bool
+    @Binding var viewState: CGSize
+    @ObservedObject var store = CourseStore()
+    @State var active = false
+    @State var activeIndex = -1
+    @State var activeView = CGSize.zero
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     
     var body: some View {
         GeometryReader { bounds in
@@ -43,6 +49,7 @@ struct HomeView: View {
                     .padding(.horizontal)
                     .padding(.leading, 14)
                     .padding(.top, 30)
+                    .blur(radius: self.active ? 20 : 0)
                     
                     ScrollView(.horizontal, showsIndicators: false) {
                         WatchRingsView()
@@ -52,6 +59,7 @@ struct HomeView: View {
                                 self.showContent = true
                         }
                     }
+                    .blur(radius: self.active ? 20 : 0)
                     
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 20) {
@@ -59,7 +67,7 @@ struct HomeView: View {
                                 GeometryReader { geometry in
                                     SectionView(section: item)
                                         .rotation3DEffect(Angle(degrees:
-                                            Double(geometry.frame(in: .global).minX - 30) / -20
+                                            Double(geometry.frame(in: .global).minX - 30) / -getAngleMultiplier(bounds: bounds)
                                         ), axis: (x: 0, y: 10, z: 0))
                                 }
                                 .frame(width: 275, height: 275)
@@ -69,6 +77,7 @@ struct HomeView: View {
                         .padding(.bottom, 30)
                     }
                     .offset(y: -30)
+                    .blur(radius: self.active ? 20 : 0)
                     
                     HStack {
                         Text("Courses")
@@ -77,21 +86,56 @@ struct HomeView: View {
                     }
                     .padding(.leading, 30)
                     .offset(y: -60)
+                    .blur(radius: self.active ? 20 : 0)
                     
-                    SectionView(section: sectionData[2], width: bounds.size.width - 60, height: 275)
+                    VStack(spacing: 30) {
+                        ForEach(self.store.courses.indices, id: \.self) { index in
+                            GeometryReader { geometry in
+                                CourseView(
+                                    show: self.$store.courses[index].show,
+                                    course: self.store.courses[index],
+                                    active: self.$active,
+                                    index: index,
+                                    activeIndex: self.$activeIndex,
+                                    activeView: self.$activeView,
+                                    bounds: bounds
+                                )
+                                    .offset(y: self.store.courses[index].show ? -geometry.frame(in: .global).minY : 0)
+                                    .opacity(self.activeIndex != index && self.active ? 0 : 1)
+                                    .scaleEffect(self.activeIndex != index && self.active ? 0.5 : 1)
+                                    .offset(x: self.activeIndex != index && self.active ? bounds.size.width : 0)
+                            }
+                            .frame(height: self.horizontalSizeClass == .regular ? 80 : 280)
+                            .frame(maxWidth: self.store.courses[index].show ? 712 : getCardWidth(bounds: bounds))
+                            .zIndex(self.store.courses[index].show ? 1 : 0)
+                        }
+                    }
+                    .padding(.bottom, 300)
                     .offset(y: -60)
                     
                     Spacer()
                 }
                 .frame(width: bounds.size.width)
+                .offset(y: self.showProfile ? -450 : 0)
+                .rotation3DEffect(Angle(degrees: self.showProfile ? Double(self.viewState.height / 10) - 10 : 0), axis: (x: 10.0, y: 0, z: 0))
+                .scaleEffect(self.showProfile ? 0.9 : 1)
+                .animation(.spring(response: 0.5, dampingFraction: 0.6, blendDuration: 0))
             }
         }
     }
 }
 
+func getAngleMultiplier(bounds: GeometryProxy) -> Double {
+    if bounds.size.width > 500 {
+        return 80
+    } else {
+        return 20
+    }
+}
+
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView(showProfile: .constant(false), showContent: .constant(false))
+        HomeView(showProfile: .constant(false), showContent: .constant(false), viewState: .constant(.zero))
         .environmentObject(UserStore())
     }
 }
