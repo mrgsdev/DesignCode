@@ -32,7 +32,6 @@ struct CourseRow: View {
     }
 }
 
-
 #Preview {
     CourseRow()
 }

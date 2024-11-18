@@ -1,13 +1,14 @@
 //
-//  ContentView.swift
+//  CourseItem.swift
 //  SwiftUIForiOS14
 //
-//  Created by mrgsdev on 14.11.2024.
+//  Created by mrgsdev on 18.11.2024.
 //
+
 
 import SwiftUI
 
-struct ContentView: View {
+struct CourseItem: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 4.0) {
             Spacer()
@@ -29,10 +30,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    Group {
-        ContentView()
-        ContentView()
-            .previewLayout(.fixed(width: 200.0, height: 200.0))
-            .preferredColorScheme(.dark)
-    }
+    CourseItem()
 }
