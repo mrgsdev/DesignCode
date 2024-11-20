@@ -1,1 +1,9 @@
-[08. Matched Geometry Effect](https://github.com/mrgsdev/DesignCode/commit/69b6a92eea7cb126a63d16e5b87f77de3fc428d2#diff-f397b2875894ef7877c301457d2c0e09d60a69f199336446b430549bb7776a42)
+Commits:
+- [01. Build a SwiftUI app for iOS 14](https://github.com/mrgsdev/DesignCode/commit/e679ff9bac60b8175d8eb3ca7b68e2c1a5a4a92d)
+- [02. SwiftUI Visual Editor](https://github.com/mrgsdev/DesignCode/commit/bb48f90c03b0093556d4ad9d5ee7b5ae46f9a4a5)
+- [03. SF Symbols and List Styles](https://github.com/mrgsdev/DesignCode/commit/ab7005b7b2c2dc0edad8c8bf0b2d20a12877aeea)
+- [04. Sidebar and Label](https://github.com/mrgsdev/DesignCode/commit/4cce56b6b0b170cf7368c93f43b1920ffdc57732)
+- [05. macOS app and Toolbar](https://github.com/mrgsdev/DesignCode/commit/4a87eaa6abe3a33045e5d5558e1e14e7295ca8fe)
+- [6.Toolbar Organizing](https://github.com/mrgsdev/DesignCode/commit/719d8cff12e5e3dec8588b9345d61139032aed79)
+- [07. Show View and Transitions](https://github.com/mrgsdev/DesignCode/commit/7f2e9929196e0932cfae61a8ae60b35cbe835cf0)
+- [08. Matched Geometry Effect](https://github.com/mrgsdev/DesignCode/commit/69b6a92eea7cb126a63d16e5b87f77de3fc428d2#diff-f397b2875894ef7877c301457d2c0e09d60a69f199336446b430549bb7776a42)
