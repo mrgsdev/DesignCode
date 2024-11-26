@@ -11,6 +11,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		424CF6DC2CF5FFAF00B81ECD /* MacOs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MacOs;
+			sourceTree = "<group>";
+		};
 		42E1DFDE2CE6239700BADD36 /* SwiftUIForiOS14 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwiftUIForiOS14;
@@ -33,6 +38,7 @@
 			isa = PBXGroup;
 			children = (
 				42E1DFDE2CE6239700BADD36 /* SwiftUIForiOS14 */,
+				424CF6DC2CF5FFAF00B81ECD /* MacOs */,
 				42E1DFDD2CE6239700BADD36 /* Products */,
 			);
 			sourceTree = "<group>";
