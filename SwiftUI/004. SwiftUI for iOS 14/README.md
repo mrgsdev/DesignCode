@@ -13,3 +13,5 @@
 - [x] [12. Lazy Grid Layout](https://github.com/mrgsdev/DesignCode/commit/ef74ecb7e91e1785e7b168b7b6b7f3ac6bbaab5f)
 - [x] [13. Matched Container and zIndex](https://github.com/mrgsdev/DesignCode/commit/4dfd8c171f38429e3952e7949624dfeb4fd75cc1)
 - [x]  [14. Passing Namespace.mp4](https://github.com/mrgsdev/DesignCode/commit/1bb57e03373f3923c23d7f7f31ea91db781bd0e8)
+
+[15. Visual Effect Blur for macOS](https://github.com/mrgsdev/DesignCode/commit/be17044be9b304bb75150d3d52c2124df434dafc)
