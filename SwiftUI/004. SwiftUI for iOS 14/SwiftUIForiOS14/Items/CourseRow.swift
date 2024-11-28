@@ -24,6 +24,7 @@ struct CourseRow: View {
                 Text(item.title)
                     .font(.subheadline)
                     .bold()
+                    .foregroundColor(.primary)
                 Text(item.subtitle)
                     .font(.footnote)
                     .foregroundColor(.secondary)
