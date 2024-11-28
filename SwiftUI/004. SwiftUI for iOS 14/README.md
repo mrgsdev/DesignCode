@@ -15,4 +15,4 @@
 - [x]  [14. Passing Namespace.mp4](https://github.com/mrgsdev/DesignCode/commit/1bb57e03373f3923c23d7f7f31ea91db781bd0e8)
 - [x]  [15. Visual Effect Blur for macOS](https://github.com/mrgsdev/DesignCode/commit/be17044be9b304bb75150d3d52c2124df434dafc)
 - [x]  [16. Size Class and Tab Bar](https://github.com/mrgsdev/DesignCode/commit/be2104d69b8073d8be38f15e162cd2cfb76ff99a)
-[17. Navigation Link and Modal](https://github.com/mrgsdev/DesignCode/commit/f47de1a14839b0b0fc10ab2dff42986c37484d7d)
+- [x]  [17. Navigation Link and Modal](https://github.com/mrgsdev/DesignCode/commit/f47de1a14839b0b0fc10ab2dff42986c37484d7d)
