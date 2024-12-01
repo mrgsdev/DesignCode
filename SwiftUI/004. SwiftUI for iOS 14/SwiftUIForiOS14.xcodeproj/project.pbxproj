@@ -6,11 +6,62 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		423CC3882CFC66AA0029BA60 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423CC3872CFC66AA0029BA60 /* WidgetKit.framework */; };
+		423CC38A2CFC66AA0029BA60 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423CC3892CFC66AA0029BA60 /* SwiftUI.framework */; };
+		423CC39B2CFC66AC0029BA60 /* SUIForiOS14WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 423CC3852CFC66AA0029BA60 /* SUIForiOS14WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		423CC3992CFC66AC0029BA60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42E1DFD42CE6239700BADD36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 423CC3842CFC66AA0029BA60;
+			remoteInfo = SUIForiOS14WidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		423CC3A02CFC66AC0029BA60 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				423CC39B2CFC66AC0029BA60 /* SUIForiOS14WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		423CC3852CFC66AA0029BA60 /* SUIForiOS14WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SUIForiOS14WidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		423CC3872CFC66AA0029BA60 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		423CC3892CFC66AA0029BA60 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		42E1DFDC2CE6239700BADD36 /* SwiftUIForiOS14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIForiOS14.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		423CC39C2CFC66AC0029BA60 /* Exceptions for "SUIForiOS14Widget" folder in "SUIForiOS14WidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 423CC3842CFC66AA0029BA60 /* SUIForiOS14WidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		423CC38B2CFC66AA0029BA60 /* SUIForiOS14Widget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				423CC39C2CFC66AC0029BA60 /* Exceptions for "SUIForiOS14Widget" folder in "SUIForiOS14WidgetExtension" target */,
+			);
+			path = SUIForiOS14Widget;
+			sourceTree = "<group>";
+		};
 		42E1DFDE2CE6239700BADD36 /* SwiftUIForiOS14 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwiftUIForiOS14;
@@ -19,6 +70,15 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		423CC3822CFC66AA0029BA60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423CC38A2CFC66AA0029BA60 /* SwiftUI.framework in Frameworks */,
+				423CC3882CFC66AA0029BA60 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42E1DFD92CE6239700BADD36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,10 +89,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		423CC3862CFC66AA0029BA60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				423CC3872CFC66AA0029BA60 /* WidgetKit.framework */,
+				423CC3892CFC66AA0029BA60 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		42E1DFD32CE6239700BADD36 = {
 			isa = PBXGroup;
 			children = (
 				42E1DFDE2CE6239700BADD36 /* SwiftUIForiOS14 */,
+				423CC38B2CFC66AA0029BA60 /* SUIForiOS14Widget */,
+				423CC3862CFC66AA0029BA60 /* Frameworks */,
 				42E1DFDD2CE6239700BADD36 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				42E1DFDC2CE6239700BADD36 /* SwiftUIForiOS14.app */,
+				423CC3852CFC66AA0029BA60 /* SUIForiOS14WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,6 +120,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		423CC3842CFC66AA0029BA60 /* SUIForiOS14WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423CC39D2CFC66AC0029BA60 /* Build configuration list for PBXNativeTarget "SUIForiOS14WidgetExtension" */;
+			buildPhases = (
+				423CC3812CFC66AA0029BA60 /* Sources */,
+				423CC3822CFC66AA0029BA60 /* Frameworks */,
+				423CC3832CFC66AA0029BA60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				423CC38B2CFC66AA0029BA60 /* SUIForiOS14Widget */,
+			);
+			name = SUIForiOS14WidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = SUIForiOS14WidgetExtension;
+			productReference = 423CC3852CFC66AA0029BA60 /* SUIForiOS14WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		42E1DFDB2CE6239700BADD36 /* SwiftUIForiOS14 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42E1DFEB2CE6239800BADD36 /* Build configuration list for PBXNativeTarget "SwiftUIForiOS14" */;
@@ -55,10 +149,12 @@
 				42E1DFD82CE6239700BADD36 /* Sources */,
 				42E1DFD92CE6239700BADD36 /* Frameworks */,
 				42E1DFDA2CE6239700BADD36 /* Resources */,
+				423CC3A02CFC66AC0029BA60 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				423CC39A2CFC66AC0029BA60 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				42E1DFDE2CE6239700BADD36 /* SwiftUIForiOS14 */,
@@ -80,6 +176,9 @@
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
+					423CC3842CFC66AA0029BA60 = {
+						CreatedOnToolsVersion = 16.0;
+					};
 					42E1DFDB2CE6239700BADD36 = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -100,11 +199,19 @@
 			projectRoot = "";
 			targets = (
 				42E1DFDB2CE6239700BADD36 /* SwiftUIForiOS14 */,
+				423CC3842CFC66AA0029BA60 /* SUIForiOS14WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		423CC3832CFC66AA0029BA60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42E1DFDA2CE6239700BADD36 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +222,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		423CC3812CFC66AA0029BA60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42E1DFD82CE6239700BADD36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +238,72 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		423CC39A2CFC66AC0029BA60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 423CC3842CFC66AA0029BA60 /* SUIForiOS14WidgetExtension */;
+			targetProxy = 423CC3992CFC66AC0029BA60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		423CC39E2CFC66AC0029BA60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SUIForiOS14Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SUIForiOS14Widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrgsdev.SwiftUIForiOS14.SUIForiOS14Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		423CC39F2CFC66AC0029BA60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SUIForiOS14Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SUIForiOS14Widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrgsdev.SwiftUIForiOS14.SUIForiOS14Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		42E1DFE92CE6239800BADD36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -318,6 +497,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		423CC39D2CFC66AC0029BA60 /* Build configuration list for PBXNativeTarget "SUIForiOS14WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423CC39E2CFC66AC0029BA60 /* Debug */,
+				423CC39F2CFC66AC0029BA60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		42E1DFD72CE6239700BADD36 /* Build configuration list for PBXProject "SwiftUIForiOS14" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -33,6 +33,8 @@ struct CourseRow: View {
         }
     }
 }
+ 
+
 
 
 #Preview {
