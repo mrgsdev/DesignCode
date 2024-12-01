@@ -18,5 +18,4 @@
 - [x]  [17. Navigation Link and Modal](https://github.com/mrgsdev/DesignCode/commit/f47de1a14839b0b0fc10ab2dff42986c37484d7d)
 - [x]  [18. Animating Above Navigation](https://github.com/mrgsdev/DesignCode/commit/787e42e4c63604ba1fbf37d62234b688ac5d0c41)
 - [x]  [19. Library Content and Modifiers](https://github.com/mrgsdev/DesignCode/commit/e3544c02f43c5188166ad5a4ff57a93d95c9e3ca)
-
- [20. Create a Widget](https://github.com/mrgsdev/DesignCode/commit/ca1d71bfd3bc63173132a9ad6598e377b479d96e)
+- [x]  [20. Create a Widget](https://github.com/mrgsdev/DesignCode/commit/ca1d71bfd3bc63173132a9ad6598e377b479d96e)
