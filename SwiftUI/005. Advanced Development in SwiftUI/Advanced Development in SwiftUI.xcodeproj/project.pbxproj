@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		426A47A52CFF0AE800FEE696 /* Advanced Development in SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced Development in SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		426F97182CFF0B65003614EB /* Advanced Development in SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced Development in SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		426F972B2CFF0B66003614EB /* Exceptions for "Advanced Development in SwiftUI" folder in "Advanced Development in SwiftUI" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 426F97172CFF0B65003614EB /* Advanced Development in SwiftUI */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		426A47A72CFF0AE800FEE696 /* Advanced Development in SwiftUI */ = {
+		426F971A2CFF0B65003614EB /* Advanced Development in SwiftUI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				426F972B2CFF0B66003614EB /* Exceptions for "Advanced Development in SwiftUI" folder in "Advanced Development in SwiftUI" target */,
+			);
 			path = "Advanced Development in SwiftUI";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		426A47A22CFF0AE800FEE696 /* Frameworks */ = {
+		426F97152CFF0B65003614EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		426A479C2CFF0AE800FEE696 = {
+		426F970F2CFF0B65003614EB = {
 			isa = PBXGroup;
 			children = (
-				426A47A72CFF0AE800FEE696 /* Advanced Development in SwiftUI */,
-				426A47A62CFF0AE800FEE696 /* Products */,
+				426F971A2CFF0B65003614EB /* Advanced Development in SwiftUI */,
+				426F97192CFF0B65003614EB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		426A47A62CFF0AE800FEE696 /* Products */ = {
+		426F97192CFF0B65003614EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				426A47A52CFF0AE800FEE696 /* Advanced Development in SwiftUI.app */,
+				426F97182CFF0B65003614EB /* Advanced Development in SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +61,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		426A47A42CFF0AE800FEE696 /* Advanced Development in SwiftUI */ = {
+		426F97172CFF0B65003614EB /* Advanced Development in SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 426A47B32CFF0AE900FEE696 /* Build configuration list for PBXNativeTarget "Advanced Development in SwiftUI" */;
+			buildConfigurationList = 426F972C2CFF0B66003614EB /* Build configuration list for PBXNativeTarget "Advanced Development in SwiftUI" */;
 			buildPhases = (
-				426A47A12CFF0AE800FEE696 /* Sources */,
-				426A47A22CFF0AE800FEE696 /* Frameworks */,
-				426A47A32CFF0AE800FEE696 /* Resources */,
+				426F97142CFF0B65003614EB /* Sources */,
+				426F97152CFF0B65003614EB /* Frameworks */,
+				426F97162CFF0B65003614EB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				426A47A72CFF0AE800FEE696 /* Advanced Development in SwiftUI */,
+				426F971A2CFF0B65003614EB /* Advanced Development in SwiftUI */,
 			);
 			name = "Advanced Development in SwiftUI";
 			packageProductDependencies = (
 			);
 			productName = "Advanced Development in SwiftUI";
-			productReference = 426A47A52CFF0AE800FEE696 /* Advanced Development in SwiftUI.app */;
+			productReference = 426F97182CFF0B65003614EB /* Advanced Development in SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		426A479D2CFF0AE800FEE696 /* Project object */ = {
+		426F97102CFF0B65003614EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					426A47A42CFF0AE800FEE696 = {
+					426F97172CFF0B65003614EB = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = 426A47A02CFF0AE800FEE696 /* Build configuration list for PBXProject "Advanced Development in SwiftUI" */;
+			buildConfigurationList = 426F97132CFF0B65003614EB /* Build configuration list for PBXProject "Advanced Development in SwiftUI" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 426A479C2CFF0AE800FEE696;
+			mainGroup = 426F970F2CFF0B65003614EB;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 426A47A62CFF0AE800FEE696 /* Products */;
+			productRefGroup = 426F97192CFF0B65003614EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				426A47A42CFF0AE800FEE696 /* Advanced Development in SwiftUI */,
+				426F97172CFF0B65003614EB /* Advanced Development in SwiftUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		426A47A32CFF0AE800FEE696 /* Resources */ = {
+		426F97162CFF0B65003614EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +128,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		426A47A12CFF0AE800FEE696 /* Sources */ = {
+		426F97142CFF0B65003614EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +138,67 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		426A47B12CFF0AE900FEE696 /* Debug */ = {
+		426F972D2CFF0B66003614EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Advanced Development in SwiftUI/Advanced_Development_in_SwiftUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Advanced Development in SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Advanced Development in SwiftUI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrgsdev.Advanced-Development-in-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		426F972E2CFF0B66003614EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Advanced Development in SwiftUI/Advanced_Development_in_SwiftUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Advanced Development in SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Advanced Development in SwiftUI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrgsdev.Advanced-Development-in-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		426F972F2CFF0B66003614EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +261,7 @@
 			};
 			name = Debug;
 		};
-		426A47B22CFF0AE900FEE696 /* Release */ = {
+		426F97302CFF0B66003614EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,84 +317,28 @@
 			};
 			name = Release;
 		};
-		426A47B42CFF0AE900FEE696 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Advanced Development in SwiftUI/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mrgsdev.Advanced-Development-in-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		426A47B52CFF0AE900FEE696 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Advanced Development in SwiftUI/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mrgsdev.Advanced-Development-in-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		426A47A02CFF0AE800FEE696 /* Build configuration list for PBXProject "Advanced Development in SwiftUI" */ = {
+		426F97132CFF0B65003614EB /* Build configuration list for PBXProject "Advanced Development in SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				426A47B12CFF0AE900FEE696 /* Debug */,
-				426A47B22CFF0AE900FEE696 /* Release */,
+				426F972F2CFF0B66003614EB /* Debug */,
+				426F97302CFF0B66003614EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		426A47B32CFF0AE900FEE696 /* Build configuration list for PBXNativeTarget "Advanced Development in SwiftUI" */ = {
+		426F972C2CFF0B66003614EB /* Build configuration list for PBXNativeTarget "Advanced Development in SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				426A47B42CFF0AE900FEE696 /* Debug */,
-				426A47B52CFF0AE900FEE696 /* Release */,
+				426F972D2CFF0B66003614EB /* Debug */,
+				426F972E2CFF0B66003614EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 426A479D2CFF0AE800FEE696 /* Project object */;
+	rootObject = 426F97102CFF0B65003614EB /* Project object */;
 }
