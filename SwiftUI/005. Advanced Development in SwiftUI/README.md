@@ -4,4 +4,4 @@
 - [x] [3. Creating Advanced Styled Buttons](https://github.com/mrgsdev/DesignCode/commit/17b8e5e6a9506948dfae1b8cd1f54633bd276e1f)
 - [x] [4. Enhancing our UI with Animations](https://github.com/mrgsdev/DesignCode/commit/f71f09279040d9dfade2a275e53488a0e7dc619f)
 - [x] [5. Delight your Users with Interactive Animations](https://github.com/mrgsdev/DesignCode/commit/aaf5360f72a22dcef251d74746f99b3f5638feeb)
- [6. Getting Started with Firebase Authentication](https://github.com/mrgsdev/DesignCode/commit/233e06281b8b7cf4ea5a24f82d2f0fe783278173)
+- [x] [6. Getting Started with Firebase Authentication](https://github.com/mrgsdev/DesignCode/commit/233e06281b8b7cf4ea5a24f82d2f0fe783278173)
