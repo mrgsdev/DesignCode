@@ -7,14 +7,17 @@
 
 import SwiftUI
 import AudioToolbox
+import FirebaseAuth
 
-struct ContentView: View {
+struct SignupView: View {
     @State var email = ""
     @State var password = ""
     @State private var editingEmailTextfield = false
     @State private var editingPasswordTextfield = false
     @State private var emailIconBounce = false
     @State private var passwordIconBounce = false
+     
+    @State private var showProfileView = false
     
     private let generator = UISelectionFeedbackGenerator()
     
@@ -107,7 +110,18 @@ struct ContentView: View {
                             }
                         }
                     }
-                    GradientButton()
+                    GradientButton(
+                        buttonTitle: "Create account") {
+                            generator.selectionChanged()
+                            signup()
+                        }
+                        .onAppear {
+                            Auth.auth().addStateDidChangeListener { auth,  user in
+                                if user != nil {
+                                    showProfileView.toggle()
+                                }
+                            }
+                        }
                     Text("By clicking on Sign up, you agree to our Terms of service and Privacy policy.")
                         .font(.footnote)
                         .foregroundColor(Color.white.opacity(0.7))
@@ -145,13 +159,27 @@ struct ContentView: View {
             .cornerRadius(30)
             .padding(.horizontal)
         }
+        .fullScreenCover(isPresented: $showProfileView) {
+            ProfileView()
+        }
     }
+    func signup() {
+        
+              Auth.auth().createUser(withEmail: email, password: password) { (result, error) in
+                  guard error == nil else {
+                      print(error!.localizedDescription)
+                      return
+                  }
+                  print("User sign up")
+              }
+           
+      }
 }
 
  
 
 #Preview {
-    ContentView()
+    SignupView()
 }
 
 
