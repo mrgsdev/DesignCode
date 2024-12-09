@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct GradientText: View {
-    var text: String = "Text here"
+    var text: String = ""
     var body: some View {
-        Text("Sign in")
+        Text(text)
            
             .gradientForeground(colors: [Color("pink-gradient-1"),
                                          Color("pink-gradient-1")])
