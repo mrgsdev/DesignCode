@@ -6,4 +6,4 @@
 - [x] [5. Delight your Users with Interactive Animations](https://github.com/mrgsdev/DesignCode/commit/aaf5360f72a22dcef251d74746f99b3f5638feeb)
 - [x] [6. Getting Started with Firebase Authentication](https://github.com/mrgsdev/DesignCode/commit/233e06281b8b7cf4ea5a24f82d2f0fe783278173)
 - [x] [7. Signing Up with Firebase](https://github.com/mrgsdev/DesignCode/commit/f517be8ce7f523ed61993da885ff280ceeb2b04f)
-     [8. Performing 3D Animations] (https://github.com/mrgsdev/DesignCode/commit/dd185a4443a53ed0d933c4c2f29bd4e7c7fd2aaa)
+- [x] [8. Performing 3D Animations] (https://github.com/mrgsdev/DesignCode/commit/dd185a4443a53ed0d933c4c2f29bd4e7c7fd2aaa)
