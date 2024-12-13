@@ -21,6 +21,8 @@ struct SignupView: View {
     @State private var signupToggle = true
     
     @State private var rotationAngle = 0.0
+    @State private var signInWithAppleObject = SignInWithAppleObject()
+    
     
     private let generator = UISelectionFeedbackGenerator()
     
@@ -154,7 +156,7 @@ struct SignupView: View {
                         }
                         if !signupToggle {
                             Button(action: {
-                                print("Send email")
+                                print("Send reset password email")
                             }, label: {
                                 HStack(spacing: 4) {
                                     Text("Forgot password?")
@@ -169,6 +171,13 @@ struct SignupView: View {
                                 .frame(height: 1)
                                 .foregroundColor(Color.white.opacity(0.1))
                             
+                            Button(action: {
+                                signInWithAppleObject.signInWithApple()
+                            }, label: {
+                                SignInWithAppleButton()
+                                    .frame(height: 50)
+                                    .cornerRadius(16)
+                            })
                             
                         }
                     }
@@ -189,9 +198,9 @@ struct SignupView: View {
             .rotation3DEffect(Angle(degrees: rotationAngle), axis: (x: CGFloat(0), y: CGFloat(1), z: CGFloat(0)))
                        
         }
-        .fullScreenCover(isPresented: $showProfileView) {
-            ProfileView()
-        }
+//        .fullScreenCover(isPresented: $showProfileView) {
+//            ProfileView()
+//        }
     }
     func signup() {
         if signupToggle {
