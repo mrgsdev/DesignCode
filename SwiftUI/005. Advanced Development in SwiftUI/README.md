@@ -8,4 +8,4 @@
 - [x] [7. Signing Up with Firebase](https://github.com/mrgsdev/DesignCode/commit/f517be8ce7f523ed61993da885ff280ceeb2b04f)
 - [x] [8. Performing 3D Animations](https://github.com/mrgsdev/DesignCode/commit/dd185a4443a53ed0d933c4c2f29bd4e7c7fd2aaa)
 - [x] [9. Using Sign in with Apple with SwiftUI](https://github.com/mrgsdev/DesignCode/commit/678476b101cec2a17b8262623a10f32d04fd429f)
-10. Animating Images and Displaying Alerts
+- [x] [10. Animating Images and Displaying Alerts](https://github.com/mrgsdev/DesignCode/commit/2180f65a91259e9a87fb0d7bb1322441c6aea9b7)
