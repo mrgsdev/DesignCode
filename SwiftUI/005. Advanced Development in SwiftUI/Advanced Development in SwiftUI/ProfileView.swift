@@ -126,6 +126,7 @@ struct ProfileView: View {
             }
             .padding(.bottom, 64)
         }
+        .colorScheme(.dark)
     }
 }
 
