@@ -11,3 +11,4 @@
 - [x] [10. Animating Images and Displaying Alerts](https://github.com/mrgsdev/DesignCode/commit/2180f65a91259e9a87fb0d7bb1322441c6aea9b7)
 - [x] [11. Creating our Profile Screen](https://github.com/mrgsdev/DesignCode/commit/61bca1b4095fdfbda0c41ebda160d64559782f04)
 - [ ] 12. Introduction to Revenue Cat
+- [ ] 13. Completing In App Purchases
